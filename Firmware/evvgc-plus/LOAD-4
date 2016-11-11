@@ -1,0 +1,1 @@
+st-flash write  build/evvgc_plus.bin 0x8000000

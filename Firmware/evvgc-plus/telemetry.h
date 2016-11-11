@@ -17,6 +17,7 @@
 #ifndef _TELEMETRY_H_
 #define _TELEMETRY_H_
 
+
 /* Console input/output channel. */
 extern BaseChannel *g_chnp;
 
@@ -24,8 +25,10 @@ extern BaseChannel *g_chnp;
 extern "C" {
 #endif
 void telemetryReadSerialData(void);
+void telemetryReadSerialDataMS(void);
 void telemetryWriteStream(const float *pData, size_t size);
 void debugLog(const char *str);
+//static void telemetrySendSerialDataMS(const  char * m);
 #ifdef __cplusplus
 }
 #endif

@@ -1,0 +1,46 @@
+LOAD - swd
+WGRAJ - serial, z wciskaniem przyciskow
+
+podejrzane: USB_...WAIT w halconf - w MAPLE false, tu true
+
+maple mini dziala OK:
+
+ch> 
+ch> info
+Kernel:       4.0.0
+Compiler:     GCC 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 224288]
+Architecture: ARMv7-M
+Core Variant: Cortex-M3
+Port Info:    Advanced kernel mode
+Platform:     STM32F10x Performance Line Medium Density
+Board:        LeafLabs Maple Mini
+Build time:   Oct 29 2016 - 13:23:22
+ch> 
+
+nasza plytka gimbala z problemem:
+
+ch> info
+Kernel:       3.1.4
+Compiler:     GCC 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 224288]
+Architecture: ARMv7-M
+Core Variant: Cortex-M3
+Port Info:    Advanced kernel mode
+Platform:     STM32F10x Performance Line High Density
+Board:        Storm32 v1.31
+Build time:   Oct 30 2016 - 17:53:14
+ch> 
+ch> 
+
+dwie roznice:
+
+brak dyrektywy _RT_ w chconf.h
+
+w Makefile u nas:
+
+include $(CHIBIOS)/os/common/ports/ARMCMx/compilers/GCC/mk/startup_stm32f1xx.mk
+
+a w MAPLU (tym dobrym, czyli w m/PROGRAMMING/stm32/ChibiOS (ktory to? 16.1.5)
+
+include $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC/mk/startup_stm32f1xx.mk
+
+najpierw tego mapla przerobmy na nasza plytke   

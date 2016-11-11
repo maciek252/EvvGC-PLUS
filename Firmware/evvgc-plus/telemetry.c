@@ -14,16 +14,15 @@
     limitations under the License.
 */
 
-#include "ch.h"
 #include "hal.h"
 
 #include "mpu6050.h"
 #include "pwmio.h"
-#include "eeprom.h"
 #include "misc.h"
 #include "attitude.h"
 #include "usbcfg.h"
 #include "telemetry.h"
+#include "storage.h"
 
 /* C libraries: */
 #include <string.h>
@@ -61,13 +60,15 @@ typedef struct tagMessage {
 /* Board status variable. */
 extern uint32_t g_boardStatus;
 /* Main thread termination flag. */
-extern bool_t g_runMain;
+extern bool g_runMain;
 /* I2C error info structure. */
 extern I2CErrorStruct g_i2cErrorInfo;
 /* Stream data id. */
 extern uint8_t g_streamDataID;
 /* Data streaming index. */
 extern uint8_t g_streamIdx;
+/* Led B request */
+extern bool led_b;
 /* Console input/output handle. */
 BaseChannel *g_chnp = NULL;
 
@@ -111,7 +112,18 @@ static void telemetrySendSerialData(const PMessage pMsg) {
   chnWrite(g_chnp, (const uint8_t *)pMsg, pMsg->size - TELEMETRY_MSG_CRC_SIZE);
   /* Sends cyclic redundancy checksum. */
   chnWrite(g_chnp, (const uint8_t *)&pMsg->crc, TELEMETRY_MSG_CRC_SIZE);
+  //chnWrite(g_chnp, "024501980", 9);  
 }
+
+static void telemetrySendSerialDataMS(const char * m) {
+  /* Sends message header and actual data if any. */
+//  chnWrite(g_chnp, (const uint8_t *)pMsg, pMsg->size - TELEMETRY_MSG_CRC_SIZE);
+  /* Sends cyclic redundancy checksum. */
+//  chnWrite(g_chnp, (const uint8_t *)&pMsg->crc, TELEMETRY_MSG_CRC_SIZE);
+  //chnWrite(g_chnp, "024501980", 9);
+  
+}
+
 
 /**
  * @brief  Prepares positive telemetry response.
@@ -141,6 +153,8 @@ static void telemetryNegativeResponse(const PMessage pMsg) {
  * @return none.
  */
 static void telemetryProcessCommand(const PMessage pMsg) {
+  chnWrite(g_chnp, "otrzymao" + pMsg->msg_id, 20);  
+    
   switch (pMsg->msg_id) {
   case 'D': /* Reads new sensor settings; */
     if ((pMsg->size - TELEMETRY_MSG_SVC_SIZE) == sizeof(g_sensorSettings)) {
@@ -209,8 +223,8 @@ static void telemetryProcessCommand(const PMessage pMsg) {
     pMsg->size = sizeof(g_boardStatus) + TELEMETRY_MSG_SVC_SIZE;
     pMsg->crc  = telemetryGetCRC32Checksum(pMsg);
     break;
-  case 'c': /* Saves settings to EEPROM; */
-    if (eepromSaveSettings()) {
+  case 'c': /* Saves settings to FLASH; */
+    if (saveSettings()==SUCCESS) {
       telemetryPositiveResponse(pMsg);
     } else {
       telemetryNegativeResponse(pMsg);
@@ -354,20 +368,37 @@ static void telemetryReadSerialDataResync(uint8_t len) {
   }
 }
 
+void telemetryReadSerialDataMS(void) {
+    Message msg;
+    PMessage pMsg = &msg;
+    memcpy((void *)pMsg->data, (void *)&g_boardStatus, sizeof(g_boardStatus));
+    pMsg->size = sizeof(g_boardStatus) + TELEMETRY_MSG_SVC_SIZE;
+    pMsg->crc  = telemetryGetCRC32Checksum(pMsg);
+    pMsg->sof = TELEMETRY_MSG_SOF;
+    pMsg->res = 0;
+    //char year[] = "2014";
+    telemetrySendSerialData(pMsg);
+}
+
 /**
  * @brief  Process messages received from generic serial interface driver.
  * @return none.
  */
 void telemetryReadSerialData(void) {
-  chSysLock();
+  osalSysLock();
   /* The following function must be called from within a system lock zone. */
-  size_t bytesAvailable = chnBytesAvailable(g_chnp);
-  chSysUnlock();
-
+  size_t bytesAvailable = chIQGetFullI(&((SerialDriver *)g_chnp)->iqueue);
+  osalSysUnlock();
+  //led_b = false;
+  
+  bytesRequired = 1;
+  
   while (bytesAvailable) {
+    chnWrite(g_chnp, "b" , 1);  
     if (bytesAvailable >= bytesRequired) {
       if (bytesRequired > 0) {
-        palTogglePad(GPIOA, GPIOA_LED_B);
+//        palTogglePad(GPIOA, GPIOA_LED_B);
+        led_b = true;
         chnRead(g_chnp, msgPos, bytesRequired);
         msgPos += bytesRequired;
         bytesAvailable -= bytesRequired;
@@ -383,9 +414,12 @@ void telemetryReadSerialData(void) {
     size_t curReadLen = msgPos - (uint8_t *)&msg;
     if (!IS_MSG_VALID()) {
       telemetryReadSerialDataResync(curReadLen);
+      chnWrite(g_chnp, "Tykoi" , 10);  
     } else if (curReadLen == TELEMETRY_MSG_HDR_SIZE) {
       bytesRequired = msg.size - TELEMETRY_MSG_HDR_SIZE;
+      chnWrite(g_chnp, "Jezewo" , 10);  
     } else if (bytesRequired == 0) {
+    chnWrite(g_chnp, "otrzymao" , 10);  
       /* Whole packet is read, check and process it... */
       /* Move CRC */
       memmove(&msg.crc, (uint8_t *)&msg + msg.size - TELEMETRY_MSG_CRC_SIZE,
@@ -397,11 +431,16 @@ void telemetryReadSerialData(void) {
       if (msg.crc == telemetryGetCRC32Checksum(&msg)) {
         telemetryProcessCommand(&msg);
       } else {
-        uint8_t i;
-        for (i =0; i < 50; i++) {
-          palTogglePad(GPIOA, GPIOA_LED_B);
-          chThdSleepMilliseconds(US2ST(10500));
-        }
+//        uint8_t i;
+ //       for (i =0; i < 50; i++) {
+ //         palTogglePad(GPIOA, GPIOA_LED_B);
+ //         chThdSleepMilliseconds(10.5);
+ //       }
+
+          led_b = true;
+          chThdSleepMilliseconds(500);
+          led_b = false;
+
       }
 
       /* Read another packet...*/

@@ -43,6 +43,12 @@ ifeq ($(USE_VERBOSE_COMPILE),)
   USE_VERBOSE_COMPILE = no
 endif
 
+# If enabled, this option makes the build process faster by not compiling
+# modules not used in the current configuration.
+ifeq ($(USE_SMART_BUILD),)
+  USE_SMART_BUILD = yes
+endif
+
 #
 # Build global options
 ##############################################################################
@@ -50,6 +56,23 @@ endif
 ##############################################################################
 # Architecture or project specific options
 #
+
+# Stack size to be allocated to the Cortex-M process stack. This stack is
+# the stack used by the main() thread.
+ifeq ($(USE_PROCESS_STACKSIZE),)
+  USE_PROCESS_STACKSIZE = 0x400
+endif
+
+# Stack size to the allocated to the Cortex-M main/exceptions stack. This
+# stack is used for processing interrupts and exceptions.
+ifeq ($(USE_EXCEPTIONS_STACKSIZE),)
+  USE_EXCEPTIONS_STACKSIZE = 0x400
+endif
+
+# Enables the use of FPU on Cortex-M4 (no, softfp, hard).
+ifeq ($(USE_FPU),)
+  USE_FPU = no
+endif
 
 #
 # Architecture or project specific options
@@ -61,39 +84,54 @@ endif
 
 # Define project name here
 PROJECT = evvgc_plus
-
+CHIBIOS = /home/maciek/ChibiOS_16.1.5
+CHIBIOS_CONTRIB = $(CHIBIOS)/community
+#BOARD = drivers/EVVGC_V1_X
+BOARD = drivers/STORM32_V1_X
 # Imported source files and paths
-SRCDIR = ..
-include $(SRCDIR)/boards/EVVGC_V1.X/board.mk
-include $(SRCDIR)/chibios_2.6.x/hal/platforms/STM32F1xx/platform.mk
-include $(SRCDIR)/chibios_2.6.x/hal/hal.mk
-include $(SRCDIR)/chibios_2.6.x/ports/GCC/ARMCMx/STM32F1xx/port.mk
-include $(SRCDIR)/chibios_2.6.x/kernel/kernel.mk
+
+# MSz ok this works but USB problem
+include $(CHIBIOS)/os/common/ports/ARMCMx/compilers/GCC/mk/startup_stm32f1xx.mk
+include $(CHIBIOS_CONTRIB)/os/hal/hal.mk
+include $(CHIBIOS_CONTRIB)/os/hal/ports/STM32/STM32F1xx/platform.mk
+include $(BOARD)/board.mk
+include $(CHIBIOS)/os/hal/osal/rt/osal.mk
+include $(CHIBIOS)/os/rt/rt.mk
+include $(CHIBIOS)/os/rt/ports/ARMCMx/compilers/GCC/mk/port_v7m.mk
+include $(CHIBIOS)/test/rt/test.mk
+
 
 # Define linker script file here
 ifeq ($(USE_USB_BL),yes)
-  LDSCRIPT= $(PORTLD)/STM32F103xC_BL.ld
+  LDSCRIPT= $(STARTUPLD)/STM32F103xC_BL.ld
   USE_OPT += -DUSE_USB_BL
 else
-  LDSCRIPT= $(PORTLD)/STM32F103xC.ld
+  LDSCRIPT= STM32F103xC.ld
 endif
 
 # C sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
-CSRC = $(PORTSRC) \
+CSRC = $(STARTUPSRC) \
        $(KERNSRC) \
-       $(TESTSRC) \
+       $(PORTSRC) \
+       $(OSALSRC) \
        $(HALSRC) \
        $(PLATFORMSRC) \
        $(BOARDSRC) \
+       $(TESTSRC) \
+       $(SHELLSRC) \
+       $(CHIBIOS)/os/various/shell.c \
+       $(CHIBIOS)/os/hal/lib/streams/memstreams.c \
+       $(CHIBIOS)/os/hal/lib/streams/chprintf.c \
+       flash/flash.c \
        attitude.c \
-       eeprom.c \
        main.c \
        misc.c \
        mpu6050.c \
-       pwmio.c \
        telemetry.c \
-       usbcfg.c
+       usbcfg.c \
+       mavlink_handler.c \
+       storage.c
 
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
@@ -120,11 +158,17 @@ TCSRC =
 TCPPSRC =
 
 # List ASM source files here
-ASMSRC = $(PORTASM)
+ASMSRC = $(STARTUPASM) $(PORTASM) $(OSALASM)
 
-INCDIR = $(PORTINC) $(KERNINC) $(TESTINC) \
-         $(HALINC) $(PLATFORMINC) $(BOARDINC)
+INCDIR = $(STARTUPINC) $(KERNINC) $(PORTINC) $(OSALINC) \
+         $(HALINC) $(PLATFORMINC) $(BOARDINC) $(TESTINC) \
+         $(CHIBIOS)/os/hal/lib/streams $(CHIBIOS)/os/various  mavlink/common 
+         
+         
 
+
+#$(CHIBIOS)/os/common/ports/ARMCMx/devices/STM32F1xx          
+         
 #
 # Project, sources and paths
 ##############################################################################
@@ -195,7 +239,8 @@ DLIBS =
 #
 
 # List all user C define here, like -D_DEBUG=1
-UDEFS =
+#MSz dodaje to
+UDEFS = -DCHPRINTF_USE_FLOAT=TRUE
 
 # Define ASM defines here
 UADEFS =
@@ -213,7 +258,7 @@ ULIBS = -lm
 # End of user defines
 ##############################################################################
 
-RULESPATH = $(SRCDIR)/chibios_2.6.x/ports/GCC/ARMCMx
+RULESPATH = $(CHIBIOS)/os/common/ports/ARMCMx/compilers/GCC
 include $(RULESPATH)/rules.mk
 
 program: $(BUILDDIR)/$(PROJECT).bin
