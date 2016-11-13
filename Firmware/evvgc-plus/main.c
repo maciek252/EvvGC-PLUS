@@ -272,6 +272,11 @@ static THD_FUNCTION(BlinkerThread_A,arg) {
 #endif
     time = 1000;//ms
     palToggleLedGreen();
+//    palTogglePad(GPIOC,0);
+  //  palTogglePad(GPIOA,1);
+    //palTogglePad(GPIOB,12);
+    //palTogglePad(GPIOA,7);
+
     //chprintf((BaseSequentialStream *)&SD4, "woda\n");
     //chprintf((BaseSequentialStream *)&SDU1, "dioda\n");
      //sdWriteTimeout(&SDU1, "000000000", 9, MS2ST(100) );
@@ -299,9 +304,13 @@ static THD_FUNCTION(BlinkerThread_B,arg) {
   time = 2000; //ms
   while (!chThdShouldTerminateX()) {
     if (led_b) {
-    palToggleLedRed();
+    	palToggleLedRed();
+    	//palSetPad(GPIOB,1);
     }
-    else {palToggleLedRed();}
+    else {
+    	palToggleLedRed();
+    	//palClearPad(GPIOB,1);
+    }
     chThdSleepMilliseconds(time);
   }
   /* This point may be reached if shut down is requested. */
@@ -450,7 +459,7 @@ int main(void) {
   usbStart(serusbcfg.usbp, &usbcfg);
 
   shellInit();
-#if 1
+#if 0
   /* Activates the serial driver 4 using the driver's default configuration. */
   //sdStart(&SD4, NULL);
 
@@ -489,7 +498,7 @@ int main(void) {
 //tpPoller = chThdCreateStatic(waPollMPU6050Thread, sizeof(waPollMPU6050Thread),
       //NORMALPRIO + 1, PollMPU6050Thread, NULL);
 
-#if 1
+#if 0
   //if (g_boardStatus & MPU6050_LOW_DETECTED) {
   if (g_boardStatus & MPU6050_LOW_DETECTED) {
     /* Creates a taken binary semaphore. */
@@ -504,7 +513,7 @@ int main(void) {
       HIGHPRIO, AttitudeThread, NULL);
 
     /* Starts motor drivers. */
-    //pwmOutputStart();
+    pwmOutputStart();
 
     /* Starts ADC and ICU input drivers. */
     //mixedInputStart();
@@ -515,11 +524,33 @@ int main(void) {
   // g_chnp = (BaseChannel *)&SDU1; //Default to USB for GUI
 
   /* Creates the blinker threads. */
+  // green led
+
+  pwmOutputStart();
+
   tpBlinker_A = chThdCreateStatic(waBlinkerThread_A, sizeof(waBlinkerThread_A),
     LOWPRIO, BlinkerThread_A, NULL);
 
+  //palClearPad(GPIOB, GPIOB_LED_0);
+
+  // red led
   tpBlinker_B = chThdCreateStatic(waBlinkerThread_B, sizeof(waBlinkerThread_B),
     LOWPRIO, BlinkerThread_B, NULL);
+
+  //palSetPad(GPIOA, 6);
+  //palSetPad(GPIOB, 12);
+  //palClearPad(GPIOB, 13);
+  //palClearPad(GPIOB, 9);
+  //palSetPad(GPIOB, 8);
+  //palSetPad(GPIOA, 7);
+  //palSetPad(GPIOA, 2);
+  //palTogglePad(GPIOA,12);
+  //palTogglePad(GPIOA,13);
+  //  palClearPad(GPIOB,1);
+//  pwmOutputStart();
+
+  //while(true){
+  //}
 
 #if 0
   tpMavlink = chThdCreateStatic(waMavlinkHandler, sizeof(waMavlinkHandler),
@@ -542,7 +573,7 @@ int main(void) {
                                               //shellThread, (void *)&shell_cfg1);
         
         
-    }else if (chThdTerminatedX(shelltp)) {
+    } else if (chThdTerminatedX(shelltp)) {
       chThdRelease(shelltp);    /* Recovers memory of the previous shell.   */
       shelltp = NULL;           /* Triggers spawning of a new shell.        */
     }
