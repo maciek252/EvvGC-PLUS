@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccAopCqy.s 			page 1
+ARM GAS  /tmp/cc4jg9D9.s 			page 1
 
 
    1              	# 1 "/home/maciek/ChibiOS_16.1.5/os/common/ports/ARMCMx/compilers/GCC/crt0_v7m.s"
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccAopCqy.s 			page 1
   52              	/*===========================================================================*/
   53              	
   54              	/**
-ARM GAS  /tmp/ccAopCqy.s 			page 2
+ARM GAS  /tmp/cc4jg9D9.s 			page 2
 
 
   55              	 * @brief   FPU initialization switch.
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccAopCqy.s 			page 1
  109              	
  110              	/**
  111              	 * @brief   RAM areas initialization switch.
-ARM GAS  /tmp/ccAopCqy.s 			page 3
+ARM GAS  /tmp/cc4jg9D9.s 			page 3
 
 
  112              	 */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccAopCqy.s 			page 1
  166              	 */
  167              	                .align  2
  168              	                .thumb_func
-ARM GAS  /tmp/ccAopCqy.s 			page 4
+ARM GAS  /tmp/cc4jg9D9.s 			page 4
 
 
  169              	                .global Reset_Handler
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccAopCqy.s 			page 1
  223 0016 FFF7FEFF 	                bl      __early_init
  224              	
  225              	#if CRT0_INIT_STACKS == TRUE
-ARM GAS  /tmp/ccAopCqy.s 			page 5
+ARM GAS  /tmp/cc4jg9D9.s 			page 5
 
 
  226 001a 1D48     	                ldr     r0, =CRT0_STACKS_FILL_PATTERN
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccAopCqy.s 			page 1
  280              	#endif
  281              	
  282              	                /* Late initialization..*/
-ARM GAS  /tmp/ccAopCqy.s 			page 6
+ARM GAS  /tmp/cc4jg9D9.s 			page 6
 
 
  283 0060 FFF7FEFF 	                bl      __late_init
@@ -338,7 +338,7 @@ ARM GAS  /tmp/ccAopCqy.s 			page 1
  315      55555555 
  315      00000000 
  315      00000000 
-ARM GAS  /tmp/ccAopCqy.s 			page 7
+ARM GAS  /tmp/cc4jg9D9.s 			page 7
 
 
 DEFINED SYMBOLS

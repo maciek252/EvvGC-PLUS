@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cchmKlny.s 			page 1
+ARM GAS  /tmp/ccx5EPLQ.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
   55              		.type	chSemResetI, %function
   56              	chSemResetI:
   57              	.LFB172:
-ARM GAS  /tmp/cchmKlny.s 			page 2
+ARM GAS  /tmp/ccx5EPLQ.s 			page 2
 
 
   58              		.loc 1 147 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  112 0024 F5D1     		bne	.L4
  113              	.LVL9:
  114              	.L2:
-ARM GAS  /tmp/cchmKlny.s 			page 3
+ARM GAS  /tmp/ccx5EPLQ.s 			page 3
 
 
  115 0026 70BD     		pop	{r4, r5, r6, pc}
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  169 0016 08BD     		pop	{r3, pc}
  170              	.LBE104:
  171              	.LBE103:
-ARM GAS  /tmp/cchmKlny.s 			page 4
+ARM GAS  /tmp/ccx5EPLQ.s 			page 4
 
 
  172              	.LBE102:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  226 0012 0023     		movs	r3, #0
  227              	@ 548 "/home/maciek/ChibiOS_16.1.5/os/ext/CMSIS/include/core_cmFunc.h" 1
  228 0014 83F31188 		MSR basepri, r3
-ARM GAS  /tmp/cchmKlny.s 			page 5
+ARM GAS  /tmp/ccx5EPLQ.s 			page 5
 
 
  229              	@ 0 "" 2
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  283              	.LBE130:
  284              	.LBE140:
  285              	.LBB141:
-ARM GAS  /tmp/cchmKlny.s 			page 6
+ARM GAS  /tmp/ccx5EPLQ.s 			page 6
 
 
  286              	.LBB139:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  340              		.cfi_def_cfa_offset 8
  341              		.cfi_offset 4, -8
  342              		.cfi_offset 14, -4
-ARM GAS  /tmp/cchmKlny.s 			page 7
+ARM GAS  /tmp/ccx5EPLQ.s 			page 7
 
 
  343              	.LBB146:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  397              		@ link register save eliminated.
  398              	.LVL29:
  399 0000 0346     		mov	r3, r0
-ARM GAS  /tmp/cchmKlny.s 			page 8
+ARM GAS  /tmp/ccx5EPLQ.s 			page 8
 
 
  400              		.loc 1 272 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  454              	.LBE159:
  455              		.loc 1 274 0
  456 002e 9860     		str	r0, [r3, #8]
-ARM GAS  /tmp/cchmKlny.s 			page 9
+ARM GAS  /tmp/ccx5EPLQ.s 			page 9
 
 
  457              		.loc 1 285 0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  511              	.LBB168:
  512              		.loc 3 548 0
  513 000c 0023     		movs	r3, #0
-ARM GAS  /tmp/cchmKlny.s 			page 10
+ARM GAS  /tmp/ccx5EPLQ.s 			page 10
 
 
  514              	@ 548 "/home/maciek/ChibiOS_16.1.5/os/ext/CMSIS/include/core_cmFunc.h" 1
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  568              	.LBB174:
  569              	.LBB175:
  570              	.LBB176:
-ARM GAS  /tmp/cchmKlny.s 			page 11
+ARM GAS  /tmp/ccx5EPLQ.s 			page 11
 
 
  571              	.LBB177:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  625              	.LBE186:
  626              		.cfi_endproc
  627              	.LFE177:
-ARM GAS  /tmp/cchmKlny.s 			page 12
+ARM GAS  /tmp/ccx5EPLQ.s 			page 12
 
 
  628              		.size	chSemSignal, .-chSemSignal
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  682              		.loc 2 675 0
  683 0018 4A60     		str	r2, [r1, #4]
  684              	.LBE191:
-ARM GAS  /tmp/cchmKlny.s 			page 13
+ARM GAS  /tmp/ccx5EPLQ.s 			page 13
 
 
  685              	.LBE193:
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  739              		.loc 1 358 0
  740 0010 AB68     		ldr	r3, [r5, #8]
  741 0012 0133     		adds	r3, r3, #1
-ARM GAS  /tmp/cchmKlny.s 			page 14
+ARM GAS  /tmp/ccx5EPLQ.s 			page 14
 
 
  742 0014 002B     		cmp	r3, #0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  796              	.LBB198:
  797              	.LBB199:
  798              	.LBB200:
-ARM GAS  /tmp/cchmKlny.s 			page 15
+ARM GAS  /tmp/ccx5EPLQ.s 			page 15
 
 
  799              	.LBB201:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  853              	.L61:
  854              		.cfi_restore_state
  855              	.LBB211:
-ARM GAS  /tmp/cchmKlny.s 			page 16
+ARM GAS  /tmp/ccx5EPLQ.s 			page 16
 
 
  856              		.loc 1 394 0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  910              	.LVL65:
  911              	.L60:
  912              		.cfi_restore_state
-ARM GAS  /tmp/cchmKlny.s 			page 17
+ARM GAS  /tmp/ccx5EPLQ.s 			page 17
 
 
  913              	.LBB217:
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  967 0021 02       		.uleb128 0x2
  968 0022 04       		.byte	0x4
  969 0023 05       		.byte	0x5
-ARM GAS  /tmp/cchmKlny.s 			page 18
+ARM GAS  /tmp/ccx5EPLQ.s 			page 18
 
 
  970 0024 696E7400 		.ascii	"int\000"
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1024 008d 5C020000 		.4byte	.LASF12
  1025 0091 04       		.byte	0x4
  1026 0092 5B       		.byte	0x5b
-ARM GAS  /tmp/cchmKlny.s 			page 19
+ARM GAS  /tmp/ccx5EPLQ.s 			page 19
 
 
  1027 0093 97000000 		.4byte	0x97
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1081 0108 BF000000 		.4byte	0xbf
  1082 010c 04       		.uleb128 0x4
  1083 010d 0A030000 		.4byte	.LASF24
-ARM GAS  /tmp/cchmKlny.s 			page 20
+ARM GAS  /tmp/ccx5EPLQ.s 			page 20
 
 
  1084 0111 06       		.byte	0x6
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1138 0180 A7020000 		.4byte	.LASF33
  1139 0184 02       		.byte	0x2
  1140 0185 DD       		.byte	0xdd
-ARM GAS  /tmp/cchmKlny.s 			page 21
+ARM GAS  /tmp/ccx5EPLQ.s 			page 21
 
 
  1141 0186 EB000000 		.4byte	0xeb
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1195 01f9 01010000 		.4byte	0x101
  1196 01fd 30       		.byte	0x30
  1197 01fe 08       		.uleb128 0x8
-ARM GAS  /tmp/cchmKlny.s 			page 22
+ARM GAS  /tmp/ccx5EPLQ.s 			page 22
 
 
  1198 01ff B7020000 		.4byte	.LASF42
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1252 026f 04       		.byte	0x4
  1253 0270 00       		.byte	0
  1254 0271 04       		.uleb128 0x4
-ARM GAS  /tmp/cchmKlny.s 			page 23
+ARM GAS  /tmp/ccx5EPLQ.s 			page 23
 
 
  1255 0272 61050000 		.4byte	.LASF49
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1309 02e3 E7020000 		.4byte	0x2e7
  1310 02e7 0A       		.uleb128 0xa
  1311 02e8 9D010000 		.4byte	.LASF57
-ARM GAS  /tmp/cchmKlny.s 			page 24
+ARM GAS  /tmp/ccx5EPLQ.s 			page 24
 
 
  1312 02ec 14       		.byte	0x14
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1366 0360 02       		.byte	0x2
  1367 0361 7E01     		.2byte	0x17e
  1368 0363 AC050000 		.4byte	0x5ac
-ARM GAS  /tmp/cchmKlny.s 			page 25
+ARM GAS  /tmp/ccx5EPLQ.s 			page 25
 
 
  1369 0367 04       		.byte	0x4
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1423 03db 14       		.byte	0x14
  1424 03dc 07       		.uleb128 0x7
  1425 03dd 64626700 		.ascii	"dbg\000"
-ARM GAS  /tmp/cchmKlny.s 			page 26
+ARM GAS  /tmp/ccx5EPLQ.s 			page 26
 
 
  1426 03e1 02       		.byte	0x2
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1480 044d FD       		.byte	0xfd
  1481 044e C1040000 		.4byte	0x4c1
  1482 0452 07       		.uleb128 0x7
-ARM GAS  /tmp/cchmKlny.s 			page 27
+ARM GAS  /tmp/ccx5EPLQ.s 			page 27
 
 
  1483 0453 723400   		.ascii	"r4\000"
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1537 04c1 09       		.uleb128 0x9
  1538 04c2 04       		.byte	0x4
  1539 04c3 46040000 		.4byte	0x446
-ARM GAS  /tmp/cchmKlny.s 			page 28
+ARM GAS  /tmp/ccx5EPLQ.s 			page 28
 
 
  1540 04c7 10       		.uleb128 0x10
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1594 053c 02       		.byte	0x2
  1595 053d 2F01     		.2byte	0x12f
  1596 053f 17010000 		.4byte	0x117
-ARM GAS  /tmp/cchmKlny.s 			page 29
+ARM GAS  /tmp/ccx5EPLQ.s 			page 29
 
 
  1597 0543 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1651 05ac 09       		.uleb128 0x9
  1652 05ad 04       		.byte	0x4
  1653 05ae DC020000 		.4byte	0x2dc
-ARM GAS  /tmp/cchmKlny.s 			page 30
+ARM GAS  /tmp/ccx5EPLQ.s 			page 30
 
 
  1654 05b2 13       		.uleb128 0x13
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1708 0625 03       		.byte	0x3
  1709 0626 17       		.uleb128 0x17
  1710 0627 9A050000 		.4byte	.LASF102
-ARM GAS  /tmp/cchmKlny.s 			page 31
+ARM GAS  /tmp/ccx5EPLQ.s 			page 31
 
 
  1711 062b 02       		.byte	0x2
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1765 06a3 14       		.uleb128 0x14
  1766 06a4 93060000 		.4byte	0x693
  1767 06a8 17       		.uleb128 0x17
-ARM GAS  /tmp/cchmKlny.s 			page 32
+ARM GAS  /tmp/ccx5EPLQ.s 			page 32
 
 
  1768 06a9 DC040000 		.4byte	.LASF107
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1822 0725 01       		.byte	0x1
  1823 0726 0801     		.2byte	0x108
  1824 0728 F5060000 		.4byte	0x6f5
-ARM GAS  /tmp/cchmKlny.s 			page 33
+ARM GAS  /tmp/ccx5EPLQ.s 			page 33
 
 
  1825 072c 18       		.uleb128 0x18
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1879 07a6 6E00     		.ascii	"n\000"
  1880 07a8 01       		.byte	0x1
  1881 07a9 61       		.byte	0x61
-ARM GAS  /tmp/cchmKlny.s 			page 34
+ARM GAS  /tmp/ccx5EPLQ.s 			page 34
 
 
  1882 07aa 22010000 		.4byte	0x122
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1936 0825 23       		.uleb128 0x23
  1937 0826 5A060000 		.4byte	.LASF106
  1938 082a 64080000 		.4byte	0x864
-ARM GAS  /tmp/cchmKlny.s 			page 35
+ARM GAS  /tmp/ccx5EPLQ.s 			page 35
 
 
  1939 082e 28       		.uleb128 0x28
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  1993 08b5 06000000 		.4byte	.LBE97-.LBB97
  1994 08b9 0D       		.byte	0xd
  1995 08ba 5C01     		.2byte	0x15c
-ARM GAS  /tmp/cchmKlny.s 			page 36
+ARM GAS  /tmp/ccx5EPLQ.s 			page 36
 
 
  1996 08bc 2E       		.uleb128 0x2e
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2050 0934 33       		.uleb128 0x33
  2051 0935 01       		.uleb128 0x1
  2052 0936 50       		.byte	0x50
-ARM GAS  /tmp/cchmKlny.s 			page 37
+ARM GAS  /tmp/ccx5EPLQ.s 			page 37
 
 
  2053 0937 03       		.uleb128 0x3
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2107 09b3 00       		.byte	0
  2108 09b4 28       		.uleb128 0x28
  2109 09b5 CD060000 		.4byte	0x6cd
-ARM GAS  /tmp/cchmKlny.s 			page 38
+ARM GAS  /tmp/ccx5EPLQ.s 			page 38
 
 
  2110 09b9 06000000 		.4byte	.LBB124
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2164 0a40 01       		.byte	0x1
  2165 0a41 B4       		.byte	0xb4
  2166 0a42 2A       		.uleb128 0x2a
-ARM GAS  /tmp/cchmKlny.s 			page 39
+ARM GAS  /tmp/ccx5EPLQ.s 			page 39
 
 
  2167 0a43 30000000 		.4byte	.Ldebug_ranges0+0x30
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2221 0acf C0060000 		.4byte	0x6c0
  2222 0ad3 45020000 		.4byte	.LLST15
  2223 0ad7 29       		.uleb128 0x29
-ARM GAS  /tmp/cchmKlny.s 			page 40
+ARM GAS  /tmp/ccx5EPLQ.s 			page 40
 
 
  2224 0ad8 B5060000 		.4byte	0x6b5
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2278 0b60 00       		.byte	0
  2279 0b61 3C       		.uleb128 0x3c
  2280 0b62 2E000000 		.4byte	.LVL33
-ARM GAS  /tmp/cchmKlny.s 			page 41
+ARM GAS  /tmp/ccx5EPLQ.s 			page 41
 
 
  2281 0b66 20100000 		.4byte	0x1020
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2335 0bde 02000000 		.4byte	.LBB162
  2336 0be2 06000000 		.4byte	.LBE162-.LBB162
  2337 0be6 09       		.byte	0x9
-ARM GAS  /tmp/cchmKlny.s 			page 42
+ARM GAS  /tmp/ccx5EPLQ.s 			page 42
 
 
  2338 0be7 D001     		.2byte	0x1d0
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2392 0c57 00000000 		.4byte	.LFB177
  2393 0c5b 32000000 		.4byte	.LFE177-.LFB177
  2394 0c5f 01       		.uleb128 0x1
-ARM GAS  /tmp/cchmKlny.s 			page 43
+ARM GAS  /tmp/ccx5EPLQ.s 			page 43
 
 
  2395 0c60 9C       		.byte	0x9c
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2449 0ce9 FA050000 		.4byte	0x5fa
  2450 0ced 12000000 		.4byte	.LBB176
  2451 0cf1 60000000 		.4byte	.Ldebug_ranges0+0x60
-ARM GAS  /tmp/cchmKlny.s 			page 44
+ARM GAS  /tmp/ccx5EPLQ.s 			page 44
 
 
  2452 0cf5 09       		.byte	0x9
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2506 0d6d 5A060000 		.4byte	.LASF106
  2507 0d71 CF0D0000 		.4byte	0xdcf
  2508 0d75 2A       		.uleb128 0x2a
-ARM GAS  /tmp/cchmKlny.s 			page 45
+ARM GAS  /tmp/ccx5EPLQ.s 			page 45
 
 
  2509 0d76 90000000 		.4byte	.Ldebug_ranges0+0x90
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2563 0df9 40       		.uleb128 0x40
  2564 0dfa 6E00     		.ascii	"n\000"
  2565 0dfc 01       		.byte	0x1
-ARM GAS  /tmp/cchmKlny.s 			page 46
+ARM GAS  /tmp/ccx5EPLQ.s 			page 46
 
 
  2566 0dfd 5D01     		.2byte	0x15d
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2620 0e8b 73707700 		.ascii	"spw\000"
  2621 0e8f 01       		.byte	0x1
  2622 0e90 7A01     		.2byte	0x17a
-ARM GAS  /tmp/cchmKlny.s 			page 47
+ARM GAS  /tmp/ccx5EPLQ.s 			page 47
 
 
  2623 0e92 F5060000 		.4byte	0x6f5
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2677 0f1f FA050000 		.4byte	0x5fa
  2678 0f23 26000000 		.4byte	.LBB205
  2679 0f27 D0000000 		.4byte	.Ldebug_ranges0+0xd0
-ARM GAS  /tmp/cchmKlny.s 			page 48
+ARM GAS  /tmp/ccx5EPLQ.s 			page 48
 
 
  2680 0f2b 09       		.byte	0x9
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2734 0fad 0A000000 		.4byte	.LBE218-.LBB218
  2735 0fb1 2B       		.uleb128 0x2b
  2736 0fb2 78070000 		.4byte	0x778
-ARM GAS  /tmp/cchmKlny.s 			page 49
+ARM GAS  /tmp/ccx5EPLQ.s 			page 49
 
 
  2737 0fb6 D5050000 		.4byte	.LLST42
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2791 1036 2D010000 		.4byte	0x12d
  2792 103a 00       		.byte	0
  2793 103b 4C       		.uleb128 0x4c
-ARM GAS  /tmp/cchmKlny.s 			page 50
+ARM GAS  /tmp/ccx5EPLQ.s 			page 50
 
 
  2794 103c FC050000 		.4byte	.LASF129
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2848 002b 0E       		.uleb128 0xe
  2849 002c 3A       		.uleb128 0x3a
  2850 002d 0B       		.uleb128 0xb
-ARM GAS  /tmp/cchmKlny.s 			page 51
+ARM GAS  /tmp/ccx5EPLQ.s 			page 51
 
 
  2851 002e 3B       		.uleb128 0x3b
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2905 0064 03       		.uleb128 0x3
  2906 0065 0E       		.uleb128 0xe
  2907 0066 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cchmKlny.s 			page 52
+ARM GAS  /tmp/ccx5EPLQ.s 			page 52
 
 
  2908 0067 0B       		.uleb128 0xb
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  2962 009d 00       		.byte	0
  2963 009e 00       		.byte	0
  2964 009f 0E       		.uleb128 0xe
-ARM GAS  /tmp/cchmKlny.s 			page 53
+ARM GAS  /tmp/ccx5EPLQ.s 			page 53
 
 
  2965 00a0 13       		.uleb128 0x13
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3019 00d6 00       		.byte	0
  3020 00d7 12       		.uleb128 0x12
  3021 00d8 0D       		.uleb128 0xd
-ARM GAS  /tmp/cchmKlny.s 			page 54
+ARM GAS  /tmp/ccx5EPLQ.s 			page 54
 
 
  3022 00d9 00       		.byte	0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3076 010f 20       		.uleb128 0x20
  3077 0110 0B       		.uleb128 0xb
  3078 0111 01       		.uleb128 0x1
-ARM GAS  /tmp/cchmKlny.s 			page 55
+ARM GAS  /tmp/ccx5EPLQ.s 			page 55
 
 
  3079 0112 13       		.uleb128 0x13
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3133 0148 19       		.uleb128 0x19
  3134 0149 49       		.uleb128 0x49
  3135 014a 13       		.uleb128 0x13
-ARM GAS  /tmp/cchmKlny.s 			page 56
+ARM GAS  /tmp/ccx5EPLQ.s 			page 56
 
 
  3136 014b 20       		.uleb128 0x20
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3190 0181 05       		.uleb128 0x5
  3191 0182 00       		.byte	0
  3192 0183 03       		.uleb128 0x3
-ARM GAS  /tmp/cchmKlny.s 			page 57
+ARM GAS  /tmp/ccx5EPLQ.s 			page 57
 
 
  3193 0184 08       		.uleb128 0x8
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3247 01bb 00       		.byte	0
  3248 01bc 22       		.uleb128 0x22
  3249 01bd 05       		.uleb128 0x5
-ARM GAS  /tmp/cchmKlny.s 			page 58
+ARM GAS  /tmp/ccx5EPLQ.s 			page 58
 
 
  3250 01be 00       		.byte	0
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3304 01f4 0B       		.uleb128 0xb
  3305 01f5 3B       		.uleb128 0x3b
  3306 01f6 0B       		.uleb128 0xb
-ARM GAS  /tmp/cchmKlny.s 			page 59
+ARM GAS  /tmp/ccx5EPLQ.s 			page 59
 
 
  3307 01f7 49       		.uleb128 0x49
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3361 022d 2B       		.uleb128 0x2b
  3362 022e 34       		.uleb128 0x34
  3363 022f 00       		.byte	0
-ARM GAS  /tmp/cchmKlny.s 			page 60
+ARM GAS  /tmp/ccx5EPLQ.s 			page 60
 
 
  3364 0230 31       		.uleb128 0x31
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3418 0268 00       		.byte	0
  3419 0269 00       		.byte	0
  3420 026a 30       		.uleb128 0x30
-ARM GAS  /tmp/cchmKlny.s 			page 61
+ARM GAS  /tmp/ccx5EPLQ.s 			page 61
 
 
  3421 026b 0B       		.uleb128 0xb
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3475 02a6 40       		.uleb128 0x40
  3476 02a7 18       		.uleb128 0x18
  3477 02a8 9742     		.uleb128 0x2117
-ARM GAS  /tmp/cchmKlny.s 			page 62
+ARM GAS  /tmp/ccx5EPLQ.s 			page 62
 
 
  3478 02aa 19       		.uleb128 0x19
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3532 02e2 05       		.uleb128 0x5
  3533 02e3 00       		.byte	0
  3534 02e4 00       		.byte	0
-ARM GAS  /tmp/cchmKlny.s 			page 63
+ARM GAS  /tmp/ccx5EPLQ.s 			page 63
 
 
  3535 02e5 39       		.uleb128 0x39
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3589 031f 00       		.byte	0
  3590 0320 03       		.uleb128 0x3
  3591 0321 0E       		.uleb128 0xe
-ARM GAS  /tmp/cchmKlny.s 			page 64
+ARM GAS  /tmp/ccx5EPLQ.s 			page 64
 
 
  3592 0322 3A       		.uleb128 0x3a
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3646 0359 08       		.uleb128 0x8
  3647 035a 3A       		.uleb128 0x3a
  3648 035b 0B       		.uleb128 0xb
-ARM GAS  /tmp/cchmKlny.s 			page 65
+ARM GAS  /tmp/ccx5EPLQ.s 			page 65
 
 
  3649 035c 3B       		.uleb128 0x3b
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3703 0395 3F       		.uleb128 0x3f
  3704 0396 19       		.uleb128 0x19
  3705 0397 03       		.uleb128 0x3
-ARM GAS  /tmp/cchmKlny.s 			page 66
+ARM GAS  /tmp/ccx5EPLQ.s 			page 66
 
 
  3706 0398 0E       		.uleb128 0xe
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3760 03cf 3B       		.uleb128 0x3b
  3761 03d0 05       		.uleb128 0x5
  3762 03d1 49       		.uleb128 0x49
-ARM GAS  /tmp/cchmKlny.s 			page 67
+ARM GAS  /tmp/ccx5EPLQ.s 			page 67
 
 
  3763 03d2 13       		.uleb128 0x13
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3817 0408 3B       		.uleb128 0x3b
  3818 0409 05       		.uleb128 0x5
  3819 040a 27       		.uleb128 0x27
-ARM GAS  /tmp/cchmKlny.s 			page 68
+ARM GAS  /tmp/ccx5EPLQ.s 			page 68
 
 
  3820 040b 19       		.uleb128 0x19
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3874 001a 28000000 		.4byte	.LFE172
  3875 001e 0400     		.2byte	0x4
  3876 0020 F3       		.byte	0xf3
-ARM GAS  /tmp/cchmKlny.s 			page 69
+ARM GAS  /tmp/ccx5EPLQ.s 			page 69
 
 
  3877 0021 01       		.uleb128 0x1
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3931 00a8 50       		.byte	0x50
  3932 00a9 0B000000 		.4byte	.LVL11-1
  3933 00ad 18000000 		.4byte	.LFE171
-ARM GAS  /tmp/cchmKlny.s 			page 70
+ARM GAS  /tmp/ccx5EPLQ.s 			page 70
 
 
  3934 00b1 0400     		.2byte	0x4
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  3988 012f 50       		.byte	0x50
  3989 0130 12000000 		.4byte	.LVL15
  3990 0134 1A000000 		.4byte	.LVL16
-ARM GAS  /tmp/cchmKlny.s 			page 71
+ARM GAS  /tmp/ccx5EPLQ.s 			page 71
 
 
  3991 0138 0400     		.2byte	0x4
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4045 01b6 52       		.byte	0x52
  4046 01b7 00000000 		.4byte	0
  4047 01bb 00000000 		.4byte	0
-ARM GAS  /tmp/cchmKlny.s 			page 72
+ARM GAS  /tmp/ccx5EPLQ.s 			page 72
 
 
  4048              	.LLST12:
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4102 023d 00000000 		.4byte	0
  4103 0241 00000000 		.4byte	0
  4104              	.LLST15:
-ARM GAS  /tmp/cchmKlny.s 			page 73
+ARM GAS  /tmp/ccx5EPLQ.s 			page 73
 
 
  4105 0245 1A000000 		.4byte	.LVL27
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4159 02c9 2E000000 		.4byte	.LVL33
  4160 02cd 40000000 		.4byte	.LFE176
  4161 02d1 0100     		.2byte	0x1
-ARM GAS  /tmp/cchmKlny.s 			page 74
+ARM GAS  /tmp/ccx5EPLQ.s 			page 74
 
 
  4162 02d3 51       		.byte	0x51
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4216 0356 0B000000 		.4byte	.LVL35-1
  4217 035a 0100     		.2byte	0x1
  4218 035c 51       		.byte	0x51
-ARM GAS  /tmp/cchmKlny.s 			page 75
+ARM GAS  /tmp/ccx5EPLQ.s 			page 75
 
 
  4219 035d 0B000000 		.4byte	.LVL35-1
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4273              	.LLST27:
  4274 03e0 1E000000 		.4byte	.LVL40
  4275 03e4 29000000 		.4byte	.LVL41-1
-ARM GAS  /tmp/cchmKlny.s 			page 76
+ARM GAS  /tmp/ccx5EPLQ.s 			page 76
 
 
  4276 03e8 0100     		.2byte	0x1
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4330 0471 0100     		.2byte	0x1
  4331 0473 55       		.byte	0x55
  4332 0474 2C000000 		.4byte	.LVL56
-ARM GAS  /tmp/cchmKlny.s 			page 77
+ARM GAS  /tmp/ccx5EPLQ.s 			page 77
 
 
  4333 0478 2E000000 		.4byte	.LFE179
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4387 04fe 01       		.uleb128 0x1
  4388 04ff 50       		.byte	0x50
  4389 0500 9F       		.byte	0x9f
-ARM GAS  /tmp/cchmKlny.s 			page 78
+ARM GAS  /tmp/ccx5EPLQ.s 			page 78
 
 
  4390 0501 52000000 		.4byte	.LVL65
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4444 0587 00000000 		.4byte	0
  4445 058b 00000000 		.4byte	0
  4446              	.LLST38:
-ARM GAS  /tmp/cchmKlny.s 			page 79
+ARM GAS  /tmp/ccx5EPLQ.s 			page 79
 
 
  4447 058f 26000000 		.4byte	.LVL60
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4501 0044 14000000 		.4byte	.LFE175-.LFB175
  4502 0048 00000000 		.4byte	.LFB177
  4503 004c 32000000 		.4byte	.LFE177-.LFB177
-ARM GAS  /tmp/cchmKlny.s 			page 80
+ARM GAS  /tmp/ccx5EPLQ.s 			page 80
 
 
  4504 0050 00000000 		.4byte	.LFB178
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4558 00b0 0E000000 		.4byte	.LBB188
  4559 00b4 10000000 		.4byte	.LBE188
  4560 00b8 12000000 		.4byte	.LBB192
-ARM GAS  /tmp/cchmKlny.s 			page 81
+ARM GAS  /tmp/ccx5EPLQ.s 			page 81
 
 
  4561 00bc 14000000 		.4byte	.LBE192
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4608 0010 74687265 		.ascii	"threads_queue_t\000"
  4608      6164735F 
  4608      71756575 
-ARM GAS  /tmp/cchmKlny.s 			page 82
+ARM GAS  /tmp/ccx5EPLQ.s 			page 82
 
 
  4608      655F7400 
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4636      657400
  4637              	.LASF44:
  4638 00aa 74687265 		.ascii	"threads_list_t\000"
-ARM GAS  /tmp/cchmKlny.s 			page 83
+ARM GAS  /tmp/ccx5EPLQ.s 			page 83
 
 
  4638      6164735F 
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4664 013c 63685F73 		.ascii	"ch_system_debug\000"
  4664      79737465 
  4664      6D5F6465 
-ARM GAS  /tmp/cchmKlny.s 			page 84
+ARM GAS  /tmp/ccx5EPLQ.s 			page 84
 
 
  4664      62756700 
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4690 01e0 636E745F 		.ascii	"cnt_t\000"
  4690      7400
  4691              	.LASF105:
-ARM GAS  /tmp/cchmKlny.s 			page 85
+ARM GAS  /tmp/ccx5EPLQ.s 			page 85
 
 
  4692 01e6 63685379 		.ascii	"chSysUnlock\000"
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4718 0278 63685379 		.ascii	"chSysLock\000"
  4718      734C6F63 
  4718      6B00
-ARM GAS  /tmp/cchmKlny.s 			page 86
+ARM GAS  /tmp/ccx5EPLQ.s 			page 86
 
 
  4719              	.LASF60:
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4746 0310 474E5520 		.ascii	"GNU C 4.9.3 20150529 (release) [ARM/embedded-4_9-br"
  4746      4320342E 
  4746      392E3320 
-ARM GAS  /tmp/cchmKlny.s 			page 87
+ARM GAS  /tmp/ccx5EPLQ.s 			page 87
 
 
  4746      32303135 
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4768      31365F74 
  4768      00
  4769              	.LASF19:
-ARM GAS  /tmp/cchmKlny.s 			page 88
+ARM GAS  /tmp/ccx5EPLQ.s 			page 88
 
 
  4770 0448 7274636E 		.ascii	"rtcnt_t\000"
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4795              	.LASF29:
  4796 04f7 705F6E65 		.ascii	"p_next\000"
  4796      787400
-ARM GAS  /tmp/cchmKlny.s 			page 89
+ARM GAS  /tmp/ccx5EPLQ.s 			page 89
 
 
  4797              	.LASF18:
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4824 058b 77747365 		.ascii	"wtsemp\000"
  4824      6D7000
  4825              	.LASF98:
-ARM GAS  /tmp/cchmKlny.s 			page 90
+ARM GAS  /tmp/ccx5EPLQ.s 			page 90
 
 
  4826 0592 6D757465 		.ascii	"mutex_t\000"
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4852 062a 7369676E 		.ascii	"signed char\000"
  4852      65642063 
  4852      68617200 
-ARM GAS  /tmp/cchmKlny.s 			page 91
+ARM GAS  /tmp/ccx5EPLQ.s 			page 91
 
 
  4853              	.LASF6:
@@ -5433,37 +5433,37 @@ ARM GAS  /tmp/cchmKlny.s 			page 1
  4868      636F6465 
  4868      00
  4869              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cchmKlny.s 			page 92
+ARM GAS  /tmp/ccx5EPLQ.s 			page 92
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chsem.c
-     /tmp/cchmKlny.s:19     .text.chSemObjectInit:00000000 $t
-     /tmp/cchmKlny.s:25     .text.chSemObjectInit:00000000 chSemObjectInit
-     /tmp/cchmKlny.s:50     .text.chSemResetI:00000000 $t
-     /tmp/cchmKlny.s:56     .text.chSemResetI:00000000 chSemResetI
-     /tmp/cchmKlny.s:120    .text.chSemReset:00000000 $t
-     /tmp/cchmKlny.s:126    .text.chSemReset:00000000 chSemReset
-     /tmp/cchmKlny.s:179    .text.chSemWait:00000000 $t
-     /tmp/cchmKlny.s:185    .text.chSemWait:00000000 chSemWait
-     /tmp/cchmKlny.s:306    .text.chSemWait:00000040 $d
-     /tmp/cchmKlny.s:311    .text.chSemWaitS:00000000 $t
-     /tmp/cchmKlny.s:317    .text.chSemWaitS:00000000 chSemWaitS
-     /tmp/cchmKlny.s:378    .text.chSemWaitS:00000030 $d
-     /tmp/cchmKlny.s:385    .text.chSemWaitTimeoutS:00000000 $t
-     /tmp/cchmKlny.s:391    .text.chSemWaitTimeoutS:00000000 chSemWaitTimeoutS
-     /tmp/cchmKlny.s:468    .text.chSemWaitTimeoutS:0000003c $d
-     /tmp/cchmKlny.s:473    .text.chSemWaitTimeout:00000000 $t
-     /tmp/cchmKlny.s:479    .text.chSemWaitTimeout:00000000 chSemWaitTimeout
-     /tmp/cchmKlny.s:529    .text.chSemSignal:00000000 $t
-     /tmp/cchmKlny.s:535    .text.chSemSignal:00000000 chSemSignal
-     /tmp/cchmKlny.s:630    .text.chSemSignalI:00000000 $t
-     /tmp/cchmKlny.s:636    .text.chSemSignalI:00000000 chSemSignalI
-     /tmp/cchmKlny.s:705    .text.chSemAddCounterI:00000000 $t
-     /tmp/cchmKlny.s:711    .text.chSemAddCounterI:00000000 chSemAddCounterI
-     /tmp/cchmKlny.s:776    .text.chSemSignalWait:00000000 $t
-     /tmp/cchmKlny.s:782    .text.chSemSignalWait:00000000 chSemSignalWait
-     /tmp/cchmKlny.s:937    .text.chSemSignalWait:00000068 $d
+     /tmp/ccx5EPLQ.s:19     .text.chSemObjectInit:00000000 $t
+     /tmp/ccx5EPLQ.s:25     .text.chSemObjectInit:00000000 chSemObjectInit
+     /tmp/ccx5EPLQ.s:50     .text.chSemResetI:00000000 $t
+     /tmp/ccx5EPLQ.s:56     .text.chSemResetI:00000000 chSemResetI
+     /tmp/ccx5EPLQ.s:120    .text.chSemReset:00000000 $t
+     /tmp/ccx5EPLQ.s:126    .text.chSemReset:00000000 chSemReset
+     /tmp/ccx5EPLQ.s:179    .text.chSemWait:00000000 $t
+     /tmp/ccx5EPLQ.s:185    .text.chSemWait:00000000 chSemWait
+     /tmp/ccx5EPLQ.s:306    .text.chSemWait:00000040 $d
+     /tmp/ccx5EPLQ.s:311    .text.chSemWaitS:00000000 $t
+     /tmp/ccx5EPLQ.s:317    .text.chSemWaitS:00000000 chSemWaitS
+     /tmp/ccx5EPLQ.s:378    .text.chSemWaitS:00000030 $d
+     /tmp/ccx5EPLQ.s:385    .text.chSemWaitTimeoutS:00000000 $t
+     /tmp/ccx5EPLQ.s:391    .text.chSemWaitTimeoutS:00000000 chSemWaitTimeoutS
+     /tmp/ccx5EPLQ.s:468    .text.chSemWaitTimeoutS:0000003c $d
+     /tmp/ccx5EPLQ.s:473    .text.chSemWaitTimeout:00000000 $t
+     /tmp/ccx5EPLQ.s:479    .text.chSemWaitTimeout:00000000 chSemWaitTimeout
+     /tmp/ccx5EPLQ.s:529    .text.chSemSignal:00000000 $t
+     /tmp/ccx5EPLQ.s:535    .text.chSemSignal:00000000 chSemSignal
+     /tmp/ccx5EPLQ.s:630    .text.chSemSignalI:00000000 $t
+     /tmp/ccx5EPLQ.s:636    .text.chSemSignalI:00000000 chSemSignalI
+     /tmp/ccx5EPLQ.s:705    .text.chSemAddCounterI:00000000 $t
+     /tmp/ccx5EPLQ.s:711    .text.chSemAddCounterI:00000000 chSemAddCounterI
+     /tmp/ccx5EPLQ.s:776    .text.chSemSignalWait:00000000 $t
+     /tmp/ccx5EPLQ.s:782    .text.chSemSignalWait:00000000 chSemSignalWait
+     /tmp/ccx5EPLQ.s:937    .text.chSemSignalWait:00000068 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

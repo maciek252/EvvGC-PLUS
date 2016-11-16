@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc3eWIkm.s 			page 1
+ARM GAS  /tmp/cc7zN5DE.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
   55              		.thumb_func
   56              		.type	chTMStartMeasurementX, %function
   57              	chTMStartMeasurementX:
-ARM GAS  /tmp/cc3eWIkm.s 			page 2
+ARM GAS  /tmp/cc7zN5DE.s 			page 2
 
 
   58              	.LFB173:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  112              	.LBB20:
  113              	.LBB21:
  114              		.loc 1 58 0
-ARM GAS  /tmp/cc3eWIkm.s 			page 3
+ARM GAS  /tmp/cc7zN5DE.s 			page 3
 
 
  115 0006 8368     		ldr	r3, [r0, #8]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  169              		.cfi_def_cfa_offset 0
  170              	.LBB27:
  171              	.LBB24:
-ARM GAS  /tmp/cc3eWIkm.s 			page 4
+ARM GAS  /tmp/cc7zN5DE.s 			page 4
 
 
  172              		.loc 1 58 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  226 000e 0026     		movs	r6, #0
  227 0010 0027     		movs	r7, #0
  228              	.LBE30:
-ARM GAS  /tmp/cc3eWIkm.s 			page 5
+ARM GAS  /tmp/cc7zN5DE.s 			page 5
 
 
  229              	.LBE32:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  283              		@ frame_needed = 0, uses_anonymous_args = 0
  284              		@ link register save eliminated.
  285              	.LVL11:
-ARM GAS  /tmp/cc3eWIkm.s 			page 6
+ARM GAS  /tmp/cc7zN5DE.s 			page 6
 
 
  286              	.LBB34:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  340 0024 4360     		strhi	r3, [r0, #4]
  341              		.loc 1 63 0
  342 0026 9342     		cmp	r3, r2
-ARM GAS  /tmp/cc3eWIkm.s 			page 7
+ARM GAS  /tmp/cc7zN5DE.s 			page 7
 
 
  343              		.loc 1 57 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  397 0019 00000000 		.4byte	0
  398 001d 00000000 		.4byte	.Ldebug_line0
  399 0021 02       		.uleb128 0x2
-ARM GAS  /tmp/cc3eWIkm.s 			page 8
+ARM GAS  /tmp/cc7zN5DE.s 			page 8
 
 
  400 0022 04       		.byte	0x4
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  454 0088 1E030000 		.4byte	.LASF11
  455 008c 04       		.uleb128 0x4
  456 008d 43020000 		.4byte	.LASF12
-ARM GAS  /tmp/cc3eWIkm.s 			page 9
+ARM GAS  /tmp/cc7zN5DE.s 			page 9
 
 
  457 0091 03       		.byte	0x3
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  511 0106 05       		.byte	0x5
  512 0107 3E       		.byte	0x3e
  513 0108 9E000000 		.4byte	0x9e
-ARM GAS  /tmp/cc3eWIkm.s 			page 10
+ARM GAS  /tmp/cc7zN5DE.s 			page 10
 
 
  514 010c 04       		.uleb128 0x4
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  568 017e 74000000 		.4byte	.LASF33
  569 0182 07       		.byte	0x7
  570 0183 C7       		.byte	0xc7
-ARM GAS  /tmp/cc3eWIkm.s 			page 11
+ARM GAS  /tmp/cc7zN5DE.s 			page 11
 
 
  571 0184 0C010000 		.4byte	0x10c
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  625 01f5 22010000 		.4byte	0x122
  626 01f9 28       		.byte	0x28
  627 01fa 08       		.uleb128 0x8
-ARM GAS  /tmp/cc3eWIkm.s 			page 12
+ARM GAS  /tmp/cc7zN5DE.s 			page 12
 
 
  628 01fb FB020000 		.4byte	.LASF42
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  682 026a 87020000 		.4byte	0x287
  683 026e 06       		.uleb128 0x6
  684 026f 32050000 		.4byte	.LASF31
-ARM GAS  /tmp/cc3eWIkm.s 			page 13
+ARM GAS  /tmp/cc7zN5DE.s 			page 13
 
 
  685 0273 07       		.byte	0x7
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  739 02e1 E5020000 		.4byte	0x2e5
  740 02e5 0B       		.uleb128 0xb
  741 02e6 F0020000 		.4byte	0x2f0
-ARM GAS  /tmp/cc3eWIkm.s 			page 14
+ARM GAS  /tmp/cc7zN5DE.s 			page 14
 
 
  742 02ea 0C       		.uleb128 0xc
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  796 035c 0C       		.byte	0xc
  797 035d 07       		.byte	0x7
  798 035e 7B01     		.2byte	0x17b
-ARM GAS  /tmp/cc3eWIkm.s 			page 15
+ARM GAS  /tmp/cc7zN5DE.s 			page 15
 
 
  799 0360 99030000 		.4byte	0x399
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  853 03d4 26040000 		.4byte	0x426
  854 03d8 08       		.uleb128 0x8
  855 03d9 48050000 		.4byte	.LASF73
-ARM GAS  /tmp/cc3eWIkm.s 			page 16
+ARM GAS  /tmp/cc7zN5DE.s 			page 16
 
 
  856 03dd 07       		.byte	0x7
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  910 044c 7C050000 		.4byte	0x57c
  911 0450 08       		.uleb128 0x8
  912 0451 81060000 		.4byte	.LASF78
-ARM GAS  /tmp/cc3eWIkm.s 			page 17
+ARM GAS  /tmp/cc7zN5DE.s 			page 17
 
 
  913 0455 08       		.byte	0x8
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  967 04ca 08       		.byte	0x8
  968 04cb 2B03     		.2byte	0x32b
  969 04cd 2D040000 		.4byte	0x42d
-ARM GAS  /tmp/cc3eWIkm.s 			page 18
+ARM GAS  /tmp/cc7zN5DE.s 			page 18
 
 
  970 04d1 24       		.byte	0x24
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1024 0546 48       		.byte	0x48
  1025 0547 08       		.uleb128 0x8
  1026 0548 CB040000 		.4byte	.LASF97
-ARM GAS  /tmp/cc3eWIkm.s 			page 19
+ARM GAS  /tmp/cc7zN5DE.s 			page 19
 
 
  1027 054c 08       		.byte	0x8
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1081 05bd 02       		.byte	0x2
  1082 05be FD       		.byte	0xfd
  1083 05bf 32060000 		.4byte	0x632
-ARM GAS  /tmp/cc3eWIkm.s 			page 20
+ARM GAS  /tmp/cc7zN5DE.s 			page 20
 
 
  1084 05c3 07       		.uleb128 0x7
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1138 0631 00       		.byte	0
  1139 0632 09       		.uleb128 0x9
  1140 0633 04       		.byte	0x4
-ARM GAS  /tmp/cc3eWIkm.s 			page 21
+ARM GAS  /tmp/cc7zN5DE.s 			page 21
 
 
  1141 0634 B7050000 		.4byte	0x5b7
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1195 069b 04       		.uleb128 0x4
  1196 069c 6A020000 		.4byte	.LASF112
  1197 06a0 0A       		.byte	0xa
-ARM GAS  /tmp/cc3eWIkm.s 			page 22
+ARM GAS  /tmp/cc7zN5DE.s 			page 22
 
 
  1198 06a1 4E       		.byte	0x4e
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1252 071a 0B       		.byte	0xb
  1253 071b 35       		.byte	0x35
  1254 071c 57020000 		.4byte	0x257
-ARM GAS  /tmp/cc3eWIkm.s 			page 23
+ARM GAS  /tmp/cc7zN5DE.s 			page 23
 
 
  1255 0720 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1309 0789 66000000 		.4byte	.LASF127
  1310 078d 11       		.uleb128 0x11
  1311 078e 93050000 		.4byte	0x593
-ARM GAS  /tmp/cc3eWIkm.s 			page 24
+ARM GAS  /tmp/cc7zN5DE.s 			page 24
 
 
  1312 0792 9D070000 		.4byte	0x79d
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1366 0802 E9070000 		.4byte	0x7e9
  1367 0806 00       		.byte	0
  1368 0807 1E       		.uleb128 0x1e
-ARM GAS  /tmp/cc3eWIkm.s 			page 25
+ARM GAS  /tmp/cc7zN5DE.s 			page 25
 
 
  1369 0808 EF070000 		.4byte	0x7ef
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1423 0883 01       		.byte	0x1
  1424 0884 81       		.byte	0x81
  1425 0885 24       		.uleb128 0x24
-ARM GAS  /tmp/cc3eWIkm.s 			page 26
+ARM GAS  /tmp/cc7zN5DE.s 			page 26
 
 
  1426 0886 BB070000 		.4byte	0x7bb
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1480 0900 00       		.sleb128 0
  1481 0901 00       		.byte	0
  1482 0902 2A       		.uleb128 0x2a
-ARM GAS  /tmp/cc3eWIkm.s 			page 27
+ARM GAS  /tmp/cc7zN5DE.s 			page 27
 
 
  1483 0903 2A000000 		.4byte	.LVL8
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1537 0978 00       		.byte	0
  1538 0979 00       		.byte	0
  1539 097a 2E       		.uleb128 0x2e
-ARM GAS  /tmp/cc3eWIkm.s 			page 28
+ARM GAS  /tmp/cc7zN5DE.s 			page 28
 
 
  1540 097b 11050000 		.4byte	.LASF135
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1594 0028 16       		.uleb128 0x16
  1595 0029 00       		.byte	0
  1596 002a 03       		.uleb128 0x3
-ARM GAS  /tmp/cc3eWIkm.s 			page 29
+ARM GAS  /tmp/cc7zN5DE.s 			page 29
 
 
  1597 002b 0E       		.uleb128 0xe
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1651 0061 08       		.uleb128 0x8
  1652 0062 0D       		.uleb128 0xd
  1653 0063 00       		.byte	0
-ARM GAS  /tmp/cc3eWIkm.s 			page 30
+ARM GAS  /tmp/cc7zN5DE.s 			page 30
 
 
  1654 0064 03       		.uleb128 0x3
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1708 009a 00       		.byte	0
  1709 009b 0B       		.uleb128 0xb
  1710 009c 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc3eWIkm.s 			page 31
+ARM GAS  /tmp/cc7zN5DE.s 			page 31
 
 
  1711 009d 00       		.byte	0
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1765 00d3 3A       		.uleb128 0x3a
  1766 00d4 0B       		.uleb128 0xb
  1767 00d5 3B       		.uleb128 0x3b
-ARM GAS  /tmp/cc3eWIkm.s 			page 32
+ARM GAS  /tmp/cc7zN5DE.s 			page 32
 
 
  1768 00d6 05       		.uleb128 0x5
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1822 010c 0B       		.uleb128 0xb
  1823 010d 01       		.uleb128 0x1
  1824 010e 13       		.uleb128 0x13
-ARM GAS  /tmp/cc3eWIkm.s 			page 33
+ARM GAS  /tmp/cc7zN5DE.s 			page 33
 
 
  1825 010f 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1879 0145 3A       		.uleb128 0x3a
  1880 0146 0B       		.uleb128 0xb
  1881 0147 3B       		.uleb128 0x3b
-ARM GAS  /tmp/cc3eWIkm.s 			page 34
+ARM GAS  /tmp/cc7zN5DE.s 			page 34
 
 
  1882 0148 0B       		.uleb128 0xb
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1936 017f 1F       		.uleb128 0x1f
  1937 0180 05       		.uleb128 0x5
  1938 0181 00       		.byte	0
-ARM GAS  /tmp/cc3eWIkm.s 			page 35
+ARM GAS  /tmp/cc7zN5DE.s 			page 35
 
 
  1939 0182 31       		.uleb128 0x31
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  1993 01b9 06       		.uleb128 0x6
  1994 01ba 58       		.uleb128 0x58
  1995 01bb 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc3eWIkm.s 			page 36
+ARM GAS  /tmp/cc7zN5DE.s 			page 36
 
 
  1996 01bc 59       		.uleb128 0x59
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2050 01f2 02       		.uleb128 0x2
  2051 01f3 18       		.uleb128 0x18
  2052 01f4 00       		.byte	0
-ARM GAS  /tmp/cc3eWIkm.s 			page 37
+ARM GAS  /tmp/cc7zN5DE.s 			page 37
 
 
  2053 01f5 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2107 0232 3B       		.uleb128 0x3b
  2108 0233 0B       		.uleb128 0xb
  2109 0234 49       		.uleb128 0x49
-ARM GAS  /tmp/cc3eWIkm.s 			page 38
+ARM GAS  /tmp/cc7zN5DE.s 			page 38
 
 
  2110 0235 13       		.uleb128 0x13
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2164 026b 05       		.uleb128 0x5
  2165 026c 49       		.uleb128 0x49
  2166 026d 13       		.uleb128 0x13
-ARM GAS  /tmp/cc3eWIkm.s 			page 39
+ARM GAS  /tmp/cc7zN5DE.s 			page 39
 
 
  2167 026e 3F       		.uleb128 0x3f
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2221 0073 F3       		.byte	0xf3
  2222 0074 01       		.uleb128 0x1
  2223 0075 51       		.byte	0x51
-ARM GAS  /tmp/cc3eWIkm.s 			page 40
+ARM GAS  /tmp/cc7zN5DE.s 			page 40
 
 
  2224 0076 9F       		.byte	0x9f
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2278 0038 00000000 		.4byte	0
  2279 003c 00000000 		.4byte	0
  2280 0040 08000000 		.4byte	.LBB28
-ARM GAS  /tmp/cc3eWIkm.s 			page 41
+ARM GAS  /tmp/cc7zN5DE.s 			page 41
 
 
  2281 0044 0C000000 		.4byte	.LBE28
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2324      6974696E 
  2324      6700
  2325              	.LASF133:
-ARM GAS  /tmp/cc3eWIkm.s 			page 42
+ARM GAS  /tmp/cc7zN5DE.s 			page 42
 
 
  2326 002a 746D7031 		.ascii	"tmp1\000"
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2356      6D6500
  2357              	.LASF129:
  2358 00af 6368544D 		.ascii	"chTMStartMeasurementX\000"
-ARM GAS  /tmp/cc3eWIkm.s 			page 43
+ARM GAS  /tmp/cc7zN5DE.s 			page 43
 
 
  2358      53746172 
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2382      00
  2383              	.LASF122:
  2384 014d 735F636E 		.ascii	"s_cnt\000"
-ARM GAS  /tmp/cc3eWIkm.s 			page 44
+ARM GAS  /tmp/cc7zN5DE.s 			page 44
 
 
  2384      7400
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2410 01ee 776F7273 		.ascii	"worst\000"
  2410      7400
  2411              	.LASF66:
-ARM GAS  /tmp/cc3eWIkm.s 			page 45
+ARM GAS  /tmp/cc7zN5DE.s 			page 45
 
 
  2412 01f4 63685F76 		.ascii	"ch_virtual_timers_list\000"
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2438      6D655F74 
  2438      00
  2439              	.LASF22:
-ARM GAS  /tmp/cc3eWIkm.s 			page 46
+ARM GAS  /tmp/cc7zN5DE.s 			page 46
 
 
  2440 028f 74737461 		.ascii	"tstate_t\000"
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2467              	.LASF87:
  2468 033a 4D41534B 		.ascii	"MASK0\000"
  2468      3000
-ARM GAS  /tmp/cc3eWIkm.s 			page 47
+ARM GAS  /tmp/cc7zN5DE.s 			page 47
 
 
  2469              	.LASF91:
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2492      616C6962 
  2492      72617469 
  2492      6F6E5F74 
-ARM GAS  /tmp/cc3eWIkm.s 			page 48
+ARM GAS  /tmp/cc7zN5DE.s 			page 48
 
 
  2492      00
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2520      65756500 
  2521              	.LASF8:
  2522 04fc 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  /tmp/cc3eWIkm.s 			page 49
+ARM GAS  /tmp/cc7zN5DE.s 			page 49
 
 
  2522      20696E74 
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2550      6420696E 
  2550      7400
  2551              	.LASF51:
-ARM GAS  /tmp/cc3eWIkm.s 			page 50
+ARM GAS  /tmp/cc7zN5DE.s 			page 50
 
 
  2552 058b 72656164 		.ascii	"ready_list_t\000"
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2582 0619 43594343 		.ascii	"CYCCNT\000"
  2582      4E5400
  2583              	.LASF126:
-ARM GAS  /tmp/cc3eWIkm.s 			page 51
+ARM GAS  /tmp/cc7zN5DE.s 			page 51
 
 
  2584 0620 6D5F6E65 		.ascii	"m_next\000"
@@ -3041,25 +3041,25 @@ ARM GAS  /tmp/cc3eWIkm.s 			page 1
  2604 0681 4354524C 		.ascii	"CTRL\000"
  2604      00
  2605              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc3eWIkm.s 			page 52
+ARM GAS  /tmp/cc7zN5DE.s 			page 52
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chtm.c
-     /tmp/cc3eWIkm.s:19     .text.chTMObjectInit:00000000 $t
-     /tmp/cc3eWIkm.s:25     .text.chTMObjectInit:00000000 chTMObjectInit
-     /tmp/cc3eWIkm.s:51     .text.chTMStartMeasurementX:00000000 $t
-     /tmp/cc3eWIkm.s:57     .text.chTMStartMeasurementX:00000000 chTMStartMeasurementX
-     /tmp/cc3eWIkm.s:79     .text.chTMStartMeasurementX:00000008 $d
-     /tmp/cc3eWIkm.s:84     .text.chTMStopMeasurementX:00000000 $t
-     /tmp/cc3eWIkm.s:90     .text.chTMStopMeasurementX:00000000 chTMStopMeasurementX
-     /tmp/cc3eWIkm.s:184    .text.chTMStopMeasurementX:0000003c $d
-     /tmp/cc3eWIkm.s:190    .text._tm_init:00000000 $t
-     /tmp/cc3eWIkm.s:196    .text._tm_init:00000000 _tm_init
-     /tmp/cc3eWIkm.s:267    .text._tm_init:00000034 $d
-     /tmp/cc3eWIkm.s:272    .text.chTMChainMeasurementToX:00000000 $t
-     /tmp/cc3eWIkm.s:278    .text.chTMChainMeasurementToX:00000000 chTMChainMeasurementToX
-     /tmp/cc3eWIkm.s:370    .text.chTMChainMeasurementToX:00000038 $d
+     /tmp/cc7zN5DE.s:19     .text.chTMObjectInit:00000000 $t
+     /tmp/cc7zN5DE.s:25     .text.chTMObjectInit:00000000 chTMObjectInit
+     /tmp/cc7zN5DE.s:51     .text.chTMStartMeasurementX:00000000 $t
+     /tmp/cc7zN5DE.s:57     .text.chTMStartMeasurementX:00000000 chTMStartMeasurementX
+     /tmp/cc7zN5DE.s:79     .text.chTMStartMeasurementX:00000008 $d
+     /tmp/cc7zN5DE.s:84     .text.chTMStopMeasurementX:00000000 $t
+     /tmp/cc7zN5DE.s:90     .text.chTMStopMeasurementX:00000000 chTMStopMeasurementX
+     /tmp/cc7zN5DE.s:184    .text.chTMStopMeasurementX:0000003c $d
+     /tmp/cc7zN5DE.s:190    .text._tm_init:00000000 $t
+     /tmp/cc7zN5DE.s:196    .text._tm_init:00000000 _tm_init
+     /tmp/cc7zN5DE.s:267    .text._tm_init:00000034 $d
+     /tmp/cc7zN5DE.s:272    .text.chTMChainMeasurementToX:00000000 $t
+     /tmp/cc7zN5DE.s:278    .text.chTMChainMeasurementToX:00000000 chTMChainMeasurementToX
+     /tmp/cc7zN5DE.s:370    .text.chTMChainMeasurementToX:00000038 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

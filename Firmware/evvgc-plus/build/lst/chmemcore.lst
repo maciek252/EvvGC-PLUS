@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccamfnyq.s 			page 1
+ARM GAS  /tmp/ccoTdK8D.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
   55 0020 00000000 		.word	.LANCHOR0
   56 0024 00000000 		.word	.LANCHOR1
   57              		.cfi_endproc
-ARM GAS  /tmp/ccamfnyq.s 			page 2
+ARM GAS  /tmp/ccoTdK8D.s 			page 2
 
 
   58              	.LFE170:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  112              	.LVL4:
  113 001e 2360     		strls	r3, [r4]
  114              		.loc 1 145 0
-ARM GAS  /tmp/ccamfnyq.s 			page 3
+ARM GAS  /tmp/ccoTdK8D.s 			page 3
 
 
  115 0020 1046     		movls	r0, r2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  169              		.loc 1 138 0
  170 0002 084B     		ldr	r3, .L14
  171 0004 084C     		ldr	r4, .L14+4
-ARM GAS  /tmp/ccamfnyq.s 			page 4
+ARM GAS  /tmp/ccoTdK8D.s 			page 4
 
 
  172 0006 1968     		ldr	r1, [r3]
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  226 0008 C01A     		subs	r0, r0, r3
  227 000a 7047     		bx	lr
  228              	.L18:
-ARM GAS  /tmp/ccamfnyq.s 			page 5
+ARM GAS  /tmp/ccoTdK8D.s 			page 5
 
 
  229              		.align	2
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  283 0029 E6010000 		.4byte	.LASF2
  284 002d 03       		.byte	0x3
  285 002e D4       		.byte	0xd4
-ARM GAS  /tmp/ccamfnyq.s 			page 6
+ARM GAS  /tmp/ccoTdK8D.s 			page 6
 
 
  286 002f 33000000 		.4byte	0x33
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  340 0098 04020000 		.4byte	.LASF13
  341 009c 04       		.byte	0x4
  342 009d 5B       		.byte	0x5b
-ARM GAS  /tmp/ccamfnyq.s 			page 7
+ARM GAS  /tmp/ccoTdK8D.s 			page 7
 
 
  343 009e A2000000 		.4byte	0xa2
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  397 0113 CA000000 		.4byte	0xca
  398 0117 03       		.uleb128 0x3
  399 0118 9B020000 		.4byte	.LASF25
-ARM GAS  /tmp/ccamfnyq.s 			page 8
+ARM GAS  /tmp/ccoTdK8D.s 			page 8
 
 
  400 011c 06       		.byte	0x6
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  454 018b 3E020000 		.4byte	.LASF34
  455 018f 08       		.byte	0x8
  456 0190 DD       		.byte	0xdd
-ARM GAS  /tmp/ccamfnyq.s 			page 9
+ARM GAS  /tmp/ccoTdK8D.s 			page 9
 
 
  457 0191 F6000000 		.4byte	0xf6
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  511 0204 0C010000 		.4byte	0x10c
  512 0208 30       		.byte	0x30
  513 0209 08       		.uleb128 0x8
-ARM GAS  /tmp/ccamfnyq.s 			page 10
+ARM GAS  /tmp/ccoTdK8D.s 			page 10
 
 
  514 020a 5A020000 		.4byte	.LASF43
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  568 027a 04       		.byte	0x4
  569 027b 00       		.byte	0
  570 027c 03       		.uleb128 0x3
-ARM GAS  /tmp/ccamfnyq.s 			page 11
+ARM GAS  /tmp/ccoTdK8D.s 			page 11
 
 
  571 027d C2040000 		.4byte	.LASF50
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  625 02ee F2020000 		.4byte	0x2f2
  626 02f2 0A       		.uleb128 0xa
  627 02f3 62010000 		.4byte	.LASF58
-ARM GAS  /tmp/ccamfnyq.s 			page 12
+ARM GAS  /tmp/ccoTdK8D.s 			page 12
 
 
  628 02f7 14       		.byte	0x14
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  682 036b 08       		.byte	0x8
  683 036c 7E01     		.2byte	0x17e
  684 036e B7050000 		.4byte	0x5b7
-ARM GAS  /tmp/ccamfnyq.s 			page 13
+ARM GAS  /tmp/ccoTdK8D.s 			page 13
 
 
  685 0372 04       		.byte	0x4
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  739 03e6 14       		.byte	0x14
  740 03e7 07       		.uleb128 0x7
  741 03e8 64626700 		.ascii	"dbg\000"
-ARM GAS  /tmp/ccamfnyq.s 			page 14
+ARM GAS  /tmp/ccoTdK8D.s 			page 14
 
 
  742 03ec 08       		.byte	0x8
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  796 0458 FD       		.byte	0xfd
  797 0459 CC040000 		.4byte	0x4cc
  798 045d 07       		.uleb128 0x7
-ARM GAS  /tmp/ccamfnyq.s 			page 15
+ARM GAS  /tmp/ccoTdK8D.s 			page 15
 
 
  799 045e 723400   		.ascii	"r4\000"
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  853 04cc 09       		.uleb128 0x9
  854 04cd 04       		.byte	0x4
  855 04ce 51040000 		.4byte	0x451
-ARM GAS  /tmp/ccamfnyq.s 			page 16
+ARM GAS  /tmp/ccoTdK8D.s 			page 16
 
 
  856 04d2 10       		.uleb128 0x10
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  910 0547 08       		.byte	0x8
  911 0548 2F01     		.2byte	0x12f
  912 054a 22010000 		.4byte	0x122
-ARM GAS  /tmp/ccamfnyq.s 			page 17
+ARM GAS  /tmp/ccoTdK8D.s 			page 17
 
 
  913 054e 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  967 05b7 09       		.uleb128 0x9
  968 05b8 04       		.byte	0x4
  969 05b9 E7020000 		.4byte	0x2e7
-ARM GAS  /tmp/ccamfnyq.s 			page 18
+ARM GAS  /tmp/ccoTdK8D.s 			page 18
 
 
  970 05bd 13       		.uleb128 0x13
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1024 062d 0F020000 		.4byte	.LASF101
  1025 0631 0E       		.byte	0xe
  1026 0632 5A01     		.2byte	0x15a
-ARM GAS  /tmp/ccamfnyq.s 			page 19
+ARM GAS  /tmp/ccoTdK8D.s 			page 19
 
 
  1027 0634 03       		.byte	0x3
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1081 06ab B7050000 		.4byte	.LASF108
  1082 06af 01       		.byte	0x1
  1083 06b0 51       		.byte	0x51
-ARM GAS  /tmp/ccamfnyq.s 			page 20
+ARM GAS  /tmp/ccoTdK8D.s 			page 20
 
 
  1084 06b1 B6060000 		.4byte	0x6b6
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1138 072f 35060000 		.4byte	0x635
  1139 0733 08000000 		.4byte	.LBB30
  1140 0737 1C000000 		.4byte	.LBE30-.LBB30
-ARM GAS  /tmp/ccamfnyq.s 			page 21
+ARM GAS  /tmp/ccoTdK8D.s 			page 21
 
 
  1141 073b 01       		.byte	0x1
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1195 07b8 45060000 		.4byte	0x645
  1196 07bc 62000000 		.4byte	.LLST2
  1197 07c0 28       		.uleb128 0x28
-ARM GAS  /tmp/ccamfnyq.s 			page 22
+ARM GAS  /tmp/ccoTdK8D.s 			page 22
 
 
  1198 07c1 50060000 		.4byte	0x650
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1252 0000 01       		.uleb128 0x1
  1253 0001 11       		.uleb128 0x11
  1254 0002 01       		.byte	0x1
-ARM GAS  /tmp/ccamfnyq.s 			page 23
+ARM GAS  /tmp/ccoTdK8D.s 			page 23
 
 
  1255 0003 25       		.uleb128 0x25
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1309 0039 0B       		.uleb128 0xb
  1310 003a 0B       		.uleb128 0xb
  1311 003b 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccamfnyq.s 			page 24
+ARM GAS  /tmp/ccoTdK8D.s 			page 24
 
 
  1312 003c 0B       		.uleb128 0xb
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1366 0072 00       		.byte	0
  1367 0073 0B       		.uleb128 0xb
  1368 0074 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccamfnyq.s 			page 25
+ARM GAS  /tmp/ccoTdK8D.s 			page 25
 
 
  1369 0075 49       		.uleb128 0x49
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1423 00ab 13       		.uleb128 0x13
  1424 00ac 00       		.byte	0
  1425 00ad 00       		.byte	0
-ARM GAS  /tmp/ccamfnyq.s 			page 26
+ARM GAS  /tmp/ccoTdK8D.s 			page 26
 
 
  1426 00ae 0F       		.uleb128 0xf
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1480 00e4 13       		.uleb128 0x13
  1481 00e5 35       		.uleb128 0x35
  1482 00e6 00       		.byte	0
-ARM GAS  /tmp/ccamfnyq.s 			page 27
+ARM GAS  /tmp/ccoTdK8D.s 			page 27
 
 
  1483 00e7 49       		.uleb128 0x49
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1537 011d 05       		.uleb128 0x5
  1538 011e 49       		.uleb128 0x49
  1539 011f 13       		.uleb128 0x13
-ARM GAS  /tmp/ccamfnyq.s 			page 28
+ARM GAS  /tmp/ccoTdK8D.s 			page 28
 
 
  1540 0120 00       		.byte	0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1594 0156 03       		.uleb128 0x3
  1595 0157 08       		.uleb128 0x8
  1596 0158 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccamfnyq.s 			page 29
+ARM GAS  /tmp/ccoTdK8D.s 			page 29
 
 
  1597 0159 0B       		.uleb128 0xb
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1651 0190 49       		.uleb128 0x49
  1652 0191 13       		.uleb128 0x13
  1653 0192 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccamfnyq.s 			page 30
+ARM GAS  /tmp/ccoTdK8D.s 			page 30
 
 
  1654 0193 19       		.uleb128 0x19
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1708 01ca 01       		.byte	0x1
  1709 01cb 31       		.uleb128 0x31
  1710 01cc 13       		.uleb128 0x13
-ARM GAS  /tmp/ccamfnyq.s 			page 31
+ARM GAS  /tmp/ccoTdK8D.s 			page 31
 
 
  1711 01cd 11       		.uleb128 0x11
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1765 0203 28       		.uleb128 0x28
  1766 0204 34       		.uleb128 0x34
  1767 0205 00       		.byte	0
-ARM GAS  /tmp/ccamfnyq.s 			page 32
+ARM GAS  /tmp/ccoTdK8D.s 			page 32
 
 
  1768 0206 31       		.uleb128 0x31
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1822 023d 3B       		.uleb128 0x3b
  1823 023e 0B       		.uleb128 0xb
  1824 023f 27       		.uleb128 0x27
-ARM GAS  /tmp/ccamfnyq.s 			page 33
+ARM GAS  /tmp/ccoTdK8D.s 			page 33
 
 
  1825 0240 19       		.uleb128 0x19
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1879 0277 49       		.uleb128 0x49
  1880 0278 13       		.uleb128 0x13
  1881 0279 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccamfnyq.s 			page 34
+ARM GAS  /tmp/ccoTdK8D.s 			page 34
 
 
  1882 027a 19       		.uleb128 0x19
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1936              	.LLST2:
  1937 0062 00000000 		.4byte	.LVL7
  1938 0066 0C000000 		.4byte	.LVL8
-ARM GAS  /tmp/ccamfnyq.s 			page 35
+ARM GAS  /tmp/ccoTdK8D.s 			page 35
 
 
  1939 006a 0100     		.2byte	0x1
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  1993              	.Ldebug_ranges0:
  1994 0000 00000000 		.4byte	.LFB170
  1995 0004 28000000 		.4byte	.LFE170
-ARM GAS  /tmp/ccamfnyq.s 			page 36
+ARM GAS  /tmp/ccoTdK8D.s 			page 36
 
 
  1996 0008 00000000 		.4byte	.LFB171
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  2026      6E657200 
  2027              	.LASF91:
  2028 0069 735F7175 		.ascii	"s_queue\000"
-ARM GAS  /tmp/ccamfnyq.s 			page 37
+ARM GAS  /tmp/ccoTdK8D.s 			page 37
 
 
  2028      65756500 
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  2054      6E635F74 
  2054      00
  2055              	.LASF117:
-ARM GAS  /tmp/ccamfnyq.s 			page 38
+ARM GAS  /tmp/ccoTdK8D.s 			page 38
 
 
  2056 0103 6368436F 		.ascii	"chCoreGetStatusX\000"
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  2081              	.LASF105:
  2082 019b 63685379 		.ascii	"chSysUnlock\000"
  2082      73556E6C 
-ARM GAS  /tmp/ccamfnyq.s 			page 39
+ARM GAS  /tmp/ccoTdK8D.s 			page 39
 
 
  2082      6F636B00 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  2109              	.LASF22:
  2110 0235 74737461 		.ascii	"tstate_t\000"
  2110      74655F74 
-ARM GAS  /tmp/ccamfnyq.s 			page 40
+ARM GAS  /tmp/ccoTdK8D.s 			page 40
 
 
  2110      00
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  2135 033a 69676E2D 		.ascii	"ign-functions=16 -ffunction-sections -fdata-section"
  2135      66756E63 
  2135      74696F6E 
-ARM GAS  /tmp/ccamfnyq.s 			page 41
+ARM GAS  /tmp/ccoTdK8D.s 			page 41
 
 
  2135      733D3136 
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  2162      7400
  2163              	.LASF55:
  2164 041b 725F6375 		.ascii	"r_current\000"
-ARM GAS  /tmp/ccamfnyq.s 			page 42
+ARM GAS  /tmp/ccoTdK8D.s 			page 42
 
 
  2164      7272656E 
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  2192      00
  2193              	.LASF23:
  2194 04a8 74726566 		.ascii	"trefs_t\000"
-ARM GAS  /tmp/ccamfnyq.s 			page 43
+ARM GAS  /tmp/ccoTdK8D.s 			page 43
 
 
  2194      735F7400 
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  2222      65642063 
  2222      68617200 
  2223              	.LASF7:
-ARM GAS  /tmp/ccamfnyq.s 			page 44
+ARM GAS  /tmp/ccoTdK8D.s 			page 44
 
 
  2224 0549 73686F72 		.ascii	"short unsigned int\000"
@@ -2628,27 +2628,27 @@ ARM GAS  /tmp/ccamfnyq.s 			page 1
  2246      6E645F5F 
  2246      00
  2247              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccamfnyq.s 			page 45
+ARM GAS  /tmp/ccoTdK8D.s 			page 45
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmemcore.c
-     /tmp/ccamfnyq.s:19     .text._core_init:00000000 $t
-     /tmp/ccamfnyq.s:25     .text._core_init:00000000 _core_init
-     /tmp/ccamfnyq.s:53     .text._core_init:00000018 $d
-     /tmp/ccamfnyq.s:61     .text.chCoreAlloc:00000000 $t
-     /tmp/ccamfnyq.s:67     .text.chCoreAlloc:00000000 chCoreAlloc
-     /tmp/ccamfnyq.s:146    .text.chCoreAlloc:00000030 $d
-     /tmp/ccamfnyq.s:152    .text.chCoreAllocI:00000000 $t
-     /tmp/ccamfnyq.s:158    .text.chCoreAllocI:00000000 chCoreAllocI
-     /tmp/ccamfnyq.s:201    .text.chCoreAllocI:00000024 $d
-     /tmp/ccamfnyq.s:207    .text.chCoreGetStatusX:00000000 $t
-     /tmp/ccamfnyq.s:213    .text.chCoreGetStatusX:00000000 chCoreGetStatusX
-     /tmp/ccamfnyq.s:231    .text.chCoreGetStatusX:0000000c $d
-     /tmp/ccamfnyq.s:237    .bss.endmem:00000000 $d
-     /tmp/ccamfnyq.s:241    .bss.endmem:00000000 endmem
-     /tmp/ccamfnyq.s:244    .bss.nextmem:00000000 $d
-     /tmp/ccamfnyq.s:248    .bss.nextmem:00000000 nextmem
+     /tmp/ccoTdK8D.s:19     .text._core_init:00000000 $t
+     /tmp/ccoTdK8D.s:25     .text._core_init:00000000 _core_init
+     /tmp/ccoTdK8D.s:53     .text._core_init:00000018 $d
+     /tmp/ccoTdK8D.s:61     .text.chCoreAlloc:00000000 $t
+     /tmp/ccoTdK8D.s:67     .text.chCoreAlloc:00000000 chCoreAlloc
+     /tmp/ccoTdK8D.s:146    .text.chCoreAlloc:00000030 $d
+     /tmp/ccoTdK8D.s:152    .text.chCoreAllocI:00000000 $t
+     /tmp/ccoTdK8D.s:158    .text.chCoreAllocI:00000000 chCoreAllocI
+     /tmp/ccoTdK8D.s:201    .text.chCoreAllocI:00000024 $d
+     /tmp/ccoTdK8D.s:207    .text.chCoreGetStatusX:00000000 $t
+     /tmp/ccoTdK8D.s:213    .text.chCoreGetStatusX:00000000 chCoreGetStatusX
+     /tmp/ccoTdK8D.s:231    .text.chCoreGetStatusX:0000000c $d
+     /tmp/ccoTdK8D.s:237    .bss.endmem:00000000 $d
+     /tmp/ccoTdK8D.s:241    .bss.endmem:00000000 endmem
+     /tmp/ccoTdK8D.s:244    .bss.nextmem:00000000 $d
+     /tmp/ccoTdK8D.s:248    .bss.nextmem:00000000 nextmem
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

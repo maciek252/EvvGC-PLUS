@@ -153,7 +153,7 @@ static void telemetryNegativeResponse(const PMessage pMsg) {
  * @return none.
  */
 static void telemetryProcessCommand(const PMessage pMsg) {
-  chnWrite(g_chnp, "otrzymao" + pMsg->msg_id, 20);  
+  //chnWrite(g_chnp, "otrzymao" + pMsg->msg_id, 20);
     
   switch (pMsg->msg_id) {
   case 'D': /* Reads new sensor settings; */
@@ -385,21 +385,30 @@ void telemetryReadSerialDataMS(void) {
  * @return none.
  */
 void telemetryReadSerialData(void) {
+	volatile int readSoFar = 0;
   osalSysLock();
   /* The following function must be called from within a system lock zone. */
   size_t bytesAvailable = chIQGetFullI(&((SerialDriver *)g_chnp)->iqueue);
   osalSysUnlock();
   //led_b = false;
   
+#if 0
+  if(bytesAvailable> 0){
+	volatile int read2 = chnRead(g_chnp, msgPos, bytesAvailable);
+	readSoFar += read2;
+  }
+#endif
+
   bytesRequired = 1;
   
   while (bytesAvailable) {
-    chnWrite(g_chnp, "b" , 1);  
+    //chnWrite(g_chnp, "b" , 1);
     if (bytesAvailable >= bytesRequired) {
       if (bytesRequired > 0) {
 //        palTogglePad(GPIOA, GPIOA_LED_B);
         led_b = true;
-        chnRead(g_chnp, msgPos, bytesRequired);
+        volatile int read = chnRead(g_chnp, msgPos, bytesRequired);
+        readSoFar += read;
         msgPos += bytesRequired;
         bytesAvailable -= bytesRequired;
         bytesRequired = 0;
@@ -414,12 +423,12 @@ void telemetryReadSerialData(void) {
     size_t curReadLen = msgPos - (uint8_t *)&msg;
     if (!IS_MSG_VALID()) {
       telemetryReadSerialDataResync(curReadLen);
-      chnWrite(g_chnp, "Tykoi" , 10);  
+      //chnWrite(g_chnp, "test1 not valid" , 10);
     } else if (curReadLen == TELEMETRY_MSG_HDR_SIZE) {
       bytesRequired = msg.size - TELEMETRY_MSG_HDR_SIZE;
-      chnWrite(g_chnp, "Jezewo" , 10);  
+      //chnWrite(g_chnp, "test msg valid" , 10);
     } else if (bytesRequired == 0) {
-    chnWrite(g_chnp, "otrzymao" , 10);  
+    //chnWrite(g_chnp, "otrzyma 0" , 10);
       /* Whole packet is read, check and process it... */
       /* Move CRC */
       memmove(&msg.crc, (uint8_t *)&msg + msg.size - TELEMETRY_MSG_CRC_SIZE,

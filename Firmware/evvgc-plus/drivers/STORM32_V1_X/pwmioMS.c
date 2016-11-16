@@ -14,6 +14,7 @@
     limitations under the License.
 */
 
+
 #include "hal.h"
 //#include "eicu.h"
 
@@ -65,8 +66,6 @@
 #define constrainLeft(val,left)     ((val)<(left)?(left):(val))
 #define constrainRight(val,right)   ((val)>(right)?(right):(val))
 
-
-
 /**
  * Forward declarations:
  */
@@ -87,7 +86,7 @@ PWMOutputStruct g_pwmOutput[3] = {
    0x00,                   /* Flags;           */
    PWM_OUT_CMD_DISABLED},
   {0,                      /* Motor power;     */
-   16,                     /* Number of poles; */
+   14,                     /* Number of poles; */
    0x00,                   /* Flags;           */
    PWM_OUT_CMD_DISABLED}
 };
@@ -96,15 +95,15 @@ PWMOutputStruct g_pwmOutput[3] = {
  * Default settings for generic inputs.
  */
 MixedInputStruct g_mixedInput[3] = {
-  {1001,                   /* Min value;      */
+  {1000,                   /* Min value;      */
    1500,                   /* Mid value;      */
    2000,                   /* Max value;      */
    INPUT_CHANNEL_DISABLED},/* Input channel#; */
-  {1002,                   /* Min value;      */
+  {1000,                   /* Min value;      */
    1500,                   /* Mid value;      */
    2000,                   /* Max value;      */
    INPUT_CHANNEL_DISABLED},/* Input channel#; */
-  {1003,                   /* Min value;      */
+  {1000,                   /* Min value;      */
    1500,                   /* Mid value;      */
    2000,                   /* Max value;      */
    INPUT_CHANNEL_DISABLED} /* Input channel#; */
@@ -115,30 +114,115 @@ MixedInputStruct g_mixedInput[3] = {
  */
 int16_t g_inputValues[5] = {0};
 
+static void pwmpcb(PWMDriver *pwmp) {
+
+  (void)pwmp;
+  //palClearPad(GPIOB, GPIOB_LED_1);
+  //palClearPad(GPIOB, GPIOB_LED_0);
+}
+
+
+
+static void pwmc1cb(PWMDriver *pwmp) {
+
+  (void)pwmp;
+  palSetPad(GPIOB, GPIOB_LED_1);
+
+}
+
+static void startPWD2(PWMDriver *pwmp) {
+
+  (void)pwmp;
+//  palClearPad(GPIOB, GPIOB_LED_1);
+  //palClearPad(GPIOB, GPIOB_LED_0);
+  //palClearPad(GPIOC, 0);
+    //palClearPad(GPIOC, 1);
+    //palClearPad(GPIOA, 0);
+}
+
+
+static void pwmc2cB(PWMDriver *pwmp) {
+
+  (void)pwmp;
+  //palSetPad(GPIOB, GPIOB_LED_0);
+}
+
+
+static void pwmc21cB(PWMDriver *pwmp) {
+
+  (void)pwmp;
+  //palSetPad(GPIOC, 0);
+
+}
+
+static void pwmc22cB(PWMDriver *pwmp) {
+
+  (void)pwmp;
+  //palSetPad(GPIOC, 1);
+
+}
+
+static void startPWD3(PWMDriver *pwmp) {
+
+  (void)pwmp;
+//  palClearPad(GPIOB, GPIOB_LED_1);
+  //palClearPad(GPIOB, GPIOB_LED_0);
+  palClearPad(GPIOB, 0);
+  palClearPad(GPIOA, 1);
+    //palClearPad(GPIOC, 1);
+    //palClearPad(GPIOA, 0);
+}
+
+
+static void pwmc30cB(PWMDriver *pwmp) {
+
+  (void)pwmp;
+  palSetPad(GPIOB, 0);
+}
+
+
+static void pwmc31cB(PWMDriver *pwmp) {
+
+  (void)pwmp;
+  //palSetPad(GPIOC, 0);
+  toggleSetPad(GPIOA, 1);
+
+}
+
+static void pwmc32cB(PWMDriver *pwmp) {
+
+  (void)pwmp;
+  //palSetPad(GPIOC, 1);
+
+}
+
+static void pwmc33cB(PWMDriver *pwmp) {
+
+  (void)pwmp;
+  //palSetPad(GPIOA, 0);
+}
+
+
+
 /**
  * PWM configuration structure for TIM1 and TIM8 output.
  */
-
-/*
- * {PWM_OUTPUT_ACTIVE_HIGH | PWM_COMPLEMENTARY_OUTPUT_ACTIVE_HIGH, NULL}, // CH1
-    {PWM_OUTPUT_ACTIVE_HIGH | PWM_COMPLEMENTARY_OUTPUT_ACTIVE_HIGH, NULL}, // CH2
-    {PWM_OUTPUT_ACTIVE_HIGH | PWM_COMPLEMENTARY_OUTPUT_ACTIVE_HIGH, NULL}, // CH3
-    {PWM_OUTPUT_DISABLED,                                           NULL}  // CH4
- */
-
 static PWMConfig pwmcfg_d1_d8 = {
-  10000,//PWM_CLK, /* PWM clock frequency (72 MHz). */
-  10000,//2000,     /* PWM period (1/18000 s) in ticks
-          //     for center-aligned mode.      */
+		10000,//PWM_CLK, /* PWM clock frequency (72 MHz). */
+		10000, //2000,
+		/* PWM period (1/18000 s) in ticks
+               for center-aligned mode.      */
   NULL,     /* Callback disabled.            */
+  //pwmpcb,
   {         /* PWM channel configuration:    */
-    {PWM_OUTPUT_ACTIVE_HIGH| PWM_COMPLEMENTARY_OUTPUT_ACTIVE_HIGH, NULL}, /* CH1 */
-	{NULL,NULL},
-	{NULL,NULL},
-	{NULL,NULL}
-	//{PWM_OUTPUT_ACTIVE_HIGH, NULL}, /* CH2 */
-    //{PWM_OUTPUT_ACTIVE_HIGH, NULL}, /* CH3 */
-    //{PWM_OUTPUT_ACTIVE_HIGH,                                           NULL}  /* CH4 */
+		  {PWM_OUTPUT_ACTIVE_HIGH /*| PWM_COMPLEMENTARY_OUTPUT_ACTIVE_HIGH*/, NULL}, /* CH1 */
+    //{PWM_OUTPUT_ACTIVE_HIGH /*| PWM_COMPLEMENTARY_OUTPUT_ACTIVE_HIGH*/, pwmc1cb}, /* CH1 */
+	{PWM_OUTPUT_ACTIVE_HIGH /*| PWM_COMPLEMENTARY_OUTPUT_ACTIVE_HIGH*/, NULL}, /* CH1 */
+    //{PWM_OUTPUT_ACTIVE_HIGH | PWM_COMPLEMENTARY_OUTPUT_ACTIVE_HIGH, NULL}, /* CH2 */
+	//{PWM_OUTPUT_DISABLED,                                           NULL},  /* CH4 */
+    //{PWM_OUTPUT_ACTIVE_HIGH | PWM_COMPLEMENTARY_OUTPUT_ACTIVE_HIGH, NULL}, /* CH3 */
+	{PWM_OUTPUT_DISABLED,                                           NULL},  /* CH4 */
+    {PWM_OUTPUT_DISABLED,                                           NULL}  /* CH4 */
   },
   0, /* CR2 register value. */
 #if STM32_PWM_USE_ADVANCED
@@ -154,21 +238,31 @@ static PWMConfig pwmcfg_d1_d8 = {
   0  /* DIER register value. */
 };
 
-
-
 /**
  * PWM configuration structure for TIM2 output.
  */
 static const PWMConfig pwmcfg_d2 = {
-  PWM_CLK, /* PWM clock frequency (72 MHz). */
-  PERIOD_PWM,     /* PWM period (1/18000 s) in ticks
-        //       for center-aligned mode.      */
-  NULL,     /* Callback disabled.            */
+  10000,//PWM_CLK, /* PWM clock frequency (72 MHz). */
+  10000,
+  //PERIOD_PWM,
+  /* PWM period (1/18000 s) in ticks
+               for center-aligned mode.      */
+  NULL,
+  //startPWD2,//NULL,     /* Callback disabled.            */
   {         /* PWM channel configuration:    */
-    {PWM_OUTPUT_DISABLED, NULL},  // CH1: NC
-    {PWM_OUTPUT_ACTIVE_HIGH, NULL}, // CH1: M1-B1
-    {PWM_OUTPUT_ACTIVE_HIGH, NULL},  // CH1: M1-A1
-    {PWM_OUTPUT_ACTIVE_HIGH,    NULL}  // CH1: M1-A0
+    //{PWM_OUTPUT_DISABLED, pwmc2cB},  // CH1: NC
+		  {PWM_OUTPUT_ACTIVE_HIGH,
+				  NULL},
+				  //pwmc2cB},  // CH1: NC
+    {PWM_OUTPUT_ACTIVE_HIGH,
+    		NULL},
+    		//pwmc21cB}, // CH1: M1-B1
+    {PWM_OUTPUT_ACTIVE_HIGH,
+    		NULL},
+    		//pwmc22cB},  // CH1: M1-A1
+    {PWM_OUTPUT_ACTIVE_HIGH,
+    		NULL}
+    		//pwmc23cB}  // CH1: M1-A0
   },
   0, /* CR2 register value. */
 #if STM32_PWM_USE_ADVANCED
@@ -179,13 +273,15 @@ static const PWMConfig pwmcfg_d2 = {
  * PWM configuration structure for TIM3 output.
  */
 static const PWMConfig pwmcfg_d3 = {
-  PWM_CLK, /* PWM clock frequency (72 MHz). */
-  PERIOD_PWM,     /* PWM period (1/18000 s) in ticks
-          //     for center-aligned mode.      */
-  NULL,     /* Callback disabled.            */
+  10000,//PWM_CLK, /* PWM clock frequency (72 MHz). */
+  10000,PERIOD_PWM,     /* PWM period (1/18000 s) in ticks
+               for center-aligned mode.      */
+  NULL,//startPWD3,     /* Callback disabled.            */
   {         /* PWM channel configuration:    */
-    {PWM_OUTPUT_ACTIVE_HIGH, NULL}, // CH1: M0-A0
-    {PWM_OUTPUT_ACTIVE_HIGH, NULL}, 	// CH2: M0-A1
+    {PWM_OUTPUT_ACTIVE_HIGH, NULL},
+	//pwmc30cB}, // CH1: M0-A0
+    {PWM_OUTPUT_ACTIVE_HIGH, NULL},
+	//pwmc31cB}, 	// CH2: M0-A1
     {PWM_OUTPUT_ACTIVE_HIGH, NULL}, // CH3: M0-B0
     {PWM_OUTPUT_ACTIVE_HIGH,    NULL}// CH4: M0-B1
   },
@@ -495,61 +591,6 @@ static void pwmOutputUpdateYaw(void) {
   chSysUnlock();
 }
 
-void start2(){
-
-#if 1
-  pwmStart(&PWMD2, &pwmcfg_d2);
-#if 1
-  pwmEnablePeriodicNotification(&PWMD2);
-  //pwmEnableChannelNotification(&PWMD2, 0);
-  pwmEnableChannelNotification(&PWMD2, 1);
-  pwmEnableChannelNotification(&PWMD2, 2);
-  pwmEnableChannelNotification(&PWMD2, 3);
-  //palSetPadMode(GPIOB, 0, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-  //palSetPadMode(GPIOB, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-#endif
-
-  // tu jest problem!!
-#if 1
-  //pwmEnableChannel(&PWMD2, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD2, 5700));
-  // to wlacza YawM
-  pwmEnableChannel(&PWMD2, 1, PWM_PERCENTAGE_TO_WIDTH(&PWMD2, 5000));
-  pwmEnableChannel(&PWMD2, 2, PWM_PERCENTAGE_TO_WIDTH(&PWMD2, 5000));
-  // a to RollM
-  pwmEnableChannel(&PWMD2, 3, PWM_PERCENTAGE_TO_WIDTH(&PWMD2, 5000));
-#endif
-
-#endif
-}
-
-void start3(){
-
-#if 1
-  pwmStart(&PWMD3, &pwmcfg_d3);
-#if 1
-  pwmEnablePeriodicNotification(&PWMD3);
-  //pwmEnableChannelNotification(&PWMD2, 0);
-  pwmEnableChannelNotification(&PWMD3, 1);
-  pwmEnableChannelNotification(&PWMD3, 2);
-  pwmEnableChannelNotification(&PWMD3, 3);
-  //palSetPadMode(GPIOB, 0, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-  //palSetPadMode(GPIOB, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-#endif
-
-  // tu jest problem!!
-#if 1
-  pwmEnableChannel(&PWMD3, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD3, 5700));
-  // to wlacza YawM
-  pwmEnableChannel(&PWMD3, 1, PWM_PERCENTAGE_TO_WIDTH(&PWMD3, 2000));
-  pwmEnableChannel(&PWMD3, 2, PWM_PERCENTAGE_TO_WIDTH(&PWMD3, 5000));
-  // a to RollM
-  pwmEnableChannel(&PWMD3, 3, PWM_PERCENTAGE_TO_WIDTH(&PWMD3, 9000));
-#endif
-
-#endif
-}
-
-
 /**
  * @brief  Starts the PWM output.
  * @note   The pwmStart() function used in this code is not
@@ -557,164 +598,106 @@ void start3(){
  *         one with STM32_TIM_CR1_CEN flag removed.
  * @return none.
  */
-
-static PWMConfig pwm1cfg = {
-  10,//8000000,          /* 8MHz PWM clock frequency.   */
-  10,//US2ST(200),
-  //10000,//US2ST(20),          /* PWM period 20us.       */
-  NULL,
-  {
-  {PWM_OUTPUT_ACTIVE_HIGH | PWM_COMPLEMENTARY_OUTPUT_ACTIVE_LOW, NULL}, /* PWM4, CH1 */
-  {PWM_OUTPUT_ACTIVE_HIGH | PWM_COMPLEMENTARY_OUTPUT_ACTIVE_LOW, NULL}, /* PWM4, CH2 */
-  {PWM_OUTPUT_ACTIVE_HIGH | PWM_COMPLEMENTARY_OUTPUT_ACTIVE_LOW, NULL}, /* PWM4, CH3 */
-  {PWM_OUTPUT_DISABLED, NULL}
-  },
-  0,
-  0
-};
-
 void pwmOutputStart(void) {
 
+#if 1
   pwmcfg_d1_d8.cr2 = STM32_TIM_CR2_MMS(1); // Master mode set to Enable;
+
   /* Configure TIM1 as master timer: */
   pwmStart(&PWMD1, &pwmcfg_d1_d8);
+  pwmEnablePeriodicNotification(&PWMD1);
+
+  palSetPadMode(GPIOB, 8, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
+  palSetPadMode(GPIOA, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
+  palSetPadMode(GPIOB, 0, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
+  palSetPadMode(GPIOB, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
+
+  //return;
+
   PWMD1.tim->CR1 &= ~STM32_TIM_CR1_CEN;
 
-  pwmStart(&PWMD2, &pwmcfg_d2);
-  pwmStart(&PWMD3, &pwmcfg_d3);
-  pwmStart(&PWMD4, &pwmcfg_d4);
+  //pwmEnableChannel(&PWMD1, 0, 5000);
+  pwmEnableChannel(&PWMD1, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 1200));
+  pwmEnableChannelNotification(&PWMD1, 0);
+  pwmEnableChannel(&PWMD1, 1, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 5000));
+  pwmEnableChannel(&PWMD1, 2, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 7000));
+  pwmEnableChannel(&PWMD1, 3, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 1200));
+    pwmEnableChannelNotification(&PWMD1, 1);
+  //pwmEnableChannel(&PWMD1, 1, 5000);
+  //pwmEnableChannel(&PWMD1, 2, 5000);
 
-  // Timers started, but not in sync. So we stop them and reset.
-  PWMD2.tim->CR1 &= ~STM32_TIM_CR1_CEN;
-  PWMD3.tim->CR1 &= ~STM32_TIM_CR1_CEN;
-  PWMD4.tim->CR1 &= ~STM32_TIM_CR1_CEN;
-  PWMD2.tim->CNT  = 0;
-  PWMD3.tim->CNT  = 0;
-  PWMD4.tim->CNT  = 0;
+  while(TRUE){
 
-  /* Configure TIM2 as slave timer: */
-  PWMD2.tim->SMCR =
-    STM32_TIM_SMCR_SMS(6) | // Trigger Mode;
-    STM32_TIM_SMCR_TS(0);   // Trigger event comes from TIM1;
+  	      chThdSleepMilliseconds(5000);
 
-  /* Configure TIM3 as slave timer: */
-  PWMD3.tim->SMCR =
-    STM32_TIM_SMCR_SMS(6) | // Trigger Mode;
-    STM32_TIM_SMCR_TS(0);   // Trigger event comes from TIM1;
+    }
 
-  /* Configure TIM4 as slave timer: */
-  PWMD4.tim->SMCR =
-    STM32_TIM_SMCR_SMS(6) | // Trigger Mode;
-    STM32_TIM_SMCR_TS(0);   // Trigger event comes from TIM1;
-
-  /* Switch to center-aligned mode 1 and start timers. */
-  PWMD2.tim->CR1 |= (STM32_TIM_CR1_CMS(1)); // This is a slave timer - do not start;
-  PWMD3.tim->CR1 |= (STM32_TIM_CR1_CMS(1)); // This is a slave timer - do not start;
-  PWMD4.tim->CR1 |= (STM32_TIM_CR1_CMS(1)); // This is a slave timer - do not start;
-
-  PWMD1.tim->CR1 |= (STM32_TIM_CR1_CMS(1) | STM32_TIM_CR1_CEN);;
-
-  float pos = 0.0;
-  while(true){
-
-  	//pwmOutputUpdate(PWM_OUT_PITCH, 0.2);
-
-  	pwmOutputCmdTo3PhasePWM(pos, 90, false);
-  	pos += 0.7;
-  	pos = fmodf(pos + M_PI, M_TWOPI) - M_PI;
-  	//pwmOutputUpdatePitch();
-  	pwmOutputUpdateRoll();
-
-  	chThdSleepMilliseconds(500);
-
-  }
+  while (TRUE) {
+     chThdSleepMilliseconds(1000);
+     pwmEnableChannel(&PWMD1, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 5000));
+     chThdSleepMilliseconds(1000);
+     pwmEnableChannel(&PWMD1, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 2500));
+     chThdSleepMilliseconds(1000);
+     pwmEnableChannel(&PWMD1, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 0000));
+     chThdSleepMilliseconds(1000);
+     pwmEnableChannel(&PWMD1, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 9900));
+   }
 
 
-}
 
-
-void pwmOutputStartMS(void) {
-start2();
-start3();
-//return;
-
-//(g_pwmOutput[PWM_OUT_PITCH].power = 200;
-
-float pos = 0.0;
-while(true){
-
-	//pwmOutputUpdate(PWM_OUT_PITCH, 0.2);
-
-	pwmOutputCmdTo3PhasePWM(pos, 90, false);
-	pos += 0.7;
-	pos = fmodf(pos + M_PI, M_TWOPI) - M_PI;
-	pwmOutputUpdateRoll();
-
-	chThdSleepMilliseconds(500);
-
-}
+#endif
 
 #if 0
-	  palSetPadMode(GPIOA, 1, PAL_MODE_ALTERNATE(1));
-	  palSetPadMode(GPIOA, 2, PAL_MODE_ALTERNATE(1));
-	  palSetPadMode(GPIOA, 3, PAL_MODE_ALTERNATE(1));
-
-	  palSetPadMode(GPIOB, 0, PAL_MODE_ALTERNATE(1));
-	  palSetPadMode(GPIOB, 1, PAL_MODE_ALTERNATE(1));
-	  palSetPadMode(GPIOB, 8, PAL_MODE_ALTERNATE(1));
-#endif
-
-#if 1
-	  palSetPadMode(GPIOA, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-	  palSetPadMode(GPIOA, 2, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-	  palSetPadMode(GPIOA, 3, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-
-	  palSetPadMode(GPIOB, 0, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-	  palSetPadMode(GPIOB, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-	  palSetPadMode(GPIOB, 8, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-#endif
-	  pwmStart(&PWMD1, &pwm1cfg);
-	  pwmEnablePeriodicNotification(&PWMD1);
-	  pwmEnableChannel(&PWMD1, 0, PWM_PERCENTAGE_TO_WIDTH (&PWMD1, 1000));
-	  pwmEnableChannel(&PWMD1, 1, PWM_PERCENTAGE_TO_WIDTH (&PWMD1, 7000));
-	  pwmEnableChannel(&PWMD1, 2, PWM_PERCENTAGE_TO_WIDTH (&PWMD1, 7000));
-
-	  while(true){
-
-	  }
-
-	return;
-
-  pwmcfg_d1_d8.cr2 = STM32_TIM_CR2_MMS(1); // Master mode set to Enable;
-  /* Configure TIM1 as master timer: */
-//  pwmStart(&PWMD1, &pwmcfg_d1_d8);
-  //PWMD1.tim->CR1 &= ~STM32_TIM_CR1_CEN;
-
-  pwmStart(&PWMD1, &pwmcfg_d1_d8);
-    pwmEnablePeriodicNotification(&PWMD1);
-
-    palSetPadMode(GPIOA, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-    palSetPadMode(GPIOB, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-    //palSetPadMode(GPIOA, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-    //palSetPadMode(GPIOB, 0, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-    //palSetPadMode(GPIOB, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
-
-    //return;
-
-    //PWMD1.tim->CR1 &= ~STM32_TIM_CR1_CEN;
-
-    //pwmEnableChannel(&PWMD1, 0, 5000);
-    pwmEnableChannel(&PWMD1, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 1200));
-    pwmEnableChannelNotification(&PWMD1, 0);
-    //pwmEnableChannel(&PWMD1, 1, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 5000));
-    //pwmEnableChannel(&PWMD1, 2, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 7000));
-    //pwmEnableChannel(&PWMD1, 3, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 1200));
-//      pwmEnableChannelNotification(&PWMD1, 1);
-
-
-  return;
-
   pwmStart(&PWMD2, &pwmcfg_d2);
+#if 1
+  pwmEnablePeriodicNotification(&PWMD2);
+  pwmEnableChannelNotification(&PWMD2, 0);
+  pwmEnableChannelNotification(&PWMD2, 1);
+  pwmEnableChannelNotification(&PWMD2, 2);
+  pwmEnableChannelNotification(&PWMD2, 3);
+  //palSetPadMode(GPIOB, GPIOB_LED_1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
+//  palSetPadMode(GPIOB, GPIOB_LED_0, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
+#endif
+
+  // tu jest problem!!
+#if 1
+  //pwmEnableChannel(&PWMD2, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD2, 5700));
+  // to wlacza YawM
+  //pwmEnableChannel(&PWMD2, 1, PWM_PERCENTAGE_TO_WIDTH(&PWMD2, 5000));
+  //pwmEnableChannel(&PWMD2, 2, PWM_PERCENTAGE_TO_WIDTH(&PWMD2, 5000));
+  // a to RollM
+  //pwmEnableChannel(&PWMD2, 3, PWM_PERCENTAGE_TO_WIDTH(&PWMD2, 5000));
+#endif
+#endif
+  palSetPadMode(GPIOA, 1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
+  palSetPadMode(GPIOA, 9, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
+#if 1
+  pwmStart(&PWMD3, &pwmcfg_d3);
+#if 1
+  pwmEnablePeriodicNotification(&PWMD3);
+  pwmEnableChannelNotification(&PWMD3, 0);
+  pwmEnableChannelNotification(&PWMD3, 1);
+  //pwmEnableChannelNotification(&PWMD3, 2);
+  //pwmEnableChannelNotification(&PWMD3, 3);
+  //palSetPadMode(GPIOB, GPIOB_LED_1, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
+//  palSetPadMode(GPIOB, GPIOB_LED_0, PAL_MODE_STM32_ALTERNATE_PUSHPULL);
+#endif
+
+
+  // tu jest problem!!
+#if 0
+  pwmEnableChannel(&PWMD3, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD3, 5700));
+  // to wlacza YawM
+  pwmEnableChannel(&PWMD3, 1, PWM_PERCENTAGE_TO_WIDTH(&PWMD3, 5000));
+  //pwmEnableChannel(&PWMD2, 2, PWM_PERCENTAGE_TO_WIDTH(&PWMD3, 5000));
+  // a to RollM
+  //pwmEnableChannel(&PWMD2, 3, PWM_PERCENTAGE_TO_WIDTH(&PWMD3, 5000));
+#endif
+#endif
+
+  //pwmEnableChannel(&PWMD2, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD2, 6700));
+
+#if 0
   pwmStart(&PWMD3, &pwmcfg_d3);
   pwmStart(&PWMD4, &pwmcfg_d4);
 
@@ -747,8 +730,8 @@ while(true){
   PWMD4.tim->CR1 |= (STM32_TIM_CR1_CMS(1)); // This is a slave timer - do not start;
 
   PWMD1.tim->CR1 |= (STM32_TIM_CR1_CMS(1) | STM32_TIM_CR1_CEN);;
+#endif
 }
-
 
 /**
  * @brief  Stops the PWM output.

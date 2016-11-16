@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccoZlpry.s 			page 1
+ARM GAS  /tmp/ccM7UIIP.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
   55              		.loc 1 97 0
   56              		.cfi_startproc
   57              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccoZlpry.s 			page 2
+ARM GAS  /tmp/ccM7UIIP.s 			page 2
 
 
   58              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  112              		.loc 1 178 0
  113 0010 0160     		str	r1, [r0]
  114              	.LVL4:
-ARM GAS  /tmp/ccoZlpry.s 			page 3
+ARM GAS  /tmp/ccM7UIIP.s 			page 3
 
 
  115              	.LBE97:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  169              	.LVL8:
  170              		.loc 1 126 0
  171 0000 0368     		ldr	r3, [r0]
-ARM GAS  /tmp/ccoZlpry.s 			page 4
+ARM GAS  /tmp/ccM7UIIP.s 			page 4
 
 
  172              	.LVL9:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  226 0004 0346     		mov	r3, r0
  227              	.LBB106:
  228              	.LBB105:
-ARM GAS  /tmp/ccoZlpry.s 			page 5
+ARM GAS  /tmp/ccM7UIIP.s 			page 5
 
 
  229              	.LBB104:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  283 0020 5868     		ldr	r0, [r3, #4]
  284              	.LVL20:
  285 0022 9047     		blx	r2
-ARM GAS  /tmp/ccoZlpry.s 			page 6
+ARM GAS  /tmp/ccM7UIIP.s 			page 6
 
 
  286              	.LVL21:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  340              		.type	chPoolFree, %function
  341              	chPoolFree:
  342              	.LFB175:
-ARM GAS  /tmp/ccoZlpry.s 			page 7
+ARM GAS  /tmp/ccM7UIIP.s 			page 7
 
 
  343              		.loc 1 193 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  397              	@ 548 "/home/maciek/ChibiOS_16.1.5/os/ext/CMSIS/include/core_cmFunc.h" 1
  398 000e 83F31188 		MSR basepri, r3
  399              	@ 0 "" 2
-ARM GAS  /tmp/ccoZlpry.s 			page 8
+ARM GAS  /tmp/ccM7UIIP.s 			page 8
 
 
  400              		.thumb
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  454 003b 01       		.byte	0x1
  455 003c 06       		.byte	0x6
  456 003d B7050000 		.4byte	.LASF1
-ARM GAS  /tmp/ccoZlpry.s 			page 9
+ARM GAS  /tmp/ccM7UIIP.s 			page 9
 
 
  457 0041 03       		.uleb128 0x3
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  511 00aa 47020000 		.4byte	.LASF15
  512 00ae 05       		.byte	0x5
  513 00af 14       		.byte	0x14
-ARM GAS  /tmp/ccoZlpry.s 			page 10
+ARM GAS  /tmp/ccM7UIIP.s 			page 10
 
 
  514 00b0 41000000 		.4byte	0x41
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  568 0128 43       		.byte	0x43
  569 0129 CA000000 		.4byte	0xca
  570 012d 03       		.uleb128 0x3
-ARM GAS  /tmp/ccoZlpry.s 			page 11
+ARM GAS  /tmp/ccM7UIIP.s 			page 11
 
 
  571 012e A4010000 		.4byte	.LASF27
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  625 019d EB000000 		.4byte	0xeb
  626 01a1 11       		.byte	0x11
  627 01a2 06       		.uleb128 0x6
-ARM GAS  /tmp/ccoZlpry.s 			page 12
+ARM GAS  /tmp/ccM7UIIP.s 			page 12
 
 
  628 01a3 76050000 		.4byte	.LASF36
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  682 0217 03       		.uleb128 0x3
  683 0218 23020000 		.4byte	.LASF44
  684 021c 07       		.byte	0x7
-ARM GAS  /tmp/ccoZlpry.s 			page 13
+ARM GAS  /tmp/ccM7UIIP.s 			page 13
 
 
  685 021d 44       		.byte	0x44
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  739 028c 14       		.byte	0x14
  740 028d 08       		.byte	0x8
  741 028e 9001     		.2byte	0x190
-ARM GAS  /tmp/ccoZlpry.s 			page 14
+ARM GAS  /tmp/ccM7UIIP.s 			page 14
 
 
  742 0290 C9020000 		.4byte	0x2c9
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  796 0304 08       		.byte	0x8
  797 0305 6C01     		.2byte	0x16c
  798 0307 B7050000 		.4byte	0x5b7
-ARM GAS  /tmp/ccoZlpry.s 			page 15
+ARM GAS  /tmp/ccM7UIIP.s 			page 15
 
 
  799 030b 00       		.byte	0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  853 037f 08       		.byte	0x8
  854 0380 08       		.uleb128 0x8
  855 0381 89000000 		.4byte	.LASF66
-ARM GAS  /tmp/ccoZlpry.s 			page 16
+ARM GAS  /tmp/ccM7UIIP.s 			page 16
 
 
  856 0385 08       		.byte	0x8
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  910 03f9 08       		.byte	0x8
  911 03fa D201     		.2byte	0x1d2
  912 03fc 43010000 		.4byte	0x143
-ARM GAS  /tmp/ccoZlpry.s 			page 17
+ARM GAS  /tmp/ccM7UIIP.s 			page 17
 
 
  913 0400 24       		.byte	0x24
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  967 046a 723500   		.ascii	"r5\000"
  968 046d 0A       		.byte	0xa
  969 046e 1101     		.2byte	0x111
-ARM GAS  /tmp/ccoZlpry.s 			page 18
+ARM GAS  /tmp/ccM7UIIP.s 			page 18
 
 
  970 0470 22040000 		.4byte	0x422
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1024 04db EA010000 		.4byte	.LASF81
  1025 04df 0B       		.byte	0xb
  1026 04e0 3C       		.byte	0x3c
-ARM GAS  /tmp/ccoZlpry.s 			page 19
+ARM GAS  /tmp/ccM7UIIP.s 			page 19
 
 
  1027 04e1 E0000000 		.4byte	0xe0
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1081 055a 0C       		.byte	0xc
  1082 055b 0C       		.byte	0xc
  1083 055c 34       		.byte	0x34
-ARM GAS  /tmp/ccoZlpry.s 			page 20
+ARM GAS  /tmp/ccM7UIIP.s 			page 20
 
 
  1084 055d 7A050000 		.4byte	0x57a
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1138 05c9 CD050000 		.4byte	0x5cd
  1139 05cd 14       		.uleb128 0x14
  1140 05ce D2050000 		.4byte	0x5d2
-ARM GAS  /tmp/ccoZlpry.s 			page 21
+ARM GAS  /tmp/ccM7UIIP.s 			page 21
 
 
  1141 05d2 04       		.uleb128 0x4
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1195 0641 06       		.uleb128 0x6
  1196 0642 4F020000 		.4byte	.LASF102
  1197 0646 0F       		.byte	0xf
-ARM GAS  /tmp/ccoZlpry.s 			page 22
+ARM GAS  /tmp/ccM7UIIP.s 			page 22
 
 
  1198 0647 41       		.byte	0x41
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1252 06b2 D9060000 		.4byte	0x6d9
  1253 06b6 1C       		.uleb128 0x1c
  1254 06b7 6D7000   		.ascii	"mp\000"
-ARM GAS  /tmp/ccoZlpry.s 			page 23
+ARM GAS  /tmp/ccM7UIIP.s 			page 23
 
 
  1255 06ba 01       		.byte	0x1
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1309 0735 AB       		.byte	0xab
  1310 0736 D9060000 		.4byte	0x6d9
  1311 073a 20       		.uleb128 0x20
-ARM GAS  /tmp/ccoZlpry.s 			page 24
+ARM GAS  /tmp/ccM7UIIP.s 			page 24
 
 
  1312 073b A9030000 		.4byte	.LASF110
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1366 07ae 00000000 		.4byte	.LFB170
  1367 07b2 0A000000 		.4byte	.LFE170-.LFB170
  1368 07b6 01       		.uleb128 0x1
-ARM GAS  /tmp/ccoZlpry.s 			page 25
+ARM GAS  /tmp/ccM7UIIP.s 			page 25
 
 
  1369 07b7 9C       		.byte	0x9c
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1423 0825 01       		.byte	0x1
  1424 0826 61       		.byte	0x61
  1425 0827 E5020000 		.4byte	0x2e5
-ARM GAS  /tmp/ccoZlpry.s 			page 26
+ARM GAS  /tmp/ccM7UIIP.s 			page 26
 
 
  1426 082b 00000000 		.4byte	.LLST0
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1480 08bb 7E060000 		.4byte	0x67e
  1481 08bf 7B000000 		.4byte	.LLST6
  1482 08c3 00       		.byte	0
-ARM GAS  /tmp/ccoZlpry.s 			page 27
+ARM GAS  /tmp/ccM7UIIP.s 			page 27
 
 
  1483 08c4 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1537 094a 00       		.byte	0
  1538 094b 00       		.byte	0
  1539 094c 00       		.byte	0
-ARM GAS  /tmp/ccoZlpry.s 			page 28
+ARM GAS  /tmp/ccM7UIIP.s 			page 28
 
 
  1540 094d 15       		.uleb128 0x15
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1594 09d0 FD090000 		.4byte	0x9fd
  1595 09d4 2B       		.uleb128 0x2b
  1596 09d5 8B060000 		.4byte	0x68b
-ARM GAS  /tmp/ccoZlpry.s 			page 29
+ARM GAS  /tmp/ccM7UIIP.s 			page 29
 
 
  1597 09d9 02000000 		.4byte	.LBB100
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1651 0a60 60000000 		.4byte	.Ldebug_ranges0+0x60
  1652 0a64 0A       		.byte	0xa
  1653 0a65 E301     		.2byte	0x1e3
-ARM GAS  /tmp/ccoZlpry.s 			page 30
+ARM GAS  /tmp/ccM7UIIP.s 			page 30
 
 
  1654 0a67 29       		.uleb128 0x29
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1708 0adc 00000000 		.4byte	.LBB122
  1709 0ae0 06000000 		.4byte	.LBE122-.LBB122
  1710 0ae4 10       		.byte	0x10
-ARM GAS  /tmp/ccoZlpry.s 			page 31
+ARM GAS  /tmp/ccM7UIIP.s 			page 31
 
 
  1711 0ae5 5C01     		.2byte	0x15c
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1765 0b5d 2B       		.uleb128 0x2b
  1766 0b5e 71060000 		.4byte	0x671
  1767 0b62 08000000 		.4byte	.LBB131
-ARM GAS  /tmp/ccoZlpry.s 			page 32
+ARM GAS  /tmp/ccM7UIIP.s 			page 32
 
 
  1768 0b66 90000000 		.4byte	.Ldebug_ranges0+0x90
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1822 001c 03       		.uleb128 0x3
  1823 001d 16       		.uleb128 0x16
  1824 001e 00       		.byte	0
-ARM GAS  /tmp/ccoZlpry.s 			page 33
+ARM GAS  /tmp/ccM7UIIP.s 			page 33
 
 
  1825 001f 03       		.uleb128 0x3
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1879 0055 03       		.uleb128 0x3
  1880 0056 08       		.uleb128 0x8
  1881 0057 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccoZlpry.s 			page 34
+ARM GAS  /tmp/ccM7UIIP.s 			page 34
 
 
  1882 0058 0B       		.uleb128 0xb
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1936 008e 13       		.uleb128 0x13
  1937 008f 00       		.byte	0
  1938 0090 00       		.byte	0
-ARM GAS  /tmp/ccoZlpry.s 			page 35
+ARM GAS  /tmp/ccM7UIIP.s 			page 35
 
 
  1939 0091 0C       		.uleb128 0xc
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  1993 00c7 13       		.uleb128 0x13
  1994 00c8 00       		.byte	0
  1995 00c9 00       		.byte	0
-ARM GAS  /tmp/ccoZlpry.s 			page 36
+ARM GAS  /tmp/ccM7UIIP.s 			page 36
 
 
  1996 00ca 11       		.uleb128 0x11
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2050 0100 2F       		.uleb128 0x2f
  2051 0101 0B       		.uleb128 0xb
  2052 0102 00       		.byte	0
-ARM GAS  /tmp/ccoZlpry.s 			page 37
+ARM GAS  /tmp/ccM7UIIP.s 			page 37
 
 
  2053 0103 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2107 0139 0B       		.uleb128 0xb
  2108 013a 00       		.byte	0
  2109 013b 00       		.byte	0
-ARM GAS  /tmp/ccoZlpry.s 			page 38
+ARM GAS  /tmp/ccM7UIIP.s 			page 38
 
 
  2110 013c 1B       		.uleb128 0x1b
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2164 0172 34       		.uleb128 0x34
  2165 0173 19       		.uleb128 0x19
  2166 0174 1C       		.uleb128 0x1c
-ARM GAS  /tmp/ccoZlpry.s 			page 39
+ARM GAS  /tmp/ccM7UIIP.s 			page 39
 
 
  2167 0175 0E       		.uleb128 0xe
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2221 01ab 0B       		.uleb128 0xb
  2222 01ac 3B       		.uleb128 0x3b
  2223 01ad 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccoZlpry.s 			page 40
+ARM GAS  /tmp/ccM7UIIP.s 			page 40
 
 
  2224 01ae 27       		.uleb128 0x27
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2278 01e5 0B       		.uleb128 0xb
  2279 01e6 3B       		.uleb128 0x3b
  2280 01e7 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccoZlpry.s 			page 41
+ARM GAS  /tmp/ccM7UIIP.s 			page 41
 
 
  2281 01e8 49       		.uleb128 0x49
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2335 021e 00       		.byte	0
  2336 021f 00       		.byte	0
  2337 0220 2A       		.uleb128 0x2a
-ARM GAS  /tmp/ccoZlpry.s 			page 42
+ARM GAS  /tmp/ccM7UIIP.s 			page 42
 
 
  2338 0221 1D       		.uleb128 0x1d
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2392 0257 2F       		.uleb128 0x2f
  2393 0258 34       		.uleb128 0x34
  2394 0259 00       		.byte	0
-ARM GAS  /tmp/ccoZlpry.s 			page 43
+ARM GAS  /tmp/ccM7UIIP.s 			page 43
 
 
  2395 025a 31       		.uleb128 0x31
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2449 0291 0B       		.uleb128 0xb
  2450 0292 3B       		.uleb128 0x3b
  2451 0293 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccoZlpry.s 			page 44
+ARM GAS  /tmp/ccM7UIIP.s 			page 44
 
 
  2452 0294 49       		.uleb128 0x49
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2506 02cb 00       		.byte	0
  2507 02cc 00       		.byte	0
  2508 02cd 37       		.uleb128 0x37
-ARM GAS  /tmp/ccoZlpry.s 			page 45
+ARM GAS  /tmp/ccM7UIIP.s 			page 45
 
 
  2509 02ce 34       		.uleb128 0x34
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2563 0304 19       		.uleb128 0x19
  2564 0305 00       		.byte	0
  2565 0306 00       		.byte	0
-ARM GAS  /tmp/ccoZlpry.s 			page 46
+ARM GAS  /tmp/ccM7UIIP.s 			page 46
 
 
  2566 0307 3B       		.uleb128 0x3b
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2620 0058 00000000 		.4byte	0
  2621              	.LLST3:
  2622 005c 08000000 		.4byte	.LVL2
-ARM GAS  /tmp/ccoZlpry.s 			page 47
+ARM GAS  /tmp/ccM7UIIP.s 			page 47
 
 
  2623 0060 1C000000 		.4byte	.LVL6
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2677 00eb F3       		.byte	0xf3
  2678 00ec 01       		.uleb128 0x1
  2679 00ed 50       		.byte	0x50
-ARM GAS  /tmp/ccoZlpry.s 			page 48
+ARM GAS  /tmp/ccM7UIIP.s 			page 48
 
 
  2680 00ee 9F       		.byte	0x9f
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2734 0172 50       		.byte	0x50
  2735 0173 0C000000 		.4byte	.LVL16
  2736 0177 14000000 		.4byte	.LVL18
-ARM GAS  /tmp/ccoZlpry.s 			page 49
+ARM GAS  /tmp/ccM7UIIP.s 			page 49
 
 
  2737 017b 0100     		.2byte	0x1
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2791 0006 00000000 		.4byte	.Ldebug_info0
  2792 000a 04       		.byte	0x4
  2793 000b 00       		.byte	0
-ARM GAS  /tmp/ccoZlpry.s 			page 50
+ARM GAS  /tmp/ccM7UIIP.s 			page 50
 
 
  2794 000c 0000     		.2byte	0
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2848 0090 08000000 		.4byte	.LBB128
  2849 0094 0A000000 		.4byte	.LBE128
  2850 0098 0E000000 		.4byte	.LBB138
-ARM GAS  /tmp/ccoZlpry.s 			page 51
+ARM GAS  /tmp/ccM7UIIP.s 			page 51
 
 
  2851 009c 14000000 		.4byte	.LBE138
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2884      00
  2885              	.LASF77:
  2886 0055 72656761 		.ascii	"regarm_t\000"
-ARM GAS  /tmp/ccoZlpry.s 			page 52
+ARM GAS  /tmp/ccM7UIIP.s 			page 52
 
 
  2886      726D5F74 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2914      5F6C6973 
  2914      7400
  2915              	.LASF75:
-ARM GAS  /tmp/ccoZlpry.s 			page 53
+ARM GAS  /tmp/ccM7UIIP.s 			page 53
 
 
  2916 00eb 69646C65 		.ascii	"idle_thread_wa\000"
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2942 017a 6C6F6E67 		.ascii	"long long unsigned int\000"
  2942      206C6F6E 
  2942      6720756E 
-ARM GAS  /tmp/ccoZlpry.s 			page 54
+ARM GAS  /tmp/ccM7UIIP.s 			page 54
 
 
  2942      7369676E 
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2971              	.LASF61:
  2972 021a 76745F64 		.ascii	"vt_delta\000"
  2972      656C7461 
-ARM GAS  /tmp/ccoZlpry.s 			page 55
+ARM GAS  /tmp/ccM7UIIP.s 			page 55
 
 
  2972      00
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  2999      20726576 
  2999      6973696F 
  2999      6E203232 
-ARM GAS  /tmp/ccoZlpry.s 			page 56
+ARM GAS  /tmp/ccM7UIIP.s 			page 56
 
 
  2999      34323838 
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  3022 03ff 705F6D73 		.ascii	"p_msg\000"
  3022      6700
  3023              	.LASF21:
-ARM GAS  /tmp/ccoZlpry.s 			page 57
+ARM GAS  /tmp/ccM7UIIP.s 			page 57
 
 
  3024 0405 746D6F64 		.ascii	"tmode_t\000"
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  3051              	.LASF112:
  3052 0497 5F5F7365 		.ascii	"__set_BASEPRI\000"
  3052      745F4241 
-ARM GAS  /tmp/ccoZlpry.s 			page 58
+ARM GAS  /tmp/ccM7UIIP.s 			page 58
 
 
  3052      53455052 
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  3080 0524 6368506F 		.ascii	"chPoolFreeI\000"
  3080      6F6C4672 
  3080      65654900 
-ARM GAS  /tmp/ccoZlpry.s 			page 59
+ARM GAS  /tmp/ccM7UIIP.s 			page 59
 
 
  3081              	.LASF17:
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  3110 05c3 73686F72 		.ascii	"short unsigned int\000"
  3110      7420756E 
  3110      7369676E 
-ARM GAS  /tmp/ccoZlpry.s 			page 60
+ARM GAS  /tmp/ccM7UIIP.s 			page 60
 
 
  3110      65642069 
@@ -3573,23 +3573,23 @@ ARM GAS  /tmp/ccoZlpry.s 			page 1
  3126      726F7669 
  3126      64657200 
  3127              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccoZlpry.s 			page 61
+ARM GAS  /tmp/ccM7UIIP.s 			page 61
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmempools.c
-     /tmp/ccoZlpry.s:19     .text.chPoolObjectInit:00000000 $t
-     /tmp/ccoZlpry.s:25     .text.chPoolObjectInit:00000000 chPoolObjectInit
-     /tmp/ccoZlpry.s:47     .text.chPoolLoadArray:00000000 $t
-     /tmp/ccoZlpry.s:53     .text.chPoolLoadArray:00000000 chPoolLoadArray
-     /tmp/ccoZlpry.s:156    .text.chPoolAllocI:00000000 $t
-     /tmp/ccoZlpry.s:162    .text.chPoolAllocI:00000000 chPoolAllocI
-     /tmp/ccoZlpry.s:198    .text.chPoolAlloc:00000000 $t
-     /tmp/ccoZlpry.s:204    .text.chPoolAlloc:00000000 chPoolAlloc
-     /tmp/ccoZlpry.s:311    .text.chPoolFreeI:00000000 $t
-     /tmp/ccoZlpry.s:317    .text.chPoolFreeI:00000000 chPoolFreeI
-     /tmp/ccoZlpry.s:335    .text.chPoolFree:00000000 $t
-     /tmp/ccoZlpry.s:341    .text.chPoolFree:00000000 chPoolFree
+     /tmp/ccM7UIIP.s:19     .text.chPoolObjectInit:00000000 $t
+     /tmp/ccM7UIIP.s:25     .text.chPoolObjectInit:00000000 chPoolObjectInit
+     /tmp/ccM7UIIP.s:47     .text.chPoolLoadArray:00000000 $t
+     /tmp/ccM7UIIP.s:53     .text.chPoolLoadArray:00000000 chPoolLoadArray
+     /tmp/ccM7UIIP.s:156    .text.chPoolAllocI:00000000 $t
+     /tmp/ccM7UIIP.s:162    .text.chPoolAllocI:00000000 chPoolAllocI
+     /tmp/ccM7UIIP.s:198    .text.chPoolAlloc:00000000 $t
+     /tmp/ccM7UIIP.s:204    .text.chPoolAlloc:00000000 chPoolAlloc
+     /tmp/ccM7UIIP.s:311    .text.chPoolFreeI:00000000 $t
+     /tmp/ccM7UIIP.s:317    .text.chPoolFreeI:00000000 chPoolFreeI
+     /tmp/ccM7UIIP.s:335    .text.chPoolFree:00000000 $t
+     /tmp/ccM7UIIP.s:341    .text.chPoolFree:00000000 chPoolFree
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

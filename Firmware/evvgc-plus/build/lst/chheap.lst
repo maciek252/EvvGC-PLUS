@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccmifiCu.s 			page 1
+ARM GAS  /tmp/ccOEoOUI.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
   55              	.LFE170:
   56              		.size	_heap_init, .-_heap_init
   57              		.section	.text.chHeapObjectInit,"ax",%progbits
-ARM GAS  /tmp/ccmifiCu.s 			page 2
+ARM GAS  /tmp/ccOEoOUI.s 			page 2
 
 
   58              		.align	2
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  112              		.cfi_offset 3, -24
  113              		.cfi_offset 4, -20
  114              		.cfi_offset 5, -16
-ARM GAS  /tmp/ccmifiCu.s 			page 3
+ARM GAS  /tmp/ccOEoOUI.s 			page 3
 
 
  115              		.cfi_offset 6, -12
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  169 003e 00B3     		cbz	r0, .L13
  170              		.loc 1 193 0
  171 0040 0660     		str	r6, [r0]
-ARM GAS  /tmp/ccmifiCu.s 			page 4
+ARM GAS  /tmp/ccOEoOUI.s 			page 4
 
 
  172              		.loc 1 194 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  226              	.LVL25:
  227              	.L13:
  228              		.loc 1 203 0
-ARM GAS  /tmp/ccmifiCu.s 			page 5
+ARM GAS  /tmp/ccOEoOUI.s 			page 5
 
 
  229 0082 0024     		movs	r4, #0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  283 001a AB42     		cmp	r3, r5
  284 001c 04D0     		beq	.L24
  285              	.L36:
-ARM GAS  /tmp/ccmifiCu.s 			page 6
+ARM GAS  /tmp/ccOEoOUI.s 			page 6
 
 
  286              		.loc 1 229 0 is_stmt 0 discriminator 2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  340              	.LVL37:
  341              		.loc 1 249 0
  342 005e FFF7FEBF 		b	chMtxUnlock
-ARM GAS  /tmp/ccmifiCu.s 			page 7
+ARM GAS  /tmp/ccOEoOUI.s 			page 7
 
 
  343              	.LVL38:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  397              		.cfi_startproc
  398              		@ args = 0, pretend = 0, frame = 0
  399              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccmifiCu.s 			page 8
+ARM GAS  /tmp/ccOEoOUI.s 			page 8
 
 
  400              	.LVL41:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  454 0036 70BD     		pop	{r4, r5, r6, pc}
  455              	.LVL49:
  456              	.L44:
-ARM GAS  /tmp/ccmifiCu.s 			page 9
+ARM GAS  /tmp/ccOEoOUI.s 			page 9
 
 
  457              		.loc 1 276 0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  507 0022 04       		.byte	0x4
  508 0023 05       		.byte	0x5
  509 0024 696E7400 		.ascii	"int\000"
-ARM GAS  /tmp/ccmifiCu.s 			page 10
+ARM GAS  /tmp/ccOEoOUI.s 			page 10
 
 
  510 0028 03       		.uleb128 0x3
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  564 0091 08       		.byte	0x8
  565 0092 05       		.byte	0x5
  566 0093 D7020000 		.4byte	.LASF12
-ARM GAS  /tmp/ccmifiCu.s 			page 11
+ARM GAS  /tmp/ccOEoOUI.s 			page 11
 
 
  567 0097 03       		.uleb128 0x3
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  621 010c 03       		.uleb128 0x3
  622 010d 74010000 		.4byte	.LASF24
  623 0111 05       		.byte	0x5
-ARM GAS  /tmp/ccmifiCu.s 			page 12
+ARM GAS  /tmp/ccOEoOUI.s 			page 12
 
 
  624 0112 40       		.byte	0x40
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  678 0184 C8       		.byte	0xc8
  679 0185 38040000 		.4byte	0x438
  680 0189 0C       		.byte	0xc
-ARM GAS  /tmp/ccmifiCu.s 			page 13
+ARM GAS  /tmp/ccOEoOUI.s 			page 13
 
 
  681 018a 06       		.uleb128 0x6
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  735 01fc 08       		.uleb128 0x8
  736 01fd 5C040000 		.4byte	.LASF42
  737 0201 07       		.byte	0x7
-ARM GAS  /tmp/ccmifiCu.s 			page 14
+ARM GAS  /tmp/ccOEoOUI.s 			page 14
 
 
  738 0202 5101     		.2byte	0x151
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  792 0270 F9040000 		.4byte	.LASF31
  793 0274 07       		.byte	0x7
  794 0275 B9       		.byte	0xb9
-ARM GAS  /tmp/ccmifiCu.s 			page 15
+ARM GAS  /tmp/ccOEoOUI.s 			page 15
 
 
  795 0276 22020000 		.4byte	0x222
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  849 02e7 03       		.uleb128 0x3
  850 02e8 F4030000 		.4byte	.LASF57
  851 02ec 06       		.byte	0x6
-ARM GAS  /tmp/ccmifiCu.s 			page 16
+ARM GAS  /tmp/ccOEoOUI.s 			page 16
 
 
  852 02ed 61       		.byte	0x61
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  906 0361 B7050000 		.4byte	0x5b7
  907 0365 00       		.byte	0
  908 0366 08       		.uleb128 0x8
-ARM GAS  /tmp/ccmifiCu.s 			page 17
+ARM GAS  /tmp/ccOEoOUI.s 			page 17
 
 
  909 0367 E5050000 		.4byte	.LASF60
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  963 03db CF000000 		.4byte	.LASF73
  964 03df 07       		.byte	0x7
  965 03e0 CA01     		.2byte	0x1ca
-ARM GAS  /tmp/ccmifiCu.s 			page 18
+ARM GAS  /tmp/ccOEoOUI.s 			page 18
 
 
  966 03e2 41030000 		.4byte	0x341
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1020 0451 05       		.uleb128 0x5
  1021 0452 A3040000 		.4byte	.LASF80
  1022 0456 24       		.byte	0x24
-ARM GAS  /tmp/ccmifiCu.s 			page 19
+ARM GAS  /tmp/ccOEoOUI.s 			page 19
 
 
  1023 0457 09       		.byte	0x9
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1077 04c4 1801     		.2byte	0x118
  1078 04c6 22040000 		.4byte	0x422
  1079 04ca 20       		.byte	0x20
-ARM GAS  /tmp/ccmifiCu.s 			page 20
+ARM GAS  /tmp/ccOEoOUI.s 			page 20
 
 
  1080 04cb 00       		.byte	0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1134 053c 2701     		.2byte	0x127
  1135 053e B1050000 		.4byte	0x5b1
  1136 0542 12       		.uleb128 0x12
-ARM GAS  /tmp/ccmifiCu.s 			page 21
+ARM GAS  /tmp/ccOEoOUI.s 			page 21
 
 
  1137 0543 F3000000 		.4byte	.LASF89
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1191 05b0 00       		.byte	0
  1192 05b1 09       		.uleb128 0x9
  1193 05b2 04       		.byte	0x4
-ARM GAS  /tmp/ccmifiCu.s 			page 22
+ARM GAS  /tmp/ccOEoOUI.s 			page 22
 
 
  1194 05b3 80050000 		.4byte	0x580
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1248 062b 0E       		.byte	0xe
  1249 062c 4F       		.byte	0x4f
  1250 062d 56060000 		.4byte	0x656
-ARM GAS  /tmp/ccmifiCu.s 			page 23
+ARM GAS  /tmp/ccOEoOUI.s 			page 23
 
 
  1251 0631 06       		.uleb128 0x6
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1305 0698 75060000 		.4byte	0x675
  1306 069c 09       		.uleb128 0x9
  1307 069d 04       		.byte	0x4
-ARM GAS  /tmp/ccmifiCu.s 			page 24
+ARM GAS  /tmp/ccOEoOUI.s 			page 24
 
 
  1308 069e 1A060000 		.4byte	0x61a
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1362 070e 1F       		.uleb128 0x1f
  1363 070f 62756600 		.ascii	"buf\000"
  1364 0713 01       		.byte	0x1
-ARM GAS  /tmp/ccmifiCu.s 			page 25
+ARM GAS  /tmp/ccOEoOUI.s 			page 25
 
 
  1365 0714 72       		.byte	0x72
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1419 078b 93       		.byte	0x93
  1420 078c 9C060000 		.4byte	0x69c
  1421 0790 7D000000 		.4byte	.LLST4
-ARM GAS  /tmp/ccmifiCu.s 			page 26
+ARM GAS  /tmp/ccOEoOUI.s 			page 26
 
 
  1422 0794 1E       		.uleb128 0x1e
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1476 0803 08       		.sleb128 8
  1477 0804 00       		.byte	0
  1478 0805 25       		.uleb128 0x25
-ARM GAS  /tmp/ccmifiCu.s 			page 27
+ARM GAS  /tmp/ccOEoOUI.s 			page 27
 
 
  1479 0806 64000000 		.4byte	.LVL22
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1533 087d 77       		.byte	0x77
  1534 087e 00       		.sleb128 0
  1535 087f 00       		.byte	0
-ARM GAS  /tmp/ccmifiCu.s 			page 28
+ARM GAS  /tmp/ccOEoOUI.s 			page 28
 
 
  1536 0880 27       		.uleb128 0x27
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1590 0906 28000000 		.4byte	0x28
  1591 090a 5C030000 		.4byte	.LLST17
  1592 090e 23       		.uleb128 0x23
-ARM GAS  /tmp/ccmifiCu.s 			page 29
+ARM GAS  /tmp/ccOEoOUI.s 			page 29
 
 
  1593 090f 16000000 		.4byte	.LVL43
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1647 097c 0C       		.byte	0xc
  1648 097d 68       		.byte	0x68
  1649 097e 88090000 		.4byte	0x988
-ARM GAS  /tmp/ccmifiCu.s 			page 30
+ARM GAS  /tmp/ccOEoOUI.s 			page 30
 
 
  1650 0982 0C       		.uleb128 0xc
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1704 0029 04       		.uleb128 0x4
  1705 002a 24       		.uleb128 0x24
  1706 002b 00       		.byte	0
-ARM GAS  /tmp/ccmifiCu.s 			page 31
+ARM GAS  /tmp/ccOEoOUI.s 			page 31
 
 
  1707 002c 0B       		.uleb128 0xb
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1761 0062 0D       		.uleb128 0xd
  1762 0063 00       		.byte	0
  1763 0064 03       		.uleb128 0x3
-ARM GAS  /tmp/ccmifiCu.s 			page 32
+ARM GAS  /tmp/ccOEoOUI.s 			page 32
 
 
  1764 0065 0E       		.uleb128 0xe
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1818 009b 0B       		.uleb128 0xb
  1819 009c 0B       		.uleb128 0xb
  1820 009d 00       		.byte	0
-ARM GAS  /tmp/ccmifiCu.s 			page 33
+ARM GAS  /tmp/ccOEoOUI.s 			page 33
 
 
  1821 009e 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1875 00d4 13       		.uleb128 0x13
  1876 00d5 00       		.byte	0
  1877 00d6 00       		.byte	0
-ARM GAS  /tmp/ccmifiCu.s 			page 34
+ARM GAS  /tmp/ccOEoOUI.s 			page 34
 
 
  1878 00d7 12       		.uleb128 0x12
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1932 010d 00       		.byte	0
  1933 010e 00       		.byte	0
  1934 010f 18       		.uleb128 0x18
-ARM GAS  /tmp/ccmifiCu.s 			page 35
+ARM GAS  /tmp/ccOEoOUI.s 			page 35
 
 
  1935 0110 0D       		.uleb128 0xd
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  1989 0146 01       		.uleb128 0x1
  1990 0147 12       		.uleb128 0x12
  1991 0148 06       		.uleb128 0x6
-ARM GAS  /tmp/ccmifiCu.s 			page 36
+ARM GAS  /tmp/ccOEoOUI.s 			page 36
 
 
  1992 0149 40       		.uleb128 0x40
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2046 0186 02       		.uleb128 0x2
  2047 0187 17       		.uleb128 0x17
  2048 0188 00       		.byte	0
-ARM GAS  /tmp/ccmifiCu.s 			page 37
+ARM GAS  /tmp/ccOEoOUI.s 			page 37
 
 
  2049 0189 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2103 01c0 23       		.uleb128 0x23
  2104 01c1 898201   		.uleb128 0x4109
  2105 01c4 01       		.byte	0x1
-ARM GAS  /tmp/ccmifiCu.s 			page 38
+ARM GAS  /tmp/ccOEoOUI.s 			page 38
 
 
  2106 01c5 11       		.uleb128 0x11
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2160 0202 01       		.byte	0x1
  2161 0203 3F       		.uleb128 0x3f
  2162 0204 19       		.uleb128 0x19
-ARM GAS  /tmp/ccmifiCu.s 			page 39
+ARM GAS  /tmp/ccOEoOUI.s 			page 39
 
 
  2163 0205 03       		.uleb128 0x3
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2217 023c 00       		.byte	0
  2218 023d 03       		.uleb128 0x3
  2219 023e 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccmifiCu.s 			page 40
+ARM GAS  /tmp/ccOEoOUI.s 			page 40
 
 
  2220 023f 3A       		.uleb128 0x3a
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2274 0275 0B       		.uleb128 0xb
  2275 0276 27       		.uleb128 0x27
  2276 0277 19       		.uleb128 0x19
-ARM GAS  /tmp/ccmifiCu.s 			page 41
+ARM GAS  /tmp/ccOEoOUI.s 			page 41
 
 
  2277 0278 3C       		.uleb128 0x3c
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2331 0043 F3       		.byte	0xf3
  2332 0044 01       		.uleb128 0x1
  2333 0045 51       		.byte	0x51
-ARM GAS  /tmp/ccmifiCu.s 			page 42
+ARM GAS  /tmp/ccOEoOUI.s 			page 42
 
 
  2334 0046 9F       		.byte	0x9f
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2388 00ce 0100     		.2byte	0x1
  2389 00d0 54       		.byte	0x54
  2390 00d1 4C000000 		.4byte	.LVL18
-ARM GAS  /tmp/ccmifiCu.s 			page 43
+ARM GAS  /tmp/ccOEoOUI.s 			page 43
 
 
  2391 00d5 5A000000 		.4byte	.LVL19
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2445              	.LLST9:
  2446 0165 00000000 		.4byte	.LVL27
  2447 0169 14000000 		.4byte	.LVL30
-ARM GAS  /tmp/ccmifiCu.s 			page 44
+ARM GAS  /tmp/ccOEoOUI.s 			page 44
 
 
  2448 016d 0100     		.2byte	0x1
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2502 01f4 01       		.uleb128 0x1
  2503 01f5 50       		.byte	0x50
  2504 01f6 38       		.byte	0x38
-ARM GAS  /tmp/ccmifiCu.s 			page 45
+ARM GAS  /tmp/ccOEoOUI.s 			page 45
 
 
  2505 01f7 1C       		.byte	0x1c
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2559 0271 70       		.byte	0x70
  2560 0272 70       		.sleb128 -16
  2561 0273 9F       		.byte	0x9f
-ARM GAS  /tmp/ccmifiCu.s 			page 46
+ARM GAS  /tmp/ccOEoOUI.s 			page 46
 
 
  2562 0274 00000000 		.4byte	0
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2616 02fb 3C000000 		.4byte	.LVL50
  2617 02ff 0300     		.2byte	0x3
  2618 0301 74       		.byte	0x74
-ARM GAS  /tmp/ccmifiCu.s 			page 47
+ARM GAS  /tmp/ccOEoOUI.s 			page 47
 
 
  2619 0302 08       		.sleb128 8
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2673              		.section	.debug_aranges,"",%progbits
  2674 0000 3C000000 		.4byte	0x3c
  2675 0004 0200     		.2byte	0x2
-ARM GAS  /tmp/ccmifiCu.s 			page 48
+ARM GAS  /tmp/ccOEoOUI.s 			page 48
 
 
  2676 0006 00000000 		.4byte	.Ldebug_info0
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2717      787000
  2718              	.LASF82:
  2719 0031 746D5F63 		.ascii	"tm_calibration_t\000"
-ARM GAS  /tmp/ccmifiCu.s 			page 49
+ARM GAS  /tmp/ccOEoOUI.s 			page 49
 
 
  2719      616C6962 
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2747 00bc 685F6672 		.ascii	"h_free\000"
  2747      656500
  2748              	.LASF106:
-ARM GAS  /tmp/ccmifiCu.s 			page 50
+ARM GAS  /tmp/ccOEoOUI.s 			page 50
 
 
  2749 00c3 68656170 		.ascii	"heap\000"
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2775 014d 6576656E 		.ascii	"eventmask_t\000"
  2775      746D6173 
  2775      6B5F7400 
-ARM GAS  /tmp/ccmifiCu.s 			page 51
+ARM GAS  /tmp/ccOEoOUI.s 			page 51
 
 
  2776              	.LASF53:
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2801      5F7400
  2802              	.LASF83:
  2803 01f8 7264796D 		.ascii	"rdymsg\000"
-ARM GAS  /tmp/ccmifiCu.s 			page 52
+ARM GAS  /tmp/ccOEoOUI.s 			page 52
 
 
  2803      736700
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2832              	.LASF46:
  2833 0289 63685F74 		.ascii	"ch_thread\000"
  2833      68726561 
-ARM GAS  /tmp/ccmifiCu.s 			page 53
+ARM GAS  /tmp/ccOEoOUI.s 			page 53
 
 
  2833      6400
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2854      202D6666 
  2855 03d6 73202D66 		.ascii	"s -fno-common\000"
  2855      6E6F2D63 
-ARM GAS  /tmp/ccmifiCu.s 			page 54
+ARM GAS  /tmp/ccOEoOUI.s 			page 54
 
 
  2855      6F6D6D6F 
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2883      7420696E 
  2883      7400
  2884              	.LASF101:
-ARM GAS  /tmp/ccmifiCu.s 			page 55
+ARM GAS  /tmp/ccOEoOUI.s 			page 55
 
 
  2885 0471 6D656D6F 		.ascii	"memory_heap\000"
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2913 04f9 705F7072 		.ascii	"p_prev\000"
  2913      657600
  2914              	.LASF76:
-ARM GAS  /tmp/ccmifiCu.s 			page 56
+ARM GAS  /tmp/ccOEoOUI.s 			page 56
 
 
  2915 0500 73697A65 		.ascii	"sizetype\000"
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2942              	.LASF96:
  2943 0597 6D5F6E65 		.ascii	"m_next\000"
  2943      787400
-ARM GAS  /tmp/ccmifiCu.s 			page 57
+ARM GAS  /tmp/ccOEoOUI.s 			page 57
 
 
  2944              	.LASF111:
@@ -3399,26 +3399,26 @@ ARM GAS  /tmp/ccmifiCu.s 			page 1
  2963      636F6465 
  2963      00
  2964              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccmifiCu.s 			page 58
+ARM GAS  /tmp/ccOEoOUI.s 			page 58
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chheap.c
-     /tmp/ccmifiCu.s:19     .text._heap_init:00000000 $t
-     /tmp/ccmifiCu.s:25     .text._heap_init:00000000 _heap_init
-     /tmp/ccmifiCu.s:52     .text._heap_init:00000014 $d
-     /tmp/ccmifiCu.s:58     .text.chHeapObjectInit:00000000 $t
-     /tmp/ccmifiCu.s:64     .text.chHeapObjectInit:00000000 chHeapObjectInit
-     /tmp/ccmifiCu.s:97     .text.chHeapAlloc:00000000 $t
-     /tmp/ccmifiCu.s:103    .text.chHeapAlloc:00000000 chHeapAlloc
-     /tmp/ccmifiCu.s:235    .text.chHeapAlloc:00000088 $d
-     /tmp/ccmifiCu.s:240    .text.chHeapFree:00000000 $t
-     /tmp/ccmifiCu.s:246    .text.chHeapFree:00000000 chHeapFree
-     /tmp/ccmifiCu.s:388    .text.chHeapStatus:00000000 $t
-     /tmp/ccmifiCu.s:394    .text.chHeapStatus:00000000 chHeapStatus
-     /tmp/ccmifiCu.s:466    .text.chHeapStatus:00000040 $d
-     /tmp/ccmifiCu.s:471    .bss.default_heap:00000000 $d
-     /tmp/ccmifiCu.s:475    .bss.default_heap:00000000 default_heap
+     /tmp/ccOEoOUI.s:19     .text._heap_init:00000000 $t
+     /tmp/ccOEoOUI.s:25     .text._heap_init:00000000 _heap_init
+     /tmp/ccOEoOUI.s:52     .text._heap_init:00000014 $d
+     /tmp/ccOEoOUI.s:58     .text.chHeapObjectInit:00000000 $t
+     /tmp/ccOEoOUI.s:64     .text.chHeapObjectInit:00000000 chHeapObjectInit
+     /tmp/ccOEoOUI.s:97     .text.chHeapAlloc:00000000 $t
+     /tmp/ccOEoOUI.s:103    .text.chHeapAlloc:00000000 chHeapAlloc
+     /tmp/ccOEoOUI.s:235    .text.chHeapAlloc:00000088 $d
+     /tmp/ccOEoOUI.s:240    .text.chHeapFree:00000000 $t
+     /tmp/ccOEoOUI.s:246    .text.chHeapFree:00000000 chHeapFree
+     /tmp/ccOEoOUI.s:388    .text.chHeapStatus:00000000 $t
+     /tmp/ccOEoOUI.s:394    .text.chHeapStatus:00000000 chHeapStatus
+     /tmp/ccOEoOUI.s:466    .text.chHeapStatus:00000040 $d
+     /tmp/ccOEoOUI.s:471    .bss.default_heap:00000000 $d
+     /tmp/ccOEoOUI.s:475    .bss.default_heap:00000000 default_heap
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

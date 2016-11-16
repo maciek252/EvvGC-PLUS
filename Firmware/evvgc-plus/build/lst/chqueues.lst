@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccOCgAOf.s 			page 1
+ARM GAS  /tmp/ccovijDw.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
   55              		.loc 2 604 0
   56 000e 0060     		str	r0, [r0]
   57              		.loc 2 605 0
-ARM GAS  /tmp/ccOCgAOf.s 			page 2
+ARM GAS  /tmp/ccovijDw.s 			page 2
 
 
   58 0010 4060     		str	r0, [r0, #4]
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  112              		.align	2
  113              		.p2align 4,,15
  114              		.global	chIQPutI
-ARM GAS  /tmp/ccOCgAOf.s 			page 3
+ARM GAS  /tmp/ccovijDw.s 			page 3
 
 
  115              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  169              	.LVL7:
  170              		.loc 1 150 0
  171 0028 0020     		movs	r0, #0
-ARM GAS  /tmp/ccOCgAOf.s 			page 4
+ARM GAS  /tmp/ccovijDw.s 			page 4
 
 
  172 002a 10BD     		pop	{r4, pc}
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  226              	.LBB122:
  227              	.LBB121:
  228              		.loc 4 548 0
-ARM GAS  /tmp/ccOCgAOf.s 			page 5
+ARM GAS  /tmp/ccovijDw.s 			page 5
 
 
  229              	@ 548 "/home/maciek/ChibiOS_16.1.5/os/ext/CMSIS/include/core_cmFunc.h" 1
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  283 0036 E368     		ldrcs	r3, [r4, #12]
  284              		.loc 1 190 0
  285 0038 A261     		str	r2, [r4, #24]
-ARM GAS  /tmp/ccOCgAOf.s 			page 6
+ARM GAS  /tmp/ccovijDw.s 			page 6
 
 
  286 003a 0878     		ldrb	r0, [r1]	@ zero_extendqisi2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  340              		.type	chIQReadTimeout, %function
  341              	chIQReadTimeout:
  342              	.LFB174:
-ARM GAS  /tmp/ccOCgAOf.s 			page 7
+ARM GAS  /tmp/ccovijDw.s 			page 7
 
 
  343              		.loc 1 224 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  397              	.LBB152:
  398              	.LBB153:
  399              	.LBB154:
-ARM GAS  /tmp/ccOCgAOf.s 			page 8
+ARM GAS  /tmp/ccovijDw.s 			page 8
 
 
  400              	.LBB155:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  454 0050 9A42     		cmp	r2, r3
  455              		.loc 1 246 0
  456 0052 24BF     		itt	cs
-ARM GAS  /tmp/ccOCgAOf.s 			page 9
+ARM GAS  /tmp/ccovijDw.s 			page 9
 
 
  457 0054 E368     		ldrcs	r3, [r4, #12]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  511              	.LBE166:
  512              	.LBE165:
  513              	.LBE164:
-ARM GAS  /tmp/ccOCgAOf.s 			page 10
+ARM GAS  /tmp/ccovijDw.s 			page 10
 
 
  514              	.LBE163:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  568              		.loc 1 284 0
  569 0016 C361     		str	r3, [r0, #28]
  570              		.loc 1 286 0
-ARM GAS  /tmp/ccOCgAOf.s 			page 11
+ARM GAS  /tmp/ccovijDw.s 			page 11
 
 
  571 0018 30BC     		pop	{r4, r5}
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  625              		@ args = 0, pretend = 0, frame = 0
  626              		@ frame_needed = 0, uses_anonymous_args = 0
  627              	.LVL35:
-ARM GAS  /tmp/ccOCgAOf.s 			page 12
+ARM GAS  /tmp/ccovijDw.s 			page 12
 
 
  628 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  682              		.loc 1 343 0
  683 0026 511C     		adds	r1, r2, #1
  684              		.loc 1 342 0
-ARM GAS  /tmp/ccOCgAOf.s 			page 13
+ARM GAS  /tmp/ccovijDw.s 			page 13
 
 
  685 0028 013B     		subs	r3, r3, #1
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  739              	.LBE180:
  740              	.LBE179:
  741              	.LBE178:
-ARM GAS  /tmp/ccOCgAOf.s 			page 14
+ARM GAS  /tmp/ccovijDw.s 			page 14
 
 
  742              	.LBE177:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  796              		.loc 1 377 0
  797 001a 01D3     		bcc	.L59
  798              		.loc 1 378 0
-ARM GAS  /tmp/ccOCgAOf.s 			page 15
+ARM GAS  /tmp/ccovijDw.s 			page 15
 
 
  799 001c C368     		ldr	r3, [r0, #12]
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  853              		.loc 1 411 0
  854 0006 0446     		mov	r4, r0
  855 0008 8B46     		mov	fp, r1
-ARM GAS  /tmp/ccOCgAOf.s 			page 16
+ARM GAS  /tmp/ccovijDw.s 			page 16
 
 
  856 000a 1546     		mov	r5, r2
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  910 002a 013B     		subs	r3, r3, #1
  911              		.loc 1 427 0
  912 002c 6061     		str	r0, [r4, #20]
-ARM GAS  /tmp/ccOCgAOf.s 			page 17
+ARM GAS  /tmp/ccovijDw.s 			page 17
 
 
  913              		.loc 1 426 0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  967              	.LBE212:
  968              	.LBE211:
  969              	.LBE210:
-ARM GAS  /tmp/ccOCgAOf.s 			page 18
+ARM GAS  /tmp/ccovijDw.s 			page 18
 
 
  970              		.loc 1 427 0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1024              	.Letext0:
  1025              		.file 5 "/opt/stm32/gcc/gcc-arm-none-eabi-4_9-2015q2/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h"
  1026              		.file 6 "/opt/stm32/gcc/gcc-arm-none-eabi-4_9-2015q2/arm-none-eabi/include/machine/_default_types.
-ARM GAS  /tmp/ccOCgAOf.s 			page 19
+ARM GAS  /tmp/ccovijDw.s 			page 19
 
 
  1027              		.file 7 "/opt/stm32/gcc/gcc-arm-none-eabi-4_9-2015q2/arm-none-eabi/include/sys/_stdint.h"
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1081 005a 03       		.uleb128 0x3
  1082 005b 24020000 		.4byte	.LASF6
  1083 005f 06       		.byte	0x6
-ARM GAS  /tmp/ccOCgAOf.s 			page 20
+ARM GAS  /tmp/ccovijDw.s 			page 20
 
 
  1084 0060 2B       		.byte	0x2b
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1138 00cf 07       		.byte	0x7
  1139 00d0 20       		.byte	0x20
  1140 00d1 7E000000 		.4byte	0x7e
-ARM GAS  /tmp/ccOCgAOf.s 			page 21
+ARM GAS  /tmp/ccovijDw.s 			page 21
 
 
  1141 00d5 03       		.uleb128 0x3
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1195 014a 4E010000 		.4byte	0x14e
  1196 014e 05       		.uleb128 0x5
  1197 014f 06030000 		.4byte	.LASF46
-ARM GAS  /tmp/ccOCgAOf.s 			page 22
+ARM GAS  /tmp/ccovijDw.s 			page 22
 
 
  1198 0153 38       		.byte	0x38
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1252 01c0 02       		.byte	0x2
  1253 01c1 3601     		.2byte	0x136
  1254 01c3 28020000 		.4byte	0x228
-ARM GAS  /tmp/ccOCgAOf.s 			page 23
+ARM GAS  /tmp/ccovijDw.s 			page 23
 
 
  1255 01c7 18       		.byte	0x18
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1309 0239 02       		.byte	0x2
  1310 023a B0       		.byte	0xb0
  1311 023b 4C020000 		.4byte	0x24c
-ARM GAS  /tmp/ccOCgAOf.s 			page 24
+ARM GAS  /tmp/ccovijDw.s 			page 24
 
 
  1312 023f 06       		.uleb128 0x6
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1366 02ae 08       		.uleb128 0x8
  1367 02af CB060000 		.4byte	.LASF54
  1368 02b3 02       		.byte	0x2
-ARM GAS  /tmp/ccOCgAOf.s 			page 25
+ARM GAS  /tmp/ccovijDw.s 			page 25
 
 
  1369 02b4 9401     		.2byte	0x194
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1423 0326 08       		.uleb128 0x8
  1424 0327 DC060000 		.4byte	.LASF62
  1425 032b 02       		.byte	0x2
-ARM GAS  /tmp/ccOCgAOf.s 			page 26
+ARM GAS  /tmp/ccovijDw.s 			page 26
 
 
  1426 032c 6F01     		.2byte	0x16f
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1480 039f 02       		.byte	0x2
  1481 03a0 A201     		.2byte	0x1a2
  1482 03a2 B4030000 		.4byte	0x3b4
-ARM GAS  /tmp/ccOCgAOf.s 			page 27
+ARM GAS  /tmp/ccovijDw.s 			page 27
 
 
  1483 03a6 08       		.uleb128 0x8
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1537 041a 00       		.byte	0
  1538 041b 04       		.uleb128 0x4
  1539 041c 04       		.byte	0x4
-ARM GAS  /tmp/ccOCgAOf.s 			page 28
+ARM GAS  /tmp/ccovijDw.s 			page 28
 
 
  1540 041d 07       		.byte	0x7
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1594 048c 0C       		.byte	0xc
  1595 048d 07       		.uleb128 0x7
  1596 048e 723800   		.ascii	"r8\000"
-ARM GAS  /tmp/ccOCgAOf.s 			page 29
+ARM GAS  /tmp/ccovijDw.s 			page 29
 
 
  1597 0491 0B       		.byte	0xb
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1651 04fa 12       		.uleb128 0x12
  1652 04fb 6E020000 		.4byte	.LASF83
  1653 04ff 02       		.byte	0x2
-ARM GAS  /tmp/ccOCgAOf.s 			page 30
+ARM GAS  /tmp/ccovijDw.s 			page 30
 
 
  1654 0500 0101     		.2byte	0x101
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1708 0579 00       		.byte	0
  1709 057a 09       		.uleb128 0x9
  1710 057b 04       		.byte	0x4
-ARM GAS  /tmp/ccOCgAOf.s 			page 31
+ARM GAS  /tmp/ccovijDw.s 			page 31
 
 
  1711 057c 55050000 		.4byte	0x555
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1765 05ee 0E       		.byte	0xe
  1766 05ef 34       		.byte	0x34
  1767 05f0 80050000 		.4byte	0x580
-ARM GAS  /tmp/ccOCgAOf.s 			page 32
+ARM GAS  /tmp/ccovijDw.s 			page 32
 
 
  1768 05f4 09       		.uleb128 0x9
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1822 0660 72060000 		.4byte	0x672
  1823 0664 1C       		.byte	0x1c
  1824 0665 06       		.uleb128 0x6
-ARM GAS  /tmp/ccOCgAOf.s 			page 33
+ARM GAS  /tmp/ccovijDw.s 			page 33
 
 
  1825 0666 17010000 		.4byte	.LASF108
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1879 06da 19       		.uleb128 0x19
  1880 06db 06010000 		.4byte	.LASF112
  1881 06df 0B       		.byte	0xb
-ARM GAS  /tmp/ccOCgAOf.s 			page 34
+ARM GAS  /tmp/ccovijDw.s 			page 34
 
 
  1882 06e0 C801     		.2byte	0x1c8
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1936 0751 19       		.uleb128 0x19
  1937 0752 9F020000 		.4byte	.LASF119
  1938 0756 10       		.byte	0x10
-ARM GAS  /tmp/ccOCgAOf.s 			page 35
+ARM GAS  /tmp/ccovijDw.s 			page 35
 
 
  1939 0757 5A01     		.2byte	0x15a
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  1993 07d2 8401     		.2byte	0x184
  1994 07d4 44070000 		.4byte	0x744
  1995 07d8 03       		.byte	0x3
-ARM GAS  /tmp/ccOCgAOf.s 			page 36
+ARM GAS  /tmp/ccovijDw.s 			page 36
 
 
  1996 07d9 EA070000 		.4byte	0x7ea
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2050 0851 5A       		.byte	0x5a
  2051 0852 22       		.uleb128 0x22
  2052 0853 19070000 		.4byte	0x719
-ARM GAS  /tmp/ccOCgAOf.s 			page 37
+ARM GAS  /tmp/ccovijDw.s 			page 37
 
 
  2053 0857 01       		.uleb128 0x1
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2107 08be 38000000 		.4byte	.LFE172-.LFB172
  2108 08c2 01       		.uleb128 0x1
  2109 08c3 9C       		.byte	0x9c
-ARM GAS  /tmp/ccOCgAOf.s 			page 38
+ARM GAS  /tmp/ccovijDw.s 			page 38
 
 
  2110 08c4 11090000 		.4byte	0x911
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2164 0940 38010000 		.4byte	0x138
  2165 0944 E6000000 		.4byte	.LLST7
  2166 0948 2B       		.uleb128 0x2b
-ARM GAS  /tmp/ccOCgAOf.s 			page 39
+ARM GAS  /tmp/ccovijDw.s 			page 39
 
 
  2167 0949 6200     		.ascii	"b\000"
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2221 09d3 04000000 		.4byte	.LBE128-.LBB128
  2222 09d7 10       		.byte	0x10
  2223 09d8 7301     		.2byte	0x173
-ARM GAS  /tmp/ccOCgAOf.s 			page 40
+ARM GAS  /tmp/ccovijDw.s 			page 40
 
 
  2224 09da 23       		.uleb128 0x23
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2278 0a47 23       		.uleb128 0x23
  2279 0a48 E3060000 		.4byte	0x6e3
  2280 0a4c 40000000 		.4byte	.LBB135
-ARM GAS  /tmp/ccOCgAOf.s 			page 41
+ARM GAS  /tmp/ccovijDw.s 			page 41
 
 
  2281 0a50 06000000 		.4byte	.LBE135-.LBB135
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2335 0ac4 1F       		.uleb128 0x1f
  2336 0ac5 DE040000 		.4byte	.LASF132
  2337 0ac9 01       		.byte	0x1
-ARM GAS  /tmp/ccOCgAOf.s 			page 42
+ARM GAS  /tmp/ccovijDw.s 			page 42
 
 
  2338 0aca E0       		.byte	0xe0
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2392 0b4b 67070000 		.4byte	0x767
  2393 0b4f 2C       		.uleb128 0x2c
  2394 0b50 E3060000 		.4byte	0x6e3
-ARM GAS  /tmp/ccOCgAOf.s 			page 43
+ARM GAS  /tmp/ccovijDw.s 			page 43
 
 
  2395 0b54 1A000000 		.4byte	.LBB145
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2449 0bd6 2F       		.uleb128 0x2f
  2450 0bd7 5A070000 		.4byte	0x75a
  2451 0bdb 6A000000 		.4byte	.LBB163
-ARM GAS  /tmp/ccOCgAOf.s 			page 44
+ARM GAS  /tmp/ccovijDw.s 			page 44
 
 
  2452 0bdf 04000000 		.4byte	.LBE163-.LBB163
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2506 0c4a 00       		.byte	0
  2507 0c4b 15       		.uleb128 0x15
  2508 0c4c D2050000 		.4byte	0x5d2
-ARM GAS  /tmp/ccOCgAOf.s 			page 45
+ARM GAS  /tmp/ccovijDw.s 			page 45
 
 
  2509 0c50 5B0C0000 		.4byte	0xc5b
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2563 0cca 01       		.byte	0x1
  2564 0ccb 1601     		.2byte	0x116
  2565 0ccd 22       		.uleb128 0x22
-ARM GAS  /tmp/ccOCgAOf.s 			page 46
+ARM GAS  /tmp/ccovijDw.s 			page 46
 
 
  2566 0cce 19070000 		.4byte	0x719
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2620 0d38 00000000 		.4byte	.LFB177
  2621 0d3c 52000000 		.4byte	.LFE177-.LFB177
  2622 0d40 01       		.uleb128 0x1
-ARM GAS  /tmp/ccOCgAOf.s 			page 47
+ARM GAS  /tmp/ccovijDw.s 			page 47
 
 
  2623 0d41 9C       		.byte	0x9c
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2677 0dca 3D       		.uleb128 0x3d
  2678 0dcb 5A070000 		.4byte	0x75a
  2679 0dcf 4C000000 		.4byte	.LBB176
-ARM GAS  /tmp/ccOCgAOf.s 			page 48
+ARM GAS  /tmp/ccovijDw.s 			page 48
 
 
  2680 0dd3 04000000 		.4byte	.LBE176-.LBB176
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2734 0e46 01       		.uleb128 0x1
  2735 0e47 54       		.byte	0x54
  2736 0e48 00       		.byte	0
-ARM GAS  /tmp/ccOCgAOf.s 			page 49
+ARM GAS  /tmp/ccovijDw.s 			page 49
 
 
  2737 0e49 3D       		.uleb128 0x3d
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2791 0ec5 6E01     		.2byte	0x16e
  2792 0ec7 C6070000 		.4byte	0x7c6
  2793 0ecb 13030000 		.4byte	.LLST26
-ARM GAS  /tmp/ccOCgAOf.s 			page 50
+ARM GAS  /tmp/ccovijDw.s 			page 50
 
 
  2794 0ecf 3E       		.uleb128 0x3e
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2848 0f4e BD030000 		.4byte	.LLST31
  2849 0f52 3A       		.uleb128 0x3a
  2850 0f53 DE040000 		.4byte	.LASF132
-ARM GAS  /tmp/ccOCgAOf.s 			page 51
+ARM GAS  /tmp/ccovijDw.s 			page 51
 
 
  2851 0f57 01       		.byte	0x1
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2905 0fdd 31       		.uleb128 0x31
  2906 0fde 67070000 		.4byte	0x767
  2907 0fe2 2C       		.uleb128 0x2c
-ARM GAS  /tmp/ccOCgAOf.s 			page 52
+ARM GAS  /tmp/ccovijDw.s 			page 52
 
 
  2908 0fe3 E3060000 		.4byte	0x6e3
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  2962 106a 00       		.byte	0
  2963 106b 3D       		.uleb128 0x3d
  2964 106c 5A070000 		.4byte	0x75a
-ARM GAS  /tmp/ccOCgAOf.s 			page 53
+ARM GAS  /tmp/ccovijDw.s 			page 53
 
 
  2965 1070 74000000 		.4byte	.LBB215
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3019 10df 74       		.byte	0x74
  3020 10e0 00       		.sleb128 0
  3021 10e1 00       		.byte	0
-ARM GAS  /tmp/ccOCgAOf.s 			page 54
+ARM GAS  /tmp/ccovijDw.s 			page 54
 
 
  3022 10e2 00       		.byte	0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3076              	.Ldebug_abbrev0:
  3077 0000 01       		.uleb128 0x1
  3078 0001 11       		.uleb128 0x11
-ARM GAS  /tmp/ccOCgAOf.s 			page 55
+ARM GAS  /tmp/ccovijDw.s 			page 55
 
 
  3079 0002 01       		.byte	0x1
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3133 0038 0E       		.uleb128 0xe
  3134 0039 0B       		.uleb128 0xb
  3135 003a 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccOCgAOf.s 			page 56
+ARM GAS  /tmp/ccovijDw.s 			page 56
 
 
  3136 003b 3A       		.uleb128 0x3a
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3190 0071 0F       		.uleb128 0xf
  3191 0072 00       		.byte	0
  3192 0073 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccOCgAOf.s 			page 57
+ARM GAS  /tmp/ccovijDw.s 			page 57
 
 
  3193 0074 0B       		.uleb128 0xb
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3247 00aa 01       		.uleb128 0x1
  3248 00ab 13       		.uleb128 0x13
  3249 00ac 00       		.byte	0
-ARM GAS  /tmp/ccOCgAOf.s 			page 58
+ARM GAS  /tmp/ccovijDw.s 			page 58
 
 
  3250 00ad 00       		.byte	0
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3304 00e3 00       		.byte	0
  3305 00e4 13       		.uleb128 0x13
  3306 00e5 35       		.uleb128 0x35
-ARM GAS  /tmp/ccOCgAOf.s 			page 59
+ARM GAS  /tmp/ccovijDw.s 			page 59
 
 
  3307 00e6 00       		.byte	0
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3361 011c 3B       		.uleb128 0x3b
  3362 011d 05       		.uleb128 0x5
  3363 011e 49       		.uleb128 0x49
-ARM GAS  /tmp/ccOCgAOf.s 			page 60
+ARM GAS  /tmp/ccovijDw.s 			page 60
 
 
  3364 011f 13       		.uleb128 0x13
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3418 0155 0E       		.uleb128 0xe
  3419 0156 49       		.uleb128 0x49
  3420 0157 13       		.uleb128 0x13
-ARM GAS  /tmp/ccOCgAOf.s 			page 61
+ARM GAS  /tmp/ccovijDw.s 			page 61
 
 
  3421 0158 34       		.uleb128 0x34
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3475 018f 0B       		.uleb128 0xb
  3476 0190 49       		.uleb128 0x49
  3477 0191 13       		.uleb128 0x13
-ARM GAS  /tmp/ccOCgAOf.s 			page 62
+ARM GAS  /tmp/ccovijDw.s 			page 62
 
 
  3478 0192 02       		.uleb128 0x2
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3532 01c8 59       		.uleb128 0x59
  3533 01c9 05       		.uleb128 0x5
  3534 01ca 00       		.byte	0
-ARM GAS  /tmp/ccOCgAOf.s 			page 63
+ARM GAS  /tmp/ccovijDw.s 			page 63
 
 
  3535 01cb 00       		.byte	0
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3589 0207 06       		.uleb128 0x6
  3590 0208 40       		.uleb128 0x40
  3591 0209 18       		.uleb128 0x18
-ARM GAS  /tmp/ccOCgAOf.s 			page 64
+ARM GAS  /tmp/ccovijDw.s 			page 64
 
 
  3592 020a 9742     		.uleb128 0x2117
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3646 0243 00       		.byte	0
  3647 0244 00       		.byte	0
  3648 0245 2C       		.uleb128 0x2c
-ARM GAS  /tmp/ccOCgAOf.s 			page 65
+ARM GAS  /tmp/ccovijDw.s 			page 65
 
 
  3649 0246 1D       		.uleb128 0x1d
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3703 027c 12       		.uleb128 0x12
  3704 027d 06       		.uleb128 0x6
  3705 027e 00       		.byte	0
-ARM GAS  /tmp/ccOCgAOf.s 			page 66
+ARM GAS  /tmp/ccovijDw.s 			page 66
 
 
  3706 027f 00       		.byte	0
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3760 02b9 13       		.uleb128 0x13
  3761 02ba 00       		.byte	0
  3762 02bb 00       		.byte	0
-ARM GAS  /tmp/ccOCgAOf.s 			page 67
+ARM GAS  /tmp/ccovijDw.s 			page 67
 
 
  3763 02bc 37       		.uleb128 0x37
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3817 02f3 00       		.byte	0
  3818 02f4 3A       		.uleb128 0x3a
  3819 02f5 05       		.uleb128 0x5
-ARM GAS  /tmp/ccOCgAOf.s 			page 68
+ARM GAS  /tmp/ccovijDw.s 			page 68
 
 
  3820 02f6 00       		.byte	0
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3874 032d 00       		.byte	0
  3875 032e 3D       		.uleb128 0x3d
  3876 032f 1D       		.uleb128 0x1d
-ARM GAS  /tmp/ccOCgAOf.s 			page 69
+ARM GAS  /tmp/ccovijDw.s 			page 69
 
 
  3877 0330 01       		.byte	0x1
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3931 0366 3B       		.uleb128 0x3b
  3932 0367 05       		.uleb128 0x5
  3933 0368 49       		.uleb128 0x49
-ARM GAS  /tmp/ccOCgAOf.s 			page 70
+ARM GAS  /tmp/ccovijDw.s 			page 70
 
 
  3934 0369 13       		.uleb128 0x13
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  3988 039f 01       		.uleb128 0x1
  3989 03a0 13       		.uleb128 0x13
  3990 03a1 00       		.byte	0
-ARM GAS  /tmp/ccOCgAOf.s 			page 71
+ARM GAS  /tmp/ccovijDw.s 			page 71
 
 
  3991 03a2 00       		.byte	0
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4045 004b 50       		.byte	0x50
  4046 004c 11000000 		.4byte	.LVL4-1
  4047 0050 12000000 		.4byte	.LFE171
-ARM GAS  /tmp/ccOCgAOf.s 			page 72
+ARM GAS  /tmp/ccovijDw.s 			page 72
 
 
  4048 0054 0400     		.2byte	0x4
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4102 00d2 50       		.byte	0x50
  4103 00d3 11000000 		.4byte	.LVL11-1
  4104 00d7 4E000000 		.4byte	.LFE173
-ARM GAS  /tmp/ccOCgAOf.s 			page 73
+ARM GAS  /tmp/ccovijDw.s 			page 73
 
 
  4105 00db 0100     		.2byte	0x1
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4159 0166 00000000 		.4byte	0
  4160              	.LLST12:
  4161 016a 00000000 		.4byte	.LVL18
-ARM GAS  /tmp/ccOCgAOf.s 			page 74
+ARM GAS  /tmp/ccovijDw.s 			page 74
 
 
  4162 016e 1E000000 		.4byte	.LVL20
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4216 01ef 9F       		.byte	0x9f
  4217 01f0 1E000000 		.4byte	.LVL20
  4218 01f4 76000000 		.4byte	.LFE174
-ARM GAS  /tmp/ccOCgAOf.s 			page 75
+ARM GAS  /tmp/ccovijDw.s 			page 75
 
 
  4219 01f8 0100     		.2byte	0x1
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4273 0279 00000000 		.4byte	0
  4274 027d 00000000 		.4byte	0
  4275              	.LLST21:
-ARM GAS  /tmp/ccOCgAOf.s 			page 76
+ARM GAS  /tmp/ccovijDw.s 			page 76
 
 
  4276 0281 00000000 		.4byte	.LVL35
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4330 030a 9F       		.byte	0x9f
  4331 030b 00000000 		.4byte	0
  4332 030f 00000000 		.4byte	0
-ARM GAS  /tmp/ccOCgAOf.s 			page 77
+ARM GAS  /tmp/ccovijDw.s 			page 77
 
 
  4333              	.LLST26:
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4387 039c 0100     		.2byte	0x1
  4388 039e 5A       		.byte	0x5a
  4389 039f 5A000000 		.4byte	.LVL54
-ARM GAS  /tmp/ccOCgAOf.s 			page 78
+ARM GAS  /tmp/ccovijDw.s 			page 78
 
 
  4390 03a3 60000000 		.4byte	.LVL55
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4444 042b 00000000 		.4byte	0
  4445 042f 00000000 		.4byte	0
  4446              	.LLST34:
-ARM GAS  /tmp/ccOCgAOf.s 			page 79
+ARM GAS  /tmp/ccovijDw.s 			page 79
 
 
  4447 0433 48000000 		.4byte	.LVL50
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4501              		.section	.debug_ranges,"",%progbits
  4502              	.Ldebug_ranges0:
  4503 0000 00000000 		.4byte	.LBB111
-ARM GAS  /tmp/ccOCgAOf.s 			page 80
+ARM GAS  /tmp/ccovijDw.s 			page 80
 
 
  4504 0004 04000000 		.4byte	.LBE111
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4558 00dc 00000000 		.4byte	0
  4559 00e0 00000000 		.4byte	.LFB170
  4560 00e4 1E000000 		.4byte	.LFE170
-ARM GAS  /tmp/ccOCgAOf.s 			page 81
+ARM GAS  /tmp/ccovijDw.s 			page 81
 
 
  4561 00e8 00000000 		.4byte	.LFB171
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4595      6F6E5F74 
  4595      00
  4596              	.LASF97:
-ARM GAS  /tmp/ccOCgAOf.s 			page 82
+ARM GAS  /tmp/ccovijDw.s 			page 82
 
 
  4597 0053 63686172 		.ascii	"char\000"
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4624              	.LASF106:
  4625 00e3 715F7264 		.ascii	"q_rdptr\000"
  4625      70747200 
-ARM GAS  /tmp/ccOCgAOf.s 			page 83
+ARM GAS  /tmp/ccovijDw.s 			page 83
 
 
  4626              	.LASF8:
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4652              	.LASF92:
  4653 017d 735F636E 		.ascii	"s_cnt\000"
  4653      7400
-ARM GAS  /tmp/ccOCgAOf.s 			page 84
+ARM GAS  /tmp/ccovijDw.s 			page 84
 
 
  4654              	.LASF68:
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4679      6554696D 
  4679      656F7574 
  4679      00
-ARM GAS  /tmp/ccOCgAOf.s 			page 85
+ARM GAS  /tmp/ccovijDw.s 			page 85
 
 
  4680              	.LASF6:
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4709      656C7461 
  4709      00
  4710              	.LASF44:
-ARM GAS  /tmp/ccOCgAOf.s 			page 86
+ARM GAS  /tmp/ccovijDw.s 			page 86
 
 
  4711 02b2 74687265 		.ascii	"thread_reference_t\000"
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4738              	.LASF145:
  4739 0344 474E5520 		.ascii	"GNU C 4.9.3 20150529 (release) [ARM/embedded-4_9-br"
  4739      4320342E 
-ARM GAS  /tmp/ccOCgAOf.s 			page 87
+ARM GAS  /tmp/ccovijDw.s 			page 87
 
 
  4739      392E3320 
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4761 046f 63685468 		.ascii	"chThdDequeueNextI\000"
  4761      64446571 
  4761      75657565 
-ARM GAS  /tmp/ccOCgAOf.s 			page 88
+ARM GAS  /tmp/ccovijDw.s 			page 88
 
 
  4761      4E657874 
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4788              	.LASF55:
  4789 050c 725F6375 		.ascii	"r_current\000"
  4789      7272656E 
-ARM GAS  /tmp/ccOCgAOf.s 			page 89
+ARM GAS  /tmp/ccovijDw.s 			page 89
 
 
  4789      7400
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4817      7200
  4818              	.LASF104:
  4819 059c 715F746F 		.ascii	"q_top\000"
-ARM GAS  /tmp/ccOCgAOf.s 			page 90
+ARM GAS  /tmp/ccovijDw.s 			page 90
 
 
  4819      7000
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4847 0631 2F686F6D 		.ascii	"/home/maciek/ChibiOS_16.1.5/os/rt/src/chqueues.c\000"
  4847      652F6D61 
  4847      6369656B 
-ARM GAS  /tmp/ccOCgAOf.s 			page 91
+ARM GAS  /tmp/ccovijDw.s 			page 91
 
 
  4847      2F436869 
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4875      6F636B00 
  4876              	.LASF60:
  4877 06f0 76745F70 		.ascii	"vt_prev\000"
-ARM GAS  /tmp/ccOCgAOf.s 			page 92
+ARM GAS  /tmp/ccovijDw.s 			page 92
 
 
  4877      72657600 
@@ -5472,31 +5472,31 @@ ARM GAS  /tmp/ccOCgAOf.s 			page 1
  4881      636F6465 
  4881      00
  4882              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccOCgAOf.s 			page 93
+ARM GAS  /tmp/ccovijDw.s 			page 93
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chqueues.c
-     /tmp/ccOCgAOf.s:19     .text.chIQObjectInit:00000000 $t
-     /tmp/ccOCgAOf.s:25     .text.chIQObjectInit:00000000 chIQObjectInit
-     /tmp/ccOCgAOf.s:81     .text.chIQResetI:00000000 $t
-     /tmp/ccOCgAOf.s:87     .text.chIQResetI:00000000 chIQResetI
-     /tmp/ccOCgAOf.s:112    .text.chIQPutI:00000000 $t
-     /tmp/ccOCgAOf.s:118    .text.chIQPutI:00000000 chIQPutI
-     /tmp/ccOCgAOf.s:191    .text.chIQGetTimeout:00000000 $t
-     /tmp/ccOCgAOf.s:197    .text.chIQGetTimeout:00000000 chIQGetTimeout
-     /tmp/ccOCgAOf.s:335    .text.chIQReadTimeout:00000000 $t
-     /tmp/ccOCgAOf.s:341    .text.chIQReadTimeout:00000000 chIQReadTimeout
-     /tmp/ccOCgAOf.s:525    .text.chOQObjectInit:00000000 $t
-     /tmp/ccOCgAOf.s:531    .text.chOQObjectInit:00000000 chOQObjectInit
-     /tmp/ccOCgAOf.s:581    .text.chOQResetI:00000000 $t
-     /tmp/ccOCgAOf.s:587    .text.chOQResetI:00000000 chOQResetI
-     /tmp/ccOCgAOf.s:615    .text.chOQPutTimeout:00000000 $t
-     /tmp/ccOCgAOf.s:621    .text.chOQPutTimeout:00000000 chOQPutTimeout
-     /tmp/ccOCgAOf.s:751    .text.chOQGetI:00000000 $t
-     /tmp/ccOCgAOf.s:757    .text.chOQGetI:00000000 chOQGetI
-     /tmp/ccOCgAOf.s:827    .text.chOQWriteTimeout:00000000 $t
-     /tmp/ccOCgAOf.s:833    .text.chOQWriteTimeout:00000000 chOQWriteTimeout
+     /tmp/ccovijDw.s:19     .text.chIQObjectInit:00000000 $t
+     /tmp/ccovijDw.s:25     .text.chIQObjectInit:00000000 chIQObjectInit
+     /tmp/ccovijDw.s:81     .text.chIQResetI:00000000 $t
+     /tmp/ccovijDw.s:87     .text.chIQResetI:00000000 chIQResetI
+     /tmp/ccovijDw.s:112    .text.chIQPutI:00000000 $t
+     /tmp/ccovijDw.s:118    .text.chIQPutI:00000000 chIQPutI
+     /tmp/ccovijDw.s:191    .text.chIQGetTimeout:00000000 $t
+     /tmp/ccovijDw.s:197    .text.chIQGetTimeout:00000000 chIQGetTimeout
+     /tmp/ccovijDw.s:335    .text.chIQReadTimeout:00000000 $t
+     /tmp/ccovijDw.s:341    .text.chIQReadTimeout:00000000 chIQReadTimeout
+     /tmp/ccovijDw.s:525    .text.chOQObjectInit:00000000 $t
+     /tmp/ccovijDw.s:531    .text.chOQObjectInit:00000000 chOQObjectInit
+     /tmp/ccovijDw.s:581    .text.chOQResetI:00000000 $t
+     /tmp/ccovijDw.s:587    .text.chOQResetI:00000000 chOQResetI
+     /tmp/ccovijDw.s:615    .text.chOQPutTimeout:00000000 $t
+     /tmp/ccovijDw.s:621    .text.chOQPutTimeout:00000000 chOQPutTimeout
+     /tmp/ccovijDw.s:751    .text.chOQGetI:00000000 $t
+     /tmp/ccovijDw.s:757    .text.chOQGetI:00000000 chOQGetI
+     /tmp/ccovijDw.s:827    .text.chOQWriteTimeout:00000000 $t
+     /tmp/ccovijDw.s:833    .text.chOQWriteTimeout:00000000 chOQWriteTimeout
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

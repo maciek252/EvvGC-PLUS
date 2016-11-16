@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccwmX87R.s 			page 1
+ARM GAS  /tmp/ccLC7OvC.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
   55              		.loc 2 189 0
   56 0008 3369     		ldr	r3, [r6, #16]
   57              	.LBE279:
-ARM GAS  /tmp/ccwmX87R.s 			page 2
+ARM GAS  /tmp/ccLC7OvC.s 			page 2
 
 
   58              	.LBE280:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  112 0054 4FF4A071 		mov	r1, #320
  113 0058 354B     		ldr	r3, .L8+8
  114 005a FFF7FEFF 		bl	chThdCreateStatic
-ARM GAS  /tmp/ccwmX87R.s 			page 3
+ARM GAS  /tmp/ccLC7OvC.s 			page 3
 
 
  115              	.LVL2:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  169 00a2 2046     		mov	r0, r4
  170 00a4 FFF7FEFF 		bl	chSemSignal
  171              	.LVL7:
-ARM GAS  /tmp/ccwmX87R.s 			page 4
+ARM GAS  /tmp/ccLC7OvC.s 			page 4
 
 
  172              		.loc 1 93 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  226              	.LVL13:
  227              	.LBB298:
  228              	.LBB297:
-ARM GAS  /tmp/ccwmX87R.s 			page 5
+ARM GAS  /tmp/ccLC7OvC.s 			page 5
 
 
  229              	.LBB296:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  283 0104 A1F10101 		sub	r1, #1
  284 0108 B1FA81F1 		clz	r1, r1
  285 010c 4909     		lsrs	r1, r1, #5
-ARM GAS  /tmp/ccwmX87R.s 			page 6
+ARM GAS  /tmp/ccLC7OvC.s 			page 6
 
 
  286 010e FFF7FEFF 		bl	_test_assert
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  340 0134 00000000 		.word	threads
  341 0138 04000000 		.word	.LC1
  342 013c 08000000 		.word	.LC2
-ARM GAS  /tmp/ccwmX87R.s 			page 7
+ARM GAS  /tmp/ccLC7OvC.s 			page 7
 
 
  343 0140 0C000000 		.word	.LC3
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  397              	thread1:
  398              	.LFB171:
  399              		.loc 1 77 0
-ARM GAS  /tmp/ccwmX87R.s 			page 8
+ARM GAS  /tmp/ccLC7OvC.s 			page 8
 
 
  400              		.cfi_startproc
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  454 0008 00000000 		.word	.LANCHOR0
  455              		.cfi_endproc
  456              	.LFE170:
-ARM GAS  /tmp/ccwmX87R.s 			page 9
+ARM GAS  /tmp/ccLC7OvC.s 			page 9
 
 
  457              		.size	sem1_setup, .-sem1_setup
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  511              		.thumb
  512              		.thumb_func
  513              		.type	thread2, %function
-ARM GAS  /tmp/ccwmX87R.s 			page 10
+ARM GAS  /tmp/ccLC7OvC.s 			page 10
 
 
  514              	thread2:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  568              	.LBE325:
  569              	.LBE324:
  570              	.LBE323:
-ARM GAS  /tmp/ccwmX87R.s 			page 11
+ARM GAS  /tmp/ccLC7OvC.s 			page 11
 
 
  571              	.LBE322:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  625              		.file 4 "/home/maciek/ChibiOS_16.1.5/os/rt/include/chschd.h"
  626              		.loc 4 618 0
  627 0024 2168     		ldr	r1, [r4]
-ARM GAS  /tmp/ccwmX87R.s 			page 12
+ARM GAS  /tmp/ccLC7OvC.s 			page 12
 
 
  628              	.LBE355:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  682 006a 1860     		str	r0, [r3]
  683              		.loc 1 161 0
  684 006c 2046     		mov	r0, r4
-ARM GAS  /tmp/ccwmX87R.s 			page 13
+ARM GAS  /tmp/ccLC7OvC.s 			page 13
 
 
  685 006e FFF7FEFF 		bl	chSemWaitTimeout
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  739              	@ 0 "" 2
  740              		.thumb
  741              	.LBE371:
-ARM GAS  /tmp/ccwmX87R.s 			page 14
+ARM GAS  /tmp/ccLC7OvC.s 			page 14
 
 
  742              	.LBE370:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  796              	.LBB380:
  797              		.loc 4 618 0
  798 00e6 2168     		ldr	r1, [r4]
-ARM GAS  /tmp/ccwmX87R.s 			page 15
+ARM GAS  /tmp/ccLC7OvC.s 			page 15
 
 
  799              	.LBE380:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  853              	.LBB381:
  854              		.loc 1 180 0
  855 0136 FFF7FEBF 		b	_test_assert_time_window
-ARM GAS  /tmp/ccwmX87R.s 			page 16
+ARM GAS  /tmp/ccLC7OvC.s 			page 16
 
 
  856              	.LVL65:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  910              		.cfi_def_cfa_offset 16
  911              		.loc 1 216 0
  912 000e 0023     		movs	r3, #0
-ARM GAS  /tmp/ccwmX87R.s 			page 17
+ARM GAS  /tmp/ccLC7OvC.s 			page 17
 
 
  913 0010 0132     		adds	r2, r2, #1
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  967 0056 2046     		mov	r0, r4
  968 0058 FFF7FEFF 		bl	chSemSignalWait
  969              	.LVL70:
-ARM GAS  /tmp/ccwmX87R.s 			page 18
+ARM GAS  /tmp/ccLC7OvC.s 			page 18
 
 
  970              	.LBB409:
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1024              	thread4:
  1025              	.LFB179:
  1026              		.loc 1 241 0
-ARM GAS  /tmp/ccwmX87R.s 			page 19
+ARM GAS  /tmp/ccLC7OvC.s 			page 19
 
 
  1027              		.cfi_startproc
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1081              	.LBE436:
  1082              	.LBE435:
  1083              	.LBB444:
-ARM GAS  /tmp/ccwmX87R.s 			page 20
+ARM GAS  /tmp/ccLC7OvC.s 			page 20
 
 
  1084              	.LBB434:
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1138              		.loc 6 126 0
  1139 0004 03A8     		add	r0, sp, #12
  1140              	.LVL80:
-ARM GAS  /tmp/ccwmX87R.s 			page 21
+ARM GAS  /tmp/ccLC7OvC.s 			page 21
 
 
  1141 0006 0021     		movs	r1, #0
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1195              	@ 548 "/home/maciek/ChibiOS_16.1.5/os/ext/CMSIS/include/core_cmFunc.h" 1
  1196 0030 83F31188 		MSR basepri, r3
  1197              	@ 0 "" 2
-ARM GAS  /tmp/ccwmX87R.s 			page 22
+ARM GAS  /tmp/ccLC7OvC.s 			page 22
 
 
  1198              	.LVL87:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1252              	.LVL89:
  1253 0048 013A     		subs	r2, r2, #1
  1254 004a 0093     		str	r3, [sp]
-ARM GAS  /tmp/ccwmX87R.s 			page 23
+ARM GAS  /tmp/ccLC7OvC.s 			page 23
 
 
  1255 004c 4FF4A071 		mov	r1, #320
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1309              	@ 548 "/home/maciek/ChibiOS_16.1.5/os/ext/CMSIS/include/core_cmFunc.h" 1
  1310 0076 84F31188 		MSR basepri, r4
  1311              	@ 0 "" 2
-ARM GAS  /tmp/ccwmX87R.s 			page 24
+ARM GAS  /tmp/ccLC7OvC.s 			page 24
 
 
  1312              		.thumb
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1366              	.LBE624:
  1367              		.loc 6 286 0
  1368 008c FFF7FEFF 		bl	chSchRescheduleS
-ARM GAS  /tmp/ccwmX87R.s 			page 25
+ARM GAS  /tmp/ccLC7OvC.s 			page 25
 
 
  1369              	.LVL101:
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1423 00b2 80F31188 		MSR basepri, r0
  1424              	@ 0 "" 2
  1425              	.LVL106:
-ARM GAS  /tmp/ccwmX87R.s 			page 26
+ARM GAS  /tmp/ccLC7OvC.s 			page 26
 
 
  1426              		.thumb
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1480              	.LVL111:
  1481 00d6 FFF7FEFF 		bl	chSemSignalI
  1482              	.LVL112:
-ARM GAS  /tmp/ccwmX87R.s 			page 27
+ARM GAS  /tmp/ccLC7OvC.s 			page 27
 
 
  1483 00da D7E7     		b	.L57
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1537              	.LBB671:
  1538              		.loc 3 548 0
  1539 00ee 0024     		movs	r4, #0
-ARM GAS  /tmp/ccwmX87R.s 			page 28
+ARM GAS  /tmp/ccLC7OvC.s 			page 28
 
 
  1540              	@ 548 "/home/maciek/ChibiOS_16.1.5/os/ext/CMSIS/include/core_cmFunc.h" 1
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1594              	.LBE678:
  1595              	.LBB683:
  1596              	.LBB684:
-ARM GAS  /tmp/ccwmX87R.s 			page 29
+ARM GAS  /tmp/ccLC7OvC.s 			page 29
 
 
  1597              	.LBB685:
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1651 0140 00000000 		.word	wa
  1652 0144 00000000 		.word	thread4
  1653 0148 00000000 		.word	threads
-ARM GAS  /tmp/ccwmX87R.s 			page 30
+ARM GAS  /tmp/ccLC7OvC.s 			page 30
 
 
  1654              	.LBE666:
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1708 0000 00000000 		.word	sem1
  1709 0004 00000000 		.word	sem1
  1710 0008 00000000 		.word	0
-ARM GAS  /tmp/ccwmX87R.s 			page 31
+ARM GAS  /tmp/ccLC7OvC.s 			page 31
 
 
  1711              		.section	.rodata.patternsem,"a",%progbits
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1750      65732C20 
  1750      656E7175 
  1750      6575696E 
-ARM GAS  /tmp/ccwmX87R.s 			page 32
+ARM GAS  /tmp/ccLC7OvC.s 			page 32
 
 
  1751              		.text
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1805 0053 04       		.uleb128 0x4
  1806 0054 02       		.byte	0x2
  1807 0055 05       		.byte	0x5
-ARM GAS  /tmp/ccwmX87R.s 			page 33
+ARM GAS  /tmp/ccLC7OvC.s 			page 33
 
 
  1808 0056 27060000 		.4byte	.LASF5
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1862 00c5 1F       		.byte	0x1f
  1863 00c6 6C000000 		.4byte	0x6c
  1864 00ca 03       		.uleb128 0x3
-ARM GAS  /tmp/ccwmX87R.s 			page 34
+ARM GAS  /tmp/ccLC7OvC.s 			page 34
 
 
  1865 00cb B5060000 		.4byte	.LASF18
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1919 0143 03       		.uleb128 0x3
  1920 0144 13070000 		.4byte	.LASF29
  1921 0148 0B       		.byte	0xb
-ARM GAS  /tmp/ccwmX87R.s 			page 35
+ARM GAS  /tmp/ccLC7OvC.s 			page 35
 
 
  1922 0149 3F       		.byte	0x3f
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  1976 01b6 F2040000 		.4byte	0x4f2
  1977 01ba 14       		.byte	0x14
  1978 01bb 08       		.uleb128 0x8
-ARM GAS  /tmp/ccwmX87R.s 			page 36
+ARM GAS  /tmp/ccLC7OvC.s 			page 36
 
 
  1979 01bc C2040000 		.4byte	.LASF37
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2033 022f 33020000 		.4byte	0x233
  2034 0233 05       		.uleb128 0x5
  2035 0234 D6060000 		.4byte	.LASF47
-ARM GAS  /tmp/ccwmX87R.s 			page 37
+ARM GAS  /tmp/ccLC7OvC.s 			page 37
 
 
  2036 0238 04       		.byte	0x4
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2090 02a6 04       		.byte	0x4
  2091 02a7 9201     		.2byte	0x192
  2092 02a9 0C010000 		.4byte	0x10c
-ARM GAS  /tmp/ccwmX87R.s 			page 38
+ARM GAS  /tmp/ccLC7OvC.s 			page 38
 
 
  2093 02ad 08       		.byte	0x8
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2147 031e 04       		.byte	0x4
  2148 031f 6E01     		.2byte	0x16e
  2149 0321 38010000 		.4byte	0x138
-ARM GAS  /tmp/ccwmX87R.s 			page 39
+ARM GAS  /tmp/ccLC7OvC.s 			page 39
 
 
  2150 0325 08       		.byte	0x8
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2204 0395 99030000 		.4byte	0x399
  2205 0399 0A       		.uleb128 0xa
  2206 039a E2050000 		.4byte	.LASF68
-ARM GAS  /tmp/ccwmX87R.s 			page 40
+ARM GAS  /tmp/ccLC7OvC.s 			page 40
 
 
  2207 039e 04       		.byte	0x4
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2261 0412 04       		.byte	0x4
  2262 0413 E301     		.2byte	0x1e3
  2263 0415 D9050000 		.4byte	0x5d9
-ARM GAS  /tmp/ccwmX87R.s 			page 41
+ARM GAS  /tmp/ccLC7OvC.s 			page 41
 
 
  2264 0419 60       		.byte	0x60
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2318 0482 723700   		.ascii	"r7\000"
  2319 0485 0D       		.byte	0xd
  2320 0486 1301     		.2byte	0x113
-ARM GAS  /tmp/ccwmX87R.s 			page 42
+ARM GAS  /tmp/ccLC7OvC.s 			page 42
 
 
  2321 0488 22040000 		.4byte	0x422
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2375 04f3 04       		.byte	0x4
  2376 04f4 04       		.byte	0x4
  2377 04f5 FA       		.byte	0xfa
-ARM GAS  /tmp/ccwmX87R.s 			page 43
+ARM GAS  /tmp/ccLC7OvC.s 			page 43
 
 
  2378 04f6 4F050000 		.4byte	0x54f
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2432 0572 0F       		.byte	0xf
  2433 0573 37       		.byte	0x37
  2434 0574 2D010000 		.4byte	0x12d
-ARM GAS  /tmp/ccwmX87R.s 			page 44
+ARM GAS  /tmp/ccLC7OvC.s 			page 44
 
 
  2435 0578 08       		.byte	0x8
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2489 05e7 19       		.byte	0x19
  2490 05e8 00       		.byte	0
  2491 05e9 03       		.uleb128 0x3
-ARM GAS  /tmp/ccwmX87R.s 			page 45
+ARM GAS  /tmp/ccLC7OvC.s 			page 45
 
 
  2492 05ea 00000000 		.4byte	.LASF98
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2546 0659 11       		.byte	0x11
  2547 065a 3E       		.byte	0x3e
  2548 065b 6E060000 		.4byte	0x66e
-ARM GAS  /tmp/ccwmX87R.s 			page 46
+ARM GAS  /tmp/ccLC7OvC.s 			page 46
 
 
  2549 065f 08       		.byte	0x8
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2603 06cb 13080000 		.4byte	.LASF112
  2604 06cf 00       		.byte	0
  2605 06d0 15       		.uleb128 0x15
-ARM GAS  /tmp/ccwmX87R.s 			page 47
+ARM GAS  /tmp/ccLC7OvC.s 			page 47
 
 
  2606 06d1 D2050000 		.4byte	0x5d2
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2660 0744 0C010000 		.4byte	0x10c
  2661 0748 03       		.byte	0x3
  2662 0749 1F       		.uleb128 0x1f
-ARM GAS  /tmp/ccwmX87R.s 			page 48
+ARM GAS  /tmp/ccLC7OvC.s 			page 48
 
 
  2663 074a DD020000 		.4byte	.LASF120
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2717 07bf 06       		.byte	0x6
  2718 07c0 0A01     		.2byte	0x10a
  2719 07c2 03       		.byte	0x3
-ARM GAS  /tmp/ccwmX87R.s 			page 49
+ARM GAS  /tmp/ccLC7OvC.s 			page 49
 
 
  2720 07c3 D4070000 		.4byte	0x7d4
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2774 0833 62737000 		.ascii	"bsp\000"
  2775 0837 06       		.byte	0x6
  2776 0838 8D       		.byte	0x8d
-ARM GAS  /tmp/ccwmX87R.s 			page 50
+ARM GAS  /tmp/ccLC7OvC.s 			page 50
 
 
  2777 0839 37070000 		.4byte	0x737
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2831 08c0 65       		.byte	0x65
  2832 08c1 27       		.uleb128 0x27
  2833 08c2 A0060000 		.4byte	0x6a0
-ARM GAS  /tmp/ccwmX87R.s 			page 51
+ARM GAS  /tmp/ccLC7OvC.s 			page 51
 
 
  2834 08c6 E0000000 		.4byte	.LBB291
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2888 0948 2B       		.uleb128 0x2b
  2889 0949 A0060000 		.4byte	0x6a0
  2890 094d FC000000 		.4byte	.LBB304
-ARM GAS  /tmp/ccwmX87R.s 			page 52
+ARM GAS  /tmp/ccLC7OvC.s 			page 52
 
 
  2891 0951 04000000 		.4byte	.LBE304-.LBB304
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  2945 09d3 B5060000 		.4byte	0x6b5
  2946 09d7 1E010000 		.4byte	.LBB313
  2947 09db 04000000 		.4byte	.LBE313-.LBB313
-ARM GAS  /tmp/ccwmX87R.s 			page 53
+ARM GAS  /tmp/ccLC7OvC.s 			page 53
 
 
  2948 09df 01       		.byte	0x1
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3002 0a45 78       		.byte	0x78
  3003 0a46 00       		.sleb128 0
  3004 0a47 00       		.byte	0
-ARM GAS  /tmp/ccwmX87R.s 			page 54
+ARM GAS  /tmp/ccLC7OvC.s 			page 54
 
 
  3005 0a48 30       		.uleb128 0x30
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3059 0a9b 31       		.uleb128 0x31
  3060 0a9c 02       		.uleb128 0x2
  3061 0a9d 7D       		.byte	0x7d
-ARM GAS  /tmp/ccwmX87R.s 			page 55
+ARM GAS  /tmp/ccLC7OvC.s 			page 55
 
 
  3062 0a9e 00       		.sleb128 0
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3116 0af4 50       		.byte	0x50
  3117 0af5 03       		.uleb128 0x3
  3118 0af6 74       		.byte	0x74
-ARM GAS  /tmp/ccwmX87R.s 			page 56
+ARM GAS  /tmp/ccLC7OvC.s 			page 56
 
 
  3119 0af7 10       		.sleb128 16
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3173 0b54 30       		.uleb128 0x30
  3174 0b55 B4000000 		.4byte	.LVL9
  3175 0b59 B31B0000 		.4byte	0x1bb3
-ARM GAS  /tmp/ccwmX87R.s 			page 57
+ARM GAS  /tmp/ccLC7OvC.s 			page 57
 
 
  3176 0b5d 680B0000 		.4byte	0xb68
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3230 0bb5 78       		.byte	0x78
  3231 0bb6 00       		.sleb128 0
  3232 0bb7 00       		.byte	0
-ARM GAS  /tmp/ccwmX87R.s 			page 58
+ARM GAS  /tmp/ccLC7OvC.s 			page 58
 
 
  3233 0bb8 30       		.uleb128 0x30
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3287 0c25 02       		.uleb128 0x2
  3288 0c26 74       		.byte	0x74
  3289 0c27 00       		.sleb128 0
-ARM GAS  /tmp/ccwmX87R.s 			page 59
+ARM GAS  /tmp/ccLC7OvC.s 			page 59
 
 
  3290 0c28 00       		.byte	0
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3344 0c9e 31       		.uleb128 0x31
  3345 0c9f 01       		.uleb128 0x1
  3346 0ca0 51       		.byte	0x51
-ARM GAS  /tmp/ccwmX87R.s 			page 60
+ARM GAS  /tmp/ccLC7OvC.s 			page 60
 
 
  3347 0ca1 01       		.uleb128 0x1
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3401 0d01 50       		.byte	0x50
  3402 0d02 05       		.uleb128 0x5
  3403 0d03 03       		.byte	0x3
-ARM GAS  /tmp/ccwmX87R.s 			page 61
+ARM GAS  /tmp/ccLC7OvC.s 			page 61
 
 
  3404 0d04 00000000 		.4byte	.LANCHOR0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3458 0d85 C2060000 		.4byte	0x6c2
  3459 0d89 2E       		.uleb128 0x2e
  3460 0d8a 97060000 		.4byte	0x697
-ARM GAS  /tmp/ccwmX87R.s 			page 62
+ARM GAS  /tmp/ccLC7OvC.s 			page 62
 
 
  3461 0d8e 18000000 		.4byte	.LBB324
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3515 0e05 38       		.uleb128 0x38
  3516 0e06 AE070000 		.4byte	0x7ae
  3517 0e0a 82000000 		.4byte	.LLST4
-ARM GAS  /tmp/ccwmX87R.s 			page 63
+ARM GAS  /tmp/ccLC7OvC.s 			page 63
 
 
  3518 0e0e 2B       		.uleb128 0x2b
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3572 0e95 2B       		.uleb128 0x2b
  3573 0e96 72070000 		.4byte	0x772
  3574 0e9a B4000000 		.4byte	.LBB366
-ARM GAS  /tmp/ccwmX87R.s 			page 64
+ARM GAS  /tmp/ccLC7OvC.s 			page 64
 
 
  3575 0e9e 10000000 		.4byte	.LBE366-.LBB366
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3629 0f27 06000000 		.4byte	.LBE376-.LBB376
  3630 0f2b 12       		.byte	0x12
  3631 0f2c 7301     		.2byte	0x173
-ARM GAS  /tmp/ccwmX87R.s 			page 65
+ARM GAS  /tmp/ccLC7OvC.s 			page 65
 
 
  3632 0f2e 2E       		.uleb128 0x2e
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3686 0f99 0A       		.byte	0xa
  3687 0f9a E803     		.2byte	0x3e8
  3688 0f9c 31       		.uleb128 0x31
-ARM GAS  /tmp/ccwmX87R.s 			page 66
+ARM GAS  /tmp/ccLC7OvC.s 			page 66
 
 
  3689 0f9d 01       		.uleb128 0x1
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3743 1003 31       		.uleb128 0x31
  3744 1004 01       		.uleb128 0x1
  3745 1005 50       		.byte	0x50
-ARM GAS  /tmp/ccwmX87R.s 			page 67
+ARM GAS  /tmp/ccLC7OvC.s 			page 67
 
 
  3746 1006 02       		.uleb128 0x2
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3800 1066 79100000 		.4byte	0x1079
  3801 106a 31       		.uleb128 0x31
  3802 106b 01       		.uleb128 0x1
-ARM GAS  /tmp/ccwmX87R.s 			page 68
+ARM GAS  /tmp/ccLC7OvC.s 			page 68
 
 
  3803 106c 51       		.byte	0x51
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3857 10c6 32       		.byte	0x32
  3858 10c7 00       		.byte	0
  3859 10c8 33       		.uleb128 0x33
-ARM GAS  /tmp/ccwmX87R.s 			page 69
+ARM GAS  /tmp/ccLC7OvC.s 			page 69
 
 
  3860 10c9 46000000 		.4byte	.LVL43
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3914 1147 03       		.byte	0x3
  3915 1148 00000000 		.4byte	sem1
  3916 114c 9F       		.byte	0x9f
-ARM GAS  /tmp/ccwmX87R.s 			page 70
+ARM GAS  /tmp/ccLC7OvC.s 			page 70
 
 
  3917 114d 00       		.byte	0
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  3971 11a8 B2110000 		.4byte	0x11b2
  3972 11ac 31       		.uleb128 0x31
  3973 11ad 01       		.uleb128 0x1
-ARM GAS  /tmp/ccwmX87R.s 			page 71
+ARM GAS  /tmp/ccLC7OvC.s 			page 71
 
 
  3974 11ae 50       		.byte	0x50
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4028 120a 43050000 		.4byte	.LASF140
  4029 120e 01       		.byte	0x1
  4030 120f F1       		.byte	0xf1
-ARM GAS  /tmp/ccwmX87R.s 			page 72
+ARM GAS  /tmp/ccLC7OvC.s 			page 72
 
 
  4031 1210 00000000 		.4byte	.LFB179
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4085 1299 22010000 		.4byte	.LLST10
  4086 129d 32       		.uleb128 0x32
  4087 129e 1E000000 		.4byte	.LVL77
-ARM GAS  /tmp/ccwmX87R.s 			page 73
+ARM GAS  /tmp/ccLC7OvC.s 			page 73
 
 
  4088 12a2 701C0000 		.4byte	0x1c70
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4142 1326 02       		.uleb128 0x2
  4143 1327 91       		.byte	0x91
  4144 1328 64       		.sleb128 -28
-ARM GAS  /tmp/ccwmX87R.s 			page 74
+ARM GAS  /tmp/ccLC7OvC.s 			page 74
 
 
  4145 1329 2B       		.uleb128 0x2b
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4199 1395 91       		.byte	0x91
  4200 1396 64       		.sleb128 -28
  4201 1397 00       		.byte	0
-ARM GAS  /tmp/ccwmX87R.s 			page 75
+ARM GAS  /tmp/ccLC7OvC.s 			page 75
 
 
  4202 1398 00       		.byte	0
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4256 1421 7301     		.2byte	0x173
  4257 1423 2E       		.uleb128 0x2e
  4258 1424 74060000 		.4byte	0x674
-ARM GAS  /tmp/ccwmX87R.s 			page 76
+ARM GAS  /tmp/ccLC7OvC.s 			page 76
 
 
  4259 1428 2E000000 		.4byte	.LBB587
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4313 14ad BD       		.byte	0xbd
  4314 14ae 00       		.byte	0
  4315 14af 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccwmX87R.s 			page 77
+ARM GAS  /tmp/ccLC7OvC.s 			page 77
 
 
  4316 14b0 22080000 		.4byte	0x822
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4370 1533 B8030000 		.4byte	.LLST17
  4371 1537 00       		.byte	0
  4372 1538 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccwmX87R.s 			page 78
+ARM GAS  /tmp/ccLC7OvC.s 			page 78
 
 
  4373 1539 B5060000 		.4byte	0x6b5
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4427 15c9 2A       		.uleb128 0x2a
  4428 15ca 81060000 		.4byte	0x681
  4429 15ce 00       		.byte	0
-ARM GAS  /tmp/ccwmX87R.s 			page 79
+ARM GAS  /tmp/ccLC7OvC.s 			page 79
 
 
  4430 15cf 00       		.byte	0
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4484 1655 50       		.byte	0x50
  4485 1656 02       		.uleb128 0x2
  4486 1657 91       		.byte	0x91
-ARM GAS  /tmp/ccwmX87R.s 			page 80
+ARM GAS  /tmp/ccLC7OvC.s 			page 80
 
 
  4487 1658 64       		.sleb128 -28
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4541 16e1 06000000 		.4byte	.LBE636-.LBB636
  4542 16e5 0D       		.byte	0xd
  4543 16e6 D001     		.2byte	0x1d0
-ARM GAS  /tmp/ccwmX87R.s 			page 81
+ARM GAS  /tmp/ccLC7OvC.s 			page 81
 
 
  4544 16e8 2F       		.uleb128 0x2f
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4598 1774 0D       		.byte	0xd
  4599 1775 D001     		.2byte	0x1d0
  4600 1777 2F       		.uleb128 0x2f
-ARM GAS  /tmp/ccwmX87R.s 			page 82
+ARM GAS  /tmp/ccLC7OvC.s 			page 82
 
 
  4601 1778 81060000 		.4byte	0x681
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4655 1804 2E       		.uleb128 0x2e
  4656 1805 74060000 		.4byte	0x674
  4657 1809 DC000000 		.4byte	.LBB656
-ARM GAS  /tmp/ccwmX87R.s 			page 83
+ARM GAS  /tmp/ccLC7OvC.s 			page 83
 
 
  4658 180d 04000000 		.4byte	.LBE656-.LBB656
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4712 1891 60050000 		.4byte	.LLST27
  4713 1895 33       		.uleb128 0x33
  4714 1896 3A010000 		.4byte	.LVL127
-ARM GAS  /tmp/ccwmX87R.s 			page 84
+ARM GAS  /tmp/ccLC7OvC.s 			page 84
 
 
  4715 189a 701C0000 		.4byte	0x1c70
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4769 191c 06000000 		.4byte	.LBE675-.LBB675
  4770 1920 12       		.byte	0x12
  4771 1921 5C01     		.2byte	0x15c
-ARM GAS  /tmp/ccwmX87R.s 			page 85
+ARM GAS  /tmp/ccLC7OvC.s 			page 85
 
 
  4772 1923 2E       		.uleb128 0x2e
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4826 19af 12       		.byte	0x12
  4827 19b0 5C01     		.2byte	0x15c
  4828 19b2 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccwmX87R.s 			page 86
+ARM GAS  /tmp/ccLC7OvC.s 			page 86
 
 
  4829 19b3 74060000 		.4byte	0x674
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4883 1a35 8A1B0000 		.4byte	0x1b8a
  4884 1a39 551A0000 		.4byte	0x1a55
  4885 1a3d 31       		.uleb128 0x31
-ARM GAS  /tmp/ccwmX87R.s 			page 87
+ARM GAS  /tmp/ccLC7OvC.s 			page 87
 
 
  4886 1a3e 01       		.uleb128 0x1
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4940 1a9c 01       		.uleb128 0x1
  4941 1a9d 50       		.byte	0x50
  4942 1a9e 01       		.uleb128 0x1
-ARM GAS  /tmp/ccwmX87R.s 			page 88
+ARM GAS  /tmp/ccLC7OvC.s 			page 88
 
 
  4943 1a9f 33       		.byte	0x33
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  4997 1b0e 14       		.uleb128 0x14
  4998 1b0f F91A0000 		.4byte	0x1af9
  4999 1b13 45       		.uleb128 0x45
-ARM GAS  /tmp/ccwmX87R.s 			page 89
+ARM GAS  /tmp/ccLC7OvC.s 			page 89
 
 
  5000 1b14 BD030000 		.4byte	.LASF146
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5054 1b8b 94040000 		.4byte	.LASF151
  5055 1b8f 02       		.byte	0x2
  5056 1b90 89       		.byte	0x89
-ARM GAS  /tmp/ccwmX87R.s 			page 90
+ARM GAS  /tmp/ccLC7OvC.s 			page 90
 
 
  5057 1b91 22020000 		.4byte	0x222
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5111 1c0a F4070000 		.4byte	.LASF157
  5112 1c0e 11       		.byte	0x11
  5113 1c0f 5A       		.byte	0x5a
-ARM GAS  /tmp/ccwmX87R.s 			page 91
+ARM GAS  /tmp/ccLC7OvC.s 			page 91
 
 
  5114 1c10 30070000 		.4byte	0x730
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5168 1c88 17010000 		.4byte	0x117
  5169 1c8c 9B1C0000 		.4byte	0x1c9b
  5170 1c90 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccwmX87R.s 			page 92
+ARM GAS  /tmp/ccLC7OvC.s 			page 92
 
 
  5171 1c91 0C070000 		.4byte	0x70c
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5225 0009 55       		.uleb128 0x55
  5226 000a 17       		.uleb128 0x17
  5227 000b 11       		.uleb128 0x11
-ARM GAS  /tmp/ccwmX87R.s 			page 93
+ARM GAS  /tmp/ccLC7OvC.s 			page 93
 
 
  5228 000c 01       		.uleb128 0x1
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5282 0042 00       		.byte	0
  5283 0043 06       		.uleb128 0x6
  5284 0044 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccwmX87R.s 			page 94
+ARM GAS  /tmp/ccLC7OvC.s 			page 94
 
 
  5285 0045 00       		.byte	0
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5339 007b 01       		.byte	0x1
  5340 007c 03       		.uleb128 0x3
  5341 007d 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccwmX87R.s 			page 95
+ARM GAS  /tmp/ccLC7OvC.s 			page 95
 
 
  5342 007e 0B       		.uleb128 0xb
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5396 00b4 0B       		.uleb128 0xb
  5397 00b5 3B       		.uleb128 0x3b
  5398 00b6 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccwmX87R.s 			page 96
+ARM GAS  /tmp/ccLC7OvC.s 			page 96
 
 
  5399 00b7 49       		.uleb128 0x49
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5453 00ed 00       		.byte	0
  5454 00ee 49       		.uleb128 0x49
  5455 00ef 13       		.uleb128 0x13
-ARM GAS  /tmp/ccwmX87R.s 			page 97
+ARM GAS  /tmp/ccLC7OvC.s 			page 97
 
 
  5456 00f0 00       		.byte	0
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5510 0126 13       		.uleb128 0x13
  5511 0127 00       		.byte	0
  5512 0128 00       		.byte	0
-ARM GAS  /tmp/ccwmX87R.s 			page 98
+ARM GAS  /tmp/ccLC7OvC.s 			page 98
 
 
  5513 0129 1A       		.uleb128 0x1a
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5567 015f 27       		.uleb128 0x27
  5568 0160 19       		.uleb128 0x19
  5569 0161 49       		.uleb128 0x49
-ARM GAS  /tmp/ccwmX87R.s 			page 99
+ARM GAS  /tmp/ccLC7OvC.s 			page 99
 
 
  5570 0162 13       		.uleb128 0x13
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5624 0198 00       		.byte	0
  5625 0199 03       		.uleb128 0x3
  5626 019a 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccwmX87R.s 			page 100
+ARM GAS  /tmp/ccLC7OvC.s 			page 100
 
 
  5627 019b 3A       		.uleb128 0x3a
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5681 01d1 05       		.uleb128 0x5
  5682 01d2 00       		.byte	0
  5683 01d3 03       		.uleb128 0x3
-ARM GAS  /tmp/ccwmX87R.s 			page 101
+ARM GAS  /tmp/ccLC7OvC.s 			page 101
 
 
  5684 01d4 0E       		.uleb128 0xe
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5738 020b 11       		.uleb128 0x11
  5739 020c 01       		.uleb128 0x1
  5740 020d 12       		.uleb128 0x12
-ARM GAS  /tmp/ccwmX87R.s 			page 102
+ARM GAS  /tmp/ccLC7OvC.s 			page 102
 
 
  5741 020e 06       		.uleb128 0x6
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5795 0244 06       		.uleb128 0x6
  5796 0245 00       		.byte	0
  5797 0246 00       		.byte	0
-ARM GAS  /tmp/ccwmX87R.s 			page 103
+ARM GAS  /tmp/ccLC7OvC.s 			page 103
 
 
  5798 0247 2D       		.uleb128 0x2d
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5852 0284 11       		.uleb128 0x11
  5853 0285 01       		.uleb128 0x1
  5854 0286 31       		.uleb128 0x31
-ARM GAS  /tmp/ccwmX87R.s 			page 104
+ARM GAS  /tmp/ccLC7OvC.s 			page 104
 
 
  5855 0287 13       		.uleb128 0x13
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5909 02c5 11       		.uleb128 0x11
  5910 02c6 01       		.uleb128 0x1
  5911 02c7 12       		.uleb128 0x12
-ARM GAS  /tmp/ccwmX87R.s 			page 105
+ARM GAS  /tmp/ccLC7OvC.s 			page 105
 
 
  5912 02c8 06       		.uleb128 0x6
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  5966 02ff 31       		.uleb128 0x31
  5967 0300 13       		.uleb128 0x13
  5968 0301 11       		.uleb128 0x11
-ARM GAS  /tmp/ccwmX87R.s 			page 106
+ARM GAS  /tmp/ccLC7OvC.s 			page 106
 
 
  5969 0302 01       		.uleb128 0x1
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6023 0338 0E       		.uleb128 0xe
  6024 0339 3A       		.uleb128 0x3a
  6025 033a 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccwmX87R.s 			page 107
+ARM GAS  /tmp/ccLC7OvC.s 			page 107
 
 
  6026 033b 3B       		.uleb128 0x3b
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6080 0371 3A       		.uleb128 0x3a
  6081 0372 0B       		.uleb128 0xb
  6082 0373 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccwmX87R.s 			page 108
+ARM GAS  /tmp/ccLC7OvC.s 			page 108
 
 
  6083 0374 0B       		.uleb128 0xb
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6137 03aa 27       		.uleb128 0x27
  6138 03ab 19       		.uleb128 0x19
  6139 03ac 49       		.uleb128 0x49
-ARM GAS  /tmp/ccwmX87R.s 			page 109
+ARM GAS  /tmp/ccLC7OvC.s 			page 109
 
 
  6140 03ad 13       		.uleb128 0x13
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6194 03e3 27       		.uleb128 0x27
  6195 03e4 19       		.uleb128 0x19
  6196 03e5 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccwmX87R.s 			page 110
+ARM GAS  /tmp/ccLC7OvC.s 			page 110
 
 
  6197 03e6 19       		.uleb128 0x19
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6251 001e 50       		.byte	0x50
  6252 001f 06000000 		.4byte	.LVL22
  6253 0023 18000000 		.4byte	.LFE177
-ARM GAS  /tmp/ccwmX87R.s 			page 111
+ARM GAS  /tmp/ccLC7OvC.s 			page 111
 
 
  6254 0027 0400     		.2byte	0x4
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6308              	.LLST6:
  6309 00a9 C2000000 		.4byte	.LVL55
  6310 00ad 36010000 		.4byte	.LVL64
-ARM GAS  /tmp/ccwmX87R.s 			page 112
+ARM GAS  /tmp/ccLC7OvC.s 			page 112
 
 
  6311 00b1 0400     		.2byte	0x4
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6365 0137 F3       		.byte	0xf3
  6366 0138 01       		.uleb128 0x1
  6367 0139 50       		.byte	0x50
-ARM GAS  /tmp/ccwmX87R.s 			page 113
+ARM GAS  /tmp/ccLC7OvC.s 			page 113
 
 
  6368 013a 9F       		.byte	0x9f
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6422 01b9 48000000 		.4byte	.LVL89
  6423 01bd 52000000 		.4byte	.LVL90
  6424 01c1 0100     		.2byte	0x1
-ARM GAS  /tmp/ccwmX87R.s 			page 114
+ARM GAS  /tmp/ccLC7OvC.s 			page 114
 
 
  6425 01c3 53       		.byte	0x53
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6479 0244 50       		.byte	0x50
  6480 0245 13000000 		.4byte	.LVL83-1
  6481 0249 48000000 		.4byte	.LVL89
-ARM GAS  /tmp/ccwmX87R.s 			page 115
+ARM GAS  /tmp/ccLC7OvC.s 			page 115
 
 
  6482 024d 0300     		.2byte	0x3
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6536 02ce 0300     		.2byte	0x3
  6537 02d0 91       		.byte	0x91
  6538 02d1 64       		.sleb128 -28
-ARM GAS  /tmp/ccwmX87R.s 			page 116
+ARM GAS  /tmp/ccLC7OvC.s 			page 116
 
 
  6539 02d2 9F       		.byte	0x9f
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6593 0353 00000000 		.4byte	0
  6594 0357 00000000 		.4byte	0
  6595              	.LLST16:
-ARM GAS  /tmp/ccwmX87R.s 			page 117
+ARM GAS  /tmp/ccLC7OvC.s 			page 117
 
 
  6596 035b 5A000000 		.4byte	.LVL92
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6650 03dc 9F       		.byte	0x9f
  6651 03dd 36010000 		.4byte	.LVL126
  6652 03e1 39010000 		.4byte	.LVL127-1
-ARM GAS  /tmp/ccwmX87R.s 			page 118
+ARM GAS  /tmp/ccLC7OvC.s 			page 118
 
 
  6653 03e5 0100     		.2byte	0x1
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6707 0463 D6000000 		.4byte	.LVL111
  6708 0467 D9000000 		.4byte	.LVL112-1
  6709 046b 0100     		.2byte	0x1
-ARM GAS  /tmp/ccwmX87R.s 			page 119
+ARM GAS  /tmp/ccLC7OvC.s 			page 119
 
 
  6710 046d 50       		.byte	0x50
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6764 04ed 4C010000 		.4byte	.LFE180
  6765 04f1 0200     		.2byte	0x2
  6766 04f3 30       		.byte	0x30
-ARM GAS  /tmp/ccwmX87R.s 			page 120
+ARM GAS  /tmp/ccLC7OvC.s 			page 120
 
 
  6767 04f4 9F       		.byte	0x9f
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6821 0575 0100     		.2byte	0x1
  6822 0577 50       		.byte	0x50
  6823 0578 39010000 		.4byte	.LVL127-1
-ARM GAS  /tmp/ccwmX87R.s 			page 121
+ARM GAS  /tmp/ccLC7OvC.s 			page 121
 
 
  6824 057c 4C010000 		.4byte	.LFE180
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6878 000b 00       		.byte	0
  6879 000c 0000     		.2byte	0
  6880 000e 0000     		.2byte	0
-ARM GAS  /tmp/ccwmX87R.s 			page 122
+ARM GAS  /tmp/ccLC7OvC.s 			page 122
 
 
  6881 0010 00000000 		.4byte	.LFB172
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6935 0070 00000000 		.4byte	0
  6936 0074 00000000 		.4byte	0
  6937 0078 08000000 		.4byte	.LBB432
-ARM GAS  /tmp/ccwmX87R.s 			page 123
+ARM GAS  /tmp/ccLC7OvC.s 			page 123
 
 
  6938 007c 0E000000 		.4byte	.LBE432
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  6992 0154 24000000 		.4byte	.LFE174
  6993 0158 00000000 		.4byte	.LFB175
  6994 015c 54010000 		.4byte	.LFE175
-ARM GAS  /tmp/ccwmX87R.s 			page 124
+ARM GAS  /tmp/ccLC7OvC.s 			page 124
 
 
  6995 0160 00000000 		.4byte	.LFB178
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7024              	.LASF67:
  7025 006b 73797374 		.ascii	"system_debug_t\000"
  7025      656D5F64 
-ARM GAS  /tmp/ccwmX87R.s 			page 125
+ARM GAS  /tmp/ccLC7OvC.s 			page 125
 
 
  7025      65627567 
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7049      65642063 
  7049      68617200 
  7050              	.LASF165:
-ARM GAS  /tmp/ccwmX87R.s 			page 126
+ARM GAS  /tmp/ccLC7OvC.s 			page 126
 
 
  7051 0110 63685365 		.ascii	"chSemSignalWait\000"
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7071 0245 63684253 		.ascii	"chBSemSignal\000"
  7071      656D5369 
  7071      676E616C 
-ARM GAS  /tmp/ccwmX87R.s 			page 127
+ARM GAS  /tmp/ccLC7OvC.s 			page 127
 
 
  7071      00
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7095      00
  7096              	.LASF10:
  7097 0304 5F5F7569 		.ascii	"__uint32_t\000"
-ARM GAS  /tmp/ccwmX87R.s 			page 128
+ARM GAS  /tmp/ccLC7OvC.s 			page 128
 
 
  7097      6E743332 
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7125      6D576169 
  7125      7454696D 
  7125      656F7574 
-ARM GAS  /tmp/ccwmX87R.s 			page 129
+ARM GAS  /tmp/ccLC7OvC.s 			page 129
 
 
  7125      00
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7153      68726561 
  7153      6400
  7154              	.LASF142:
-ARM GAS  /tmp/ccwmX87R.s 			page 130
+ARM GAS  /tmp/ccLC7OvC.s 			page 130
 
 
  7155 0428 6273656D 		.ascii	"bsem\000"
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7180              	.LASF37:
  7181 04c2 705F7761 		.ascii	"p_waiting\000"
  7181      6974696E 
-ARM GAS  /tmp/ccwmX87R.s 			page 131
+ARM GAS  /tmp/ccLC7OvC.s 			page 131
 
 
  7181      6700
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7205      5800
  7206              	.LASF105:
  7207 0568 73657475 		.ascii	"setup\000"
-ARM GAS  /tmp/ccwmX87R.s 			page 132
+ARM GAS  /tmp/ccLC7OvC.s 			page 132
 
 
  7207      7000
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7235 0600 756E7369 		.ascii	"unsigned char\000"
  7235      676E6564 
  7235      20636861 
-ARM GAS  /tmp/ccwmX87R.s 			page 133
+ARM GAS  /tmp/ccLC7OvC.s 			page 133
 
 
  7235      7200
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7265 0692 63685F73 		.ascii	"ch_semaphore\000"
  7265      656D6170 
  7265      686F7265 
-ARM GAS  /tmp/ccwmX87R.s 			page 134
+ARM GAS  /tmp/ccLC7OvC.s 			page 134
 
 
  7265      00
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7293      696D655F 
  7293      7400
  7294              	.LASF42:
-ARM GAS  /tmp/ccwmX87R.s 			page 135
+ARM GAS  /tmp/ccLC7OvC.s 			page 135
 
 
  7295 072d 705F7265 		.ascii	"p_realprio\000"
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7323 07b8 63685468 		.ascii	"chThdGetSelfX\000"
  7323      64476574 
  7323      53656C66 
-ARM GAS  /tmp/ccwmX87R.s 			page 136
+ARM GAS  /tmp/ccLC7OvC.s 			page 136
 
 
  7323      5800
@@ -8152,56 +8152,56 @@ ARM GAS  /tmp/ccwmX87R.s 			page 1
  7349 083f 76745F66 		.ascii	"vt_func\000"
  7349      756E6300 
  7350              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccwmX87R.s 			page 137
+ARM GAS  /tmp/ccLC7OvC.s 			page 137
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 testsem.c
-     /tmp/ccwmX87R.s:19     .text.sem1_execute:00000000 $t
-     /tmp/ccwmX87R.s:24     .text.sem1_execute:00000000 sem1_execute
-     /tmp/ccwmX87R.s:337    .text.sem1_execute:00000128 $d
-     /tmp/ccwmX87R.s:397    .text.thread1:00000000 thread1
-     /tmp/ccwmX87R.s:352    .text.thread3:00000000 $t
-     /tmp/ccwmX87R.s:357    .text.thread3:00000000 thread3
-     /tmp/ccwmX87R.s:387    .text.thread3:00000014 $d
-     /tmp/ccwmX87R.s:392    .text.thread1:00000000 $t
-     /tmp/ccwmX87R.s:429    .text.thread1:00000014 $d
-     /tmp/ccwmX87R.s:434    .text.sem1_setup:00000000 $t
-     /tmp/ccwmX87R.s:439    .text.sem1_setup:00000000 sem1_setup
-     /tmp/ccwmX87R.s:454    .text.sem1_setup:00000008 $d
-     /tmp/ccwmX87R.s:459    .text.sem2_setup:00000000 $t
-     /tmp/ccwmX87R.s:464    .text.sem2_setup:00000000 sem2_setup
-     /tmp/ccwmX87R.s:479    .text.sem2_setup:00000008 $d
-     /tmp/ccwmX87R.s:484    .text.sem3_setup:00000000 $t
-     /tmp/ccwmX87R.s:489    .text.sem3_setup:00000000 sem3_setup
-     /tmp/ccwmX87R.s:504    .text.sem3_setup:00000008 $d
-     /tmp/ccwmX87R.s:509    .text.thread2:00000000 $t
-     /tmp/ccwmX87R.s:514    .text.thread2:00000000 thread2
-     /tmp/ccwmX87R.s:566    .text.thread2:00000020 $d
-     /tmp/ccwmX87R.s:576    .text.sem2_execute:00000000 $t
-     /tmp/ccwmX87R.s:581    .text.sem2_execute:00000000 sem2_execute
-     /tmp/ccwmX87R.s:860    .text.sem2_execute:0000013c $d
-     /tmp/ccwmX87R.s:872    .text.sem3_execute:00000000 $t
-     /tmp/ccwmX87R.s:877    .text.sem3_execute:00000000 sem3_execute
-     /tmp/ccwmX87R.s:1008   .text.sem3_execute:00000084 $d
-     /tmp/ccwmX87R.s:1019   .text.thread4:00000000 $t
-     /tmp/ccwmX87R.s:1024   .text.thread4:00000000 thread4
-     /tmp/ccwmX87R.s:1116   .text.sem4_execute:00000000 $t
-     /tmp/ccwmX87R.s:1121   .text.sem4_execute:00000000 sem4_execute
-     /tmp/ccwmX87R.s:1650   .text.sem4_execute:0000013c $d
-     /tmp/ccwmX87R.s:1715   .rodata.patternsem:00000000 patternsem
-     /tmp/ccwmX87R.s:1697   .rodata.testsem4:00000000 testsem4
-     /tmp/ccwmX87R.s:1688   .rodata.testsem3:00000000 testsem3
-     /tmp/ccwmX87R.s:1679   .rodata.testsem2:00000000 testsem2
-     /tmp/ccwmX87R.s:1670   .rodata.testsem1:00000000 testsem1
-     /tmp/ccwmX87R.s:1667   .rodata.testsem1:00000000 $d
-     /tmp/ccwmX87R.s:1676   .rodata.testsem2:00000000 $d
-     /tmp/ccwmX87R.s:1685   .rodata.testsem3:00000000 $d
-     /tmp/ccwmX87R.s:1694   .rodata.testsem4:00000000 $d
-     /tmp/ccwmX87R.s:1703   .data.sem1:00000000 $d
-     /tmp/ccwmX87R.s:1707   .data.sem1:00000000 sem1
-     /tmp/ccwmX87R.s:1712   .rodata.patternsem:00000000 $d
-     /tmp/ccwmX87R.s:1722   .rodata.str1.4:00000000 $d
+     /tmp/ccLC7OvC.s:19     .text.sem1_execute:00000000 $t
+     /tmp/ccLC7OvC.s:24     .text.sem1_execute:00000000 sem1_execute
+     /tmp/ccLC7OvC.s:337    .text.sem1_execute:00000128 $d
+     /tmp/ccLC7OvC.s:397    .text.thread1:00000000 thread1
+     /tmp/ccLC7OvC.s:352    .text.thread3:00000000 $t
+     /tmp/ccLC7OvC.s:357    .text.thread3:00000000 thread3
+     /tmp/ccLC7OvC.s:387    .text.thread3:00000014 $d
+     /tmp/ccLC7OvC.s:392    .text.thread1:00000000 $t
+     /tmp/ccLC7OvC.s:429    .text.thread1:00000014 $d
+     /tmp/ccLC7OvC.s:434    .text.sem1_setup:00000000 $t
+     /tmp/ccLC7OvC.s:439    .text.sem1_setup:00000000 sem1_setup
+     /tmp/ccLC7OvC.s:454    .text.sem1_setup:00000008 $d
+     /tmp/ccLC7OvC.s:459    .text.sem2_setup:00000000 $t
+     /tmp/ccLC7OvC.s:464    .text.sem2_setup:00000000 sem2_setup
+     /tmp/ccLC7OvC.s:479    .text.sem2_setup:00000008 $d
+     /tmp/ccLC7OvC.s:484    .text.sem3_setup:00000000 $t
+     /tmp/ccLC7OvC.s:489    .text.sem3_setup:00000000 sem3_setup
+     /tmp/ccLC7OvC.s:504    .text.sem3_setup:00000008 $d
+     /tmp/ccLC7OvC.s:509    .text.thread2:00000000 $t
+     /tmp/ccLC7OvC.s:514    .text.thread2:00000000 thread2
+     /tmp/ccLC7OvC.s:566    .text.thread2:00000020 $d
+     /tmp/ccLC7OvC.s:576    .text.sem2_execute:00000000 $t
+     /tmp/ccLC7OvC.s:581    .text.sem2_execute:00000000 sem2_execute
+     /tmp/ccLC7OvC.s:860    .text.sem2_execute:0000013c $d
+     /tmp/ccLC7OvC.s:872    .text.sem3_execute:00000000 $t
+     /tmp/ccLC7OvC.s:877    .text.sem3_execute:00000000 sem3_execute
+     /tmp/ccLC7OvC.s:1008   .text.sem3_execute:00000084 $d
+     /tmp/ccLC7OvC.s:1019   .text.thread4:00000000 $t
+     /tmp/ccLC7OvC.s:1024   .text.thread4:00000000 thread4
+     /tmp/ccLC7OvC.s:1116   .text.sem4_execute:00000000 $t
+     /tmp/ccLC7OvC.s:1121   .text.sem4_execute:00000000 sem4_execute
+     /tmp/ccLC7OvC.s:1650   .text.sem4_execute:0000013c $d
+     /tmp/ccLC7OvC.s:1715   .rodata.patternsem:00000000 patternsem
+     /tmp/ccLC7OvC.s:1697   .rodata.testsem4:00000000 testsem4
+     /tmp/ccLC7OvC.s:1688   .rodata.testsem3:00000000 testsem3
+     /tmp/ccLC7OvC.s:1679   .rodata.testsem2:00000000 testsem2
+     /tmp/ccLC7OvC.s:1670   .rodata.testsem1:00000000 testsem1
+     /tmp/ccLC7OvC.s:1667   .rodata.testsem1:00000000 $d
+     /tmp/ccLC7OvC.s:1676   .rodata.testsem2:00000000 $d
+     /tmp/ccLC7OvC.s:1685   .rodata.testsem3:00000000 $d
+     /tmp/ccLC7OvC.s:1694   .rodata.testsem4:00000000 $d
+     /tmp/ccLC7OvC.s:1703   .data.sem1:00000000 $d
+     /tmp/ccLC7OvC.s:1707   .data.sem1:00000000 sem1
+     /tmp/ccLC7OvC.s:1712   .rodata.patternsem:00000000 $d
+     /tmp/ccLC7OvC.s:1722   .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
@@ -8212,7 +8212,7 @@ _test_assert_sequence
 chSemAddCounterI
 chSchRescheduleS
 _test_assert
-ARM GAS  /tmp/ccwmX87R.s 			page 138
+ARM GAS  /tmp/ccLC7OvC.s 			page 138
 
 
 ch

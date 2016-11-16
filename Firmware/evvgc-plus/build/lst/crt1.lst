@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccqbjovK.s 			page 1
+ARM GAS  /tmp/ccOZ7c1b.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
   55 0002 00BF     		.section	.text.__late_init,"ax",%progbits
   56              		.align	2
   57              		.p2align 4,,15
-ARM GAS  /tmp/ccqbjovK.s 			page 2
+ARM GAS  /tmp/ccOZ7c1b.s 			page 2
 
 
   58              		.weak	__late_init
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  112              		.cfi_offset 5, -12
  113              		.cfi_offset 6, -8
  114              		.cfi_offset 7, -4
-ARM GAS  /tmp/ccqbjovK.s 			page 3
+ARM GAS  /tmp/ccOZ7c1b.s 			page 3
 
 
  115              		.loc 1 194 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  169 0042 F0BC     		pop	{r4, r5, r6, r7}
  170              		.cfi_restore 7
  171              		.cfi_restore 6
-ARM GAS  /tmp/ccqbjovK.s 			page 4
+ARM GAS  /tmp/ccOZ7c1b.s 			page 4
 
 
  172              		.cfi_restore 5
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  226              		.file 4 "/home/maciek/ChibiOS_16.1.5/os/ext/CMSIS/include/core_cm3.h"
  227              		.section	.debug_info,"",%progbits
  228              	.Ldebug_info0:
-ARM GAS  /tmp/ccqbjovK.s 			page 5
+ARM GAS  /tmp/ccOZ7c1b.s 			page 5
 
 
  229 0000 11030000 		.4byte	0x311
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  283 0070 04       		.byte	0x4
  284 0071 05       		.byte	0x5
  285 0072 696E7400 		.ascii	"int\000"
-ARM GAS  /tmp/ccqbjovK.s 			page 6
+ARM GAS  /tmp/ccOZ7c1b.s 			page 6
 
 
  286 0076 02       		.uleb128 0x2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  340 00df 39       		.byte	0x39
  341 00e0 9A000000 		.4byte	0x9a
  342 00e4 08       		.uleb128 0x8
-ARM GAS  /tmp/ccqbjovK.s 			page 7
+ARM GAS  /tmp/ccOZ7c1b.s 			page 7
 
 
  343 00e5 B3010000 		.4byte	.LASF19
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  397 015f 23000000 		.4byte	.LLST1
  398 0163 0A       		.uleb128 0xa
  399 0164 7000     		.ascii	"p\000"
-ARM GAS  /tmp/ccqbjovK.s 			page 8
+ARM GAS  /tmp/ccOZ7c1b.s 			page 8
 
 
  400 0166 01       		.byte	0x1
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  454 01dc 88000000 		.4byte	0x88
  455 01e0 12       		.uleb128 0x12
  456 01e1 6D020000 		.4byte	.LASF29
-ARM GAS  /tmp/ccqbjovK.s 			page 9
+ARM GAS  /tmp/ccOZ7c1b.s 			page 9
 
 
  457 01e5 01       		.byte	0x1
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  511 025a 8B010000 		.4byte	.LASF40
  512 025e 01       		.byte	0x1
  513 025f 49       		.byte	0x49
-ARM GAS  /tmp/ccqbjovK.s 			page 10
+ARM GAS  /tmp/ccOZ7c1b.s 			page 10
 
 
  514 0260 88000000 		.4byte	0x88
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  568 02d8 52       		.byte	0x52
  569 02d9 88000000 		.4byte	0x88
  570 02dd 12       		.uleb128 0x12
-ARM GAS  /tmp/ccqbjovK.s 			page 11
+ARM GAS  /tmp/ccOZ7c1b.s 			page 11
 
 
  571 02de 3F020000 		.4byte	.LASF52
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  625 001b 00       		.byte	0
  626 001c 03       		.uleb128 0x3
  627 001d 16       		.uleb128 0x16
-ARM GAS  /tmp/ccqbjovK.s 			page 12
+ARM GAS  /tmp/ccOZ7c1b.s 			page 12
 
 
  628 001e 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  682 0054 0B       		.uleb128 0xb
  683 0055 49       		.uleb128 0x49
  684 0056 13       		.uleb128 0x13
-ARM GAS  /tmp/ccqbjovK.s 			page 13
+ARM GAS  /tmp/ccOZ7c1b.s 			page 13
 
 
  685 0057 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  739 008f 08       		.uleb128 0x8
  740 0090 3A       		.uleb128 0x3a
  741 0091 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccqbjovK.s 			page 14
+ARM GAS  /tmp/ccOZ7c1b.s 			page 14
 
 
  742 0092 3B       		.uleb128 0x3b
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  796 00c8 18       		.uleb128 0x18
  797 00c9 00       		.byte	0
  798 00ca 00       		.byte	0
-ARM GAS  /tmp/ccqbjovK.s 			page 15
+ARM GAS  /tmp/ccOZ7c1b.s 			page 15
 
 
  799 00cb 10       		.uleb128 0x10
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  853 001a 56       		.byte	0x56
  854 001b 00000000 		.4byte	0
  855 001f 00000000 		.4byte	0
-ARM GAS  /tmp/ccqbjovK.s 			page 16
+ARM GAS  /tmp/ccOZ7c1b.s 			page 16
 
 
  856              	.LLST1:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  910 0030 00000000 		.4byte	.LFB67
  911 0034 4C000000 		.4byte	.LFE67-.LFB67
  912 0038 00000000 		.4byte	0
-ARM GAS  /tmp/ccqbjovK.s 			page 17
+ARM GAS  /tmp/ccOZ7c1b.s 			page 17
 
 
  913 003c 00000000 		.4byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  940 00ed 73202D66 		.ascii	"s -fno-common\000"
  940      6E6F2D63 
  940      6F6D6D6F 
-ARM GAS  /tmp/ccqbjovK.s 			page 18
+ARM GAS  /tmp/ccOZ7c1b.s 			page 18
 
 
  940      6E00
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  963 01b3 5F5F636F 		.ascii	"__core_init\000"
  963      72655F69 
  963      6E697400 
-ARM GAS  /tmp/ccqbjovK.s 			page 19
+ARM GAS  /tmp/ccOZ7c1b.s 			page 19
 
 
  964              	.LASF49:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  986              	.LASF35:
  987 025e 5F5F7261 		.ascii	"__ram2_clear__\000"
  987      6D325F63 
-ARM GAS  /tmp/ccqbjovK.s 			page 20
+ARM GAS  /tmp/ccOZ7c1b.s 			page 20
 
 
  987      6C656172 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  1009      20756E73 
  1009      69676E65 
  1009      6420696E 
-ARM GAS  /tmp/ccqbjovK.s 			page 21
+ARM GAS  /tmp/ccOZ7c1b.s 			page 21
 
 
  1009      7400
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  1031      6D325F69 
  1031      6E69745F 
  1031      5F00
-ARM GAS  /tmp/ccqbjovK.s 			page 22
+ARM GAS  /tmp/ccOZ7c1b.s 			page 22
 
 
  1032              	.LASF33:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  1053      5F617265 
  1053      6100
  1054              	.LASF14:
-ARM GAS  /tmp/ccqbjovK.s 			page 23
+ARM GAS  /tmp/ccOZ7c1b.s 			page 23
 
 
  1055 0463 696E6974 		.ascii	"init_text_area\000"
@@ -1326,24 +1326,24 @@ ARM GAS  /tmp/ccqbjovK.s 			page 1
  1055      745F6172 
  1055      656100
  1056              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccqbjovK.s 			page 24
+ARM GAS  /tmp/ccOZ7c1b.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 crt1.c
-     /tmp/ccqbjovK.s:19     .text.__core_init:00000000 $t
-     /tmp/ccqbjovK.s:25     .text.__core_init:00000000 __core_init
-     /tmp/ccqbjovK.s:38     .text.__early_init:00000000 $t
-     /tmp/ccqbjovK.s:44     .text.__early_init:00000000 __early_init
-     /tmp/ccqbjovK.s:56     .text.__late_init:00000000 $t
-     /tmp/ccqbjovK.s:62     .text.__late_init:00000000 __late_init
-     /tmp/ccqbjovK.s:74     .text.__default_exit:00000000 $t
-     /tmp/ccqbjovK.s:80     .text.__default_exit:00000000 __default_exit
-     /tmp/ccqbjovK.s:95     .text.__init_ram_areas:00000000 $t
-     /tmp/ccqbjovK.s:101    .text.__init_ram_areas:00000000 __init_ram_areas
-     /tmp/ccqbjovK.s:180    .text.__init_ram_areas:00000048 $d
-     /tmp/ccqbjovK.s:185    .rodata.ram_areas:00000000 $d
-     /tmp/ccqbjovK.s:189    .rodata.ram_areas:00000000 ram_areas
+     /tmp/ccOZ7c1b.s:19     .text.__core_init:00000000 $t
+     /tmp/ccOZ7c1b.s:25     .text.__core_init:00000000 __core_init
+     /tmp/ccOZ7c1b.s:38     .text.__early_init:00000000 $t
+     /tmp/ccOZ7c1b.s:44     .text.__early_init:00000000 __early_init
+     /tmp/ccOZ7c1b.s:56     .text.__late_init:00000000 $t
+     /tmp/ccOZ7c1b.s:62     .text.__late_init:00000000 __late_init
+     /tmp/ccOZ7c1b.s:74     .text.__default_exit:00000000 $t
+     /tmp/ccOZ7c1b.s:80     .text.__default_exit:00000000 __default_exit
+     /tmp/ccOZ7c1b.s:95     .text.__init_ram_areas:00000000 $t
+     /tmp/ccOZ7c1b.s:101    .text.__init_ram_areas:00000000 __init_ram_areas
+     /tmp/ccOZ7c1b.s:180    .text.__init_ram_areas:00000048 $d
+     /tmp/ccOZ7c1b.s:185    .rodata.ram_areas:00000000 $d
+     /tmp/ccOZ7c1b.s:189    .rodata.ram_areas:00000000 ram_areas
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

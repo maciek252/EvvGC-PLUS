@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccpYODtr.s 			page 1
+ARM GAS  /tmp/ccBnOoPN.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
   55              	.LBB72:
   56              		.loc 2 548 0
   57 0008 0021     		movs	r1, #0
-ARM GAS  /tmp/ccpYODtr.s 			page 2
+ARM GAS  /tmp/ccBnOoPN.s 			page 2
 
 
   58              	.LBE72:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  112              	@ 0 "" 2
  113              		.thumb
  114              	.LBE81:
-ARM GAS  /tmp/ccpYODtr.s 			page 3
+ARM GAS  /tmp/ccBnOoPN.s 			page 3
 
 
  115              	.LBE80:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  169              		.thumb
  170              	.LBE91:
  171              	.LBE90:
-ARM GAS  /tmp/ccpYODtr.s 			page 4
+ARM GAS  /tmp/ccBnOoPN.s 			page 4
 
 
  172              	.LBE89:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  226 0004 1646     		mov	r6, r2
  227 0006 1D46     		mov	r5, r3
  228 0008 0F46     		mov	r7, r1
-ARM GAS  /tmp/ccpYODtr.s 			page 5
+ARM GAS  /tmp/ccBnOoPN.s 			page 5
 
 
  229              		.loc 1 159 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  283              	.LBE101:
  284              		.loc 1 179 0
  285 0036 2046     		mov	r0, r4
-ARM GAS  /tmp/ccpYODtr.s 			page 6
+ARM GAS  /tmp/ccBnOoPN.s 			page 6
 
 
  286              	.LVL17:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  340              		.thumb
  341              	.LBE109:
  342              	.LBE108:
-ARM GAS  /tmp/ccpYODtr.s 			page 7
+ARM GAS  /tmp/ccBnOoPN.s 			page 7
 
 
  343              	.LBE107:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  397              		.file 5 "/opt/stm32/gcc/gcc-arm-none-eabi-4_9-2015q2/arm-none-eabi/include/sys/_stdint.h"
  398              		.file 6 "/home/maciek/ChibiOS_16.1.5/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h"
  399              		.file 7 "/home/maciek/ChibiOS_16.1.5/os/rt/include/chsystypes.h"
-ARM GAS  /tmp/ccpYODtr.s 			page 8
+ARM GAS  /tmp/ccBnOoPN.s 			page 8
 
 
  400              		.file 8 "/home/maciek/ChibiOS_16.1.5/os/rt/include/chschd.h"
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  454 0056 AB040000 		.4byte	.LASF5
  455 005a 03       		.uleb128 0x3
  456 005b DA010000 		.4byte	.LASF6
-ARM GAS  /tmp/ccpYODtr.s 			page 9
+ARM GAS  /tmp/ccBnOoPN.s 			page 9
 
 
  457 005f 04       		.byte	0x4
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  511 00cb 38010000 		.4byte	.LASF18
  512 00cf 05       		.byte	0x5
  513 00d0 20       		.byte	0x20
-ARM GAS  /tmp/ccpYODtr.s 			page 10
+ARM GAS  /tmp/ccBnOoPN.s 			page 10
 
 
  514 00d1 7E000000 		.4byte	0x7e
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  568 0149 3F       		.byte	0x3f
  569 014a 4E010000 		.4byte	0x14e
  570 014e 05       		.uleb128 0x5
-ARM GAS  /tmp/ccpYODtr.s 			page 11
+ARM GAS  /tmp/ccBnOoPN.s 			page 11
 
 
  571 014f F8020000 		.4byte	.LASF46
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  625 01bc 20000000 		.4byte	.LASF37
  626 01c0 08       		.byte	0x8
  627 01c1 3601     		.2byte	0x136
-ARM GAS  /tmp/ccpYODtr.s 			page 12
+ARM GAS  /tmp/ccBnOoPN.s 			page 12
 
 
  628 01c3 28020000 		.4byte	0x228
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  682 0238 04       		.byte	0x4
  683 0239 08       		.byte	0x8
  684 023a B0       		.byte	0xb0
-ARM GAS  /tmp/ccpYODtr.s 			page 13
+ARM GAS  /tmp/ccBnOoPN.s 			page 13
 
 
  685 023b 4C020000 		.4byte	0x24c
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  739 02ad 08       		.byte	0x8
  740 02ae 08       		.uleb128 0x8
  741 02af 5B060000 		.4byte	.LASF54
-ARM GAS  /tmp/ccpYODtr.s 			page 14
+ARM GAS  /tmp/ccBnOoPN.s 			page 14
 
 
  742 02b3 08       		.byte	0x8
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  796 0325 08       		.byte	0x8
  797 0326 08       		.uleb128 0x8
  798 0327 75060000 		.4byte	.LASF62
-ARM GAS  /tmp/ccpYODtr.s 			page 15
+ARM GAS  /tmp/ccBnOoPN.s 			page 15
 
 
  799 032b 08       		.byte	0x8
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  853 039e 04       		.byte	0x4
  854 039f 08       		.byte	0x8
  855 03a0 A201     		.2byte	0x1a2
-ARM GAS  /tmp/ccpYODtr.s 			page 16
+ARM GAS  /tmp/ccBnOoPN.s 			page 16
 
 
  856 03a2 B4030000 		.4byte	0x3b4
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  910 0419 60       		.byte	0x60
  911 041a 00       		.byte	0
  912 041b 04       		.uleb128 0x4
-ARM GAS  /tmp/ccpYODtr.s 			page 17
+ARM GAS  /tmp/ccBnOoPN.s 			page 17
 
 
  913 041c 04       		.byte	0x4
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  967 0488 22040000 		.4byte	0x422
  968 048c 0C       		.byte	0xc
  969 048d 07       		.uleb128 0x7
-ARM GAS  /tmp/ccpYODtr.s 			page 18
+ARM GAS  /tmp/ccBnOoPN.s 			page 18
 
 
  970 048e 723800   		.ascii	"r8\000"
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1024 04f6 4F050000 		.4byte	0x54f
  1025 04fa 12       		.uleb128 0x12
  1026 04fb 30020000 		.4byte	.LASF83
-ARM GAS  /tmp/ccpYODtr.s 			page 19
+ARM GAS  /tmp/ccBnOoPN.s 			page 19
 
 
  1027 04ff 08       		.byte	0x8
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1081 0578 08       		.byte	0x8
  1082 0579 00       		.byte	0
  1083 057a 09       		.uleb128 0x9
-ARM GAS  /tmp/ccpYODtr.s 			page 20
+ARM GAS  /tmp/ccBnOoPN.s 			page 20
 
 
  1084 057b 04       		.byte	0x4
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1138 05ea 81010000 		.4byte	.LASF98
  1139 05ee 0E       		.byte	0xe
  1140 05ef 34       		.byte	0x34
-ARM GAS  /tmp/ccpYODtr.s 			page 21
+ARM GAS  /tmp/ccBnOoPN.s 			page 21
 
 
  1141 05f0 D4020000 		.4byte	0x2d4
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1195 0662 04       		.byte	0x4
  1196 0663 10       		.byte	0x10
  1197 0664 44       		.byte	0x44
-ARM GAS  /tmp/ccpYODtr.s 			page 22
+ARM GAS  /tmp/ccBnOoPN.s 			page 22
 
 
  1198 0665 80060000 		.4byte	0x680
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1252 06cd 09060000 		.4byte	.LASF110
  1253 06d1 04       		.byte	0x4
  1254 06d2 11       		.byte	0x11
-ARM GAS  /tmp/ccpYODtr.s 			page 23
+ARM GAS  /tmp/ccBnOoPN.s 			page 23
 
 
  1255 06d3 38       		.byte	0x38
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1309 073e D3000000 		.4byte	.LASF116
  1310 0742 0A       		.byte	0xa
  1311 0743 C801     		.2byte	0x1c8
-ARM GAS  /tmp/ccpYODtr.s 			page 24
+ARM GAS  /tmp/ccBnOoPN.s 			page 24
 
 
  1312 0745 03       		.byte	0x3
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1366 07bf 06000000 		.4byte	.LBE64-.LBB64
  1367 07c3 01       		.byte	0x1
  1368 07c4 46       		.byte	0x46
-ARM GAS  /tmp/ccpYODtr.s 			page 25
+ARM GAS  /tmp/ccBnOoPN.s 			page 25
 
 
  1369 07c5 F2070000 		.4byte	0x7f2
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1423 0841 5B       		.byte	0x5b
  1424 0842 00000000 		.4byte	.LFB171
  1425 0846 40000000 		.4byte	.LFE171-.LFB171
-ARM GAS  /tmp/ccpYODtr.s 			page 26
+ARM GAS  /tmp/ccBnOoPN.s 			page 26
 
 
  1426 084a 01       		.uleb128 0x1
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1480 08cf 65070000 		.4byte	0x765
  1481 08d3 23       		.uleb128 0x23
  1482 08d4 46070000 		.4byte	0x746
-ARM GAS  /tmp/ccpYODtr.s 			page 27
+ARM GAS  /tmp/ccBnOoPN.s 			page 27
 
 
  1483 08d8 18000000 		.4byte	.LBB84
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1537 095d 99090000 		.4byte	0x999
  1538 0961 2C       		.uleb128 0x2c
  1539 0962 38000000 		.4byte	.LBB93
-ARM GAS  /tmp/ccpYODtr.s 			page 28
+ARM GAS  /tmp/ccBnOoPN.s 			page 28
 
 
  1540 0966 04000000 		.4byte	.LBE93-.LBB93
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1594 09e9 2F       		.uleb128 0x2f
  1595 09ea 38040000 		.4byte	.LASF109
  1596 09ee 01       		.byte	0x1
-ARM GAS  /tmp/ccpYODtr.s 			page 29
+ARM GAS  /tmp/ccBnOoPN.s 			page 29
 
 
  1597 09ef 9A       		.byte	0x9a
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1651 0a73 2D       		.uleb128 0x2d
  1652 0a74 30070000 		.4byte	0x730
  1653 0a78 4E010000 		.4byte	.LLST10
-ARM GAS  /tmp/ccpYODtr.s 			page 30
+ARM GAS  /tmp/ccBnOoPN.s 			page 30
 
 
  1654 0a7c 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1708 0aed EF0C0000 		.4byte	0xcef
  1709 0af1 100B0000 		.4byte	0xb10
  1710 0af5 32       		.uleb128 0x32
-ARM GAS  /tmp/ccpYODtr.s 			page 31
+ARM GAS  /tmp/ccBnOoPN.s 			page 31
 
 
  1711 0af6 01       		.uleb128 0x1
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1765 0b43 01       		.byte	0x1
  1766 0b44 CE       		.byte	0xce
  1767 0b45 770C0000 		.4byte	0xc77
-ARM GAS  /tmp/ccpYODtr.s 			page 32
+ARM GAS  /tmp/ccBnOoPN.s 			page 32
 
 
  1768 0b49 77010000 		.4byte	.LLST12
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1822 0bd3 30070000 		.4byte	0x730
  1823 0bd7 20020000 		.4byte	.LLST18
  1824 0bdb 00       		.byte	0
-ARM GAS  /tmp/ccpYODtr.s 			page 33
+ARM GAS  /tmp/ccBnOoPN.s 			page 33
 
 
  1825 0bdc 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1879 0c53 32       		.uleb128 0x32
  1880 0c54 01       		.uleb128 0x1
  1881 0c55 52       		.byte	0x52
-ARM GAS  /tmp/ccpYODtr.s 			page 34
+ARM GAS  /tmp/ccBnOoPN.s 			page 34
 
 
  1882 0c56 02       		.uleb128 0x2
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1936 0cb4 71       		.byte	0x71
  1937 0cb5 C40C0000 		.4byte	0xcc4
  1938 0cb9 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccpYODtr.s 			page 35
+ARM GAS  /tmp/ccBnOoPN.s 			page 35
 
 
  1939 0cba 770C0000 		.4byte	0xc77
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  1993 0d36 E5020000 		.4byte	0x2e5
  1994 0d3a 0C       		.uleb128 0xc
  1995 0d3b 770C0000 		.4byte	0xc77
-ARM GAS  /tmp/ccpYODtr.s 			page 36
+ARM GAS  /tmp/ccBnOoPN.s 			page 36
 
 
  1996 0d3f 00       		.byte	0
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2050 0032 00       		.byte	0
  2051 0033 00       		.byte	0
  2052 0034 05       		.uleb128 0x5
-ARM GAS  /tmp/ccpYODtr.s 			page 37
+ARM GAS  /tmp/ccBnOoPN.s 			page 37
 
 
  2053 0035 13       		.uleb128 0x13
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2107 006b 13       		.uleb128 0x13
  2108 006c 38       		.uleb128 0x38
  2109 006d 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccpYODtr.s 			page 38
+ARM GAS  /tmp/ccBnOoPN.s 			page 38
 
 
  2110 006e 00       		.byte	0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2164 00a4 0B       		.uleb128 0xb
  2165 00a5 05       		.uleb128 0x5
  2166 00a6 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccpYODtr.s 			page 39
+ARM GAS  /tmp/ccBnOoPN.s 			page 39
 
 
  2167 00a7 0B       		.uleb128 0xb
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2221 00dd 0B       		.uleb128 0xb
  2222 00de 3B       		.uleb128 0x3b
  2223 00df 05       		.uleb128 0x5
-ARM GAS  /tmp/ccpYODtr.s 			page 40
+ARM GAS  /tmp/ccBnOoPN.s 			page 40
 
 
  2224 00e0 49       		.uleb128 0x49
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2278 0116 3B       		.uleb128 0x3b
  2279 0117 0B       		.uleb128 0xb
  2280 0118 49       		.uleb128 0x49
-ARM GAS  /tmp/ccpYODtr.s 			page 41
+ARM GAS  /tmp/ccBnOoPN.s 			page 41
 
 
  2281 0119 13       		.uleb128 0x13
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2335 014f 0B       		.uleb128 0xb
  2336 0150 3B       		.uleb128 0x3b
  2337 0151 05       		.uleb128 0x5
-ARM GAS  /tmp/ccpYODtr.s 			page 42
+ARM GAS  /tmp/ccBnOoPN.s 			page 42
 
 
  2338 0152 49       		.uleb128 0x49
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2392 0189 19       		.uleb128 0x19
  2393 018a 01       		.uleb128 0x1
  2394 018b 13       		.uleb128 0x13
-ARM GAS  /tmp/ccpYODtr.s 			page 43
+ARM GAS  /tmp/ccBnOoPN.s 			page 43
 
 
  2395 018c 00       		.byte	0
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2449 01c2 58       		.uleb128 0x58
  2450 01c3 0B       		.uleb128 0xb
  2451 01c4 59       		.uleb128 0x59
-ARM GAS  /tmp/ccpYODtr.s 			page 44
+ARM GAS  /tmp/ccBnOoPN.s 			page 44
 
 
  2452 01c5 05       		.uleb128 0x5
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2506 01fb 00       		.byte	0
  2507 01fc 00       		.byte	0
  2508 01fd 29       		.uleb128 0x29
-ARM GAS  /tmp/ccpYODtr.s 			page 45
+ARM GAS  /tmp/ccBnOoPN.s 			page 45
 
 
  2509 01fe 2E       		.uleb128 0x2e
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2563 0235 2C       		.uleb128 0x2c
  2564 0236 0B       		.uleb128 0xb
  2565 0237 01       		.byte	0x1
-ARM GAS  /tmp/ccpYODtr.s 			page 46
+ARM GAS  /tmp/ccBnOoPN.s 			page 46
 
 
  2566 0238 11       		.uleb128 0x11
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2620 0271 00       		.byte	0
  2621 0272 00       		.byte	0
  2622 0273 31       		.uleb128 0x31
-ARM GAS  /tmp/ccpYODtr.s 			page 47
+ARM GAS  /tmp/ccBnOoPN.s 			page 47
 
 
  2623 0274 898201   		.uleb128 0x4109
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2677 02b1 49       		.uleb128 0x49
  2678 02b2 13       		.uleb128 0x13
  2679 02b3 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccpYODtr.s 			page 48
+ARM GAS  /tmp/ccBnOoPN.s 			page 48
 
 
  2680 02b4 19       		.uleb128 0x19
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2734 02ea 3B       		.uleb128 0x3b
  2735 02eb 05       		.uleb128 0x5
  2736 02ec 27       		.uleb128 0x27
-ARM GAS  /tmp/ccpYODtr.s 			page 49
+ARM GAS  /tmp/ccBnOoPN.s 			page 49
 
 
  2737 02ed 19       		.uleb128 0x19
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2791 003b 50       		.byte	0x50
  2792 003c 9F       		.byte	0x9f
  2793 003d 00000000 		.4byte	0
-ARM GAS  /tmp/ccpYODtr.s 			page 50
+ARM GAS  /tmp/ccBnOoPN.s 			page 50
 
 
  2794 0041 00000000 		.4byte	0
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2848 00cb 0100     		.2byte	0x1
  2849 00cd 51       		.byte	0x51
  2850 00ce 0D000000 		.4byte	.LVL12-1
-ARM GAS  /tmp/ccpYODtr.s 			page 51
+ARM GAS  /tmp/ccBnOoPN.s 			page 51
 
 
  2851 00d2 3C000000 		.4byte	.LFE172
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2905              	.LLST11:
  2906 0163 30000000 		.4byte	.LVL16
  2907 0167 38000000 		.4byte	.LVL17
-ARM GAS  /tmp/ccpYODtr.s 			page 52
+ARM GAS  /tmp/ccBnOoPN.s 			page 52
 
 
  2908 016b 0200     		.2byte	0x2
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  2962 01fa 00000000 		.4byte	0
  2963 01fe 00000000 		.4byte	0
  2964              	.LLST17:
-ARM GAS  /tmp/ccpYODtr.s 			page 53
+ARM GAS  /tmp/ccBnOoPN.s 			page 53
 
 
  2965 0202 32000000 		.4byte	.LVL22
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3019 001c 14000000 		.4byte	.LFE170
  3020 0020 00000000 		.4byte	.LFB171
  3021 0024 40000000 		.4byte	.LFE171
-ARM GAS  /tmp/ccpYODtr.s 			page 54
+ARM GAS  /tmp/ccBnOoPN.s 			page 54
 
 
  3022 0028 00000000 		.4byte	.LFB172
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3050      7400
  3051              	.LASF95:
  3052 006f 6D5F6F77 		.ascii	"m_owner\000"
-ARM GAS  /tmp/ccpYODtr.s 			page 55
+ARM GAS  /tmp/ccBnOoPN.s 			page 55
 
 
  3052      6E657200 
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3080      776100
  3081              	.LASF89:
  3082 0101 65776D61 		.ascii	"ewmask\000"
-ARM GAS  /tmp/ccpYODtr.s 			page 56
+ARM GAS  /tmp/ccBnOoPN.s 			page 56
 
 
  3082      736B00
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3108      7369676E 
  3108      65642069 
  3109              	.LASF111:
-ARM GAS  /tmp/ccpYODtr.s 			page 57
+ARM GAS  /tmp/ccBnOoPN.s 			page 57
 
 
  3110 01a0 70685F6E 		.ascii	"ph_next\000"
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3138 0252 63685379 		.ascii	"chSysLock\000"
  3138      734C6F63 
  3138      6B00
-ARM GAS  /tmp/ccpYODtr.s 			page 58
+ARM GAS  /tmp/ccBnOoPN.s 			page 58
 
 
  3139              	.LASF125:
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3166      7400
  3167              	.LASF46:
  3168 02f8 63685F74 		.ascii	"ch_thread\000"
-ARM GAS  /tmp/ccpYODtr.s 			page 59
+ARM GAS  /tmp/ccBnOoPN.s 			page 59
 
 
  3168      68726561 
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3190 0420 705F666C 		.ascii	"p_flags\000"
  3190      61677300 
  3191              	.LASF57:
-ARM GAS  /tmp/ccpYODtr.s 			page 60
+ARM GAS  /tmp/ccBnOoPN.s 			page 60
 
 
  3192 0428 76697274 		.ascii	"virtual_timer_t\000"
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3219              	.LASF102:
  3220 04b5 6D656D6F 		.ascii	"memory_heap\000"
  3220      72795F68 
-ARM GAS  /tmp/ccpYODtr.s 			page 61
+ARM GAS  /tmp/ccBnOoPN.s 			page 61
 
 
  3220      65617000 
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3248      7400
  3249              	.LASF100:
  3250 054a 6D656D67 		.ascii	"memgetfunc_t\000"
-ARM GAS  /tmp/ccpYODtr.s 			page 62
+ARM GAS  /tmp/ccBnOoPN.s 			page 62
 
 
  3250      65746675 
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3276 05df 76697274 		.ascii	"virtual_timers_list_t\000"
  3276      75616C5F 
  3276      74696D65 
-ARM GAS  /tmp/ccpYODtr.s 			page 63
+ARM GAS  /tmp/ccBnOoPN.s 			page 63
 
 
  3276      72735F6C 
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3305              	.LASF117:
  3306 067d 706F7274 		.ascii	"port_unlock\000"
  3306      5F756E6C 
-ARM GAS  /tmp/ccpYODtr.s 			page 64
+ARM GAS  /tmp/ccBnOoPN.s 			page 64
 
 
  3306      6F636B00 
@@ -3797,19 +3797,19 @@ ARM GAS  /tmp/ccpYODtr.s 			page 1
  3314      726F7669 
  3314      64657200 
  3315              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccpYODtr.s 			page 65
+ARM GAS  /tmp/ccBnOoPN.s 			page 65
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chdynamic.c
-     /tmp/ccpYODtr.s:19     .text.chThdAddRef:00000000 $t
-     /tmp/ccpYODtr.s:25     .text.chThdAddRef:00000000 chThdAddRef
-     /tmp/ccpYODtr.s:88     .text.chThdRelease:00000000 $t
-     /tmp/ccpYODtr.s:94     .text.chThdRelease:00000000 chThdRelease
-     /tmp/ccpYODtr.s:203    .text.chThdCreateFromHeap:00000000 $t
-     /tmp/ccpYODtr.s:209    .text.chThdCreateFromHeap:00000000 chThdCreateFromHeap
-     /tmp/ccpYODtr.s:297    .text.chThdCreateFromMemoryPool:00000000 $t
-     /tmp/ccpYODtr.s:303    .text.chThdCreateFromMemoryPool:00000000 chThdCreateFromMemoryPool
+     /tmp/ccBnOoPN.s:19     .text.chThdAddRef:00000000 $t
+     /tmp/ccBnOoPN.s:25     .text.chThdAddRef:00000000 chThdAddRef
+     /tmp/ccBnOoPN.s:88     .text.chThdRelease:00000000 $t
+     /tmp/ccBnOoPN.s:94     .text.chThdRelease:00000000 chThdRelease
+     /tmp/ccBnOoPN.s:203    .text.chThdCreateFromHeap:00000000 $t
+     /tmp/ccBnOoPN.s:209    .text.chThdCreateFromHeap:00000000 chThdCreateFromHeap
+     /tmp/ccBnOoPN.s:297    .text.chThdCreateFromMemoryPool:00000000 $t
+     /tmp/ccBnOoPN.s:303    .text.chThdCreateFromMemoryPool:00000000 chThdCreateFromMemoryPool
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

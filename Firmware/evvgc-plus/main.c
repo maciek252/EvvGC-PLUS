@@ -194,7 +194,7 @@ static const ShellConfig shell_cfg1 = {
 #endif
 
 /* Virtual serial port over USB. */
-/*SerialUSBDriver SDU1;*/
+//SerialUSBDriver SDU1;
 
 #if 1
 /* Binary semaphore indicating that new data is ready to be processed. */
@@ -261,7 +261,8 @@ static void streamUpdateData(PIMUStruct pIMU) {
 static THD_WORKING_AREA(waBlinkerThread_A, 64);
 static THD_FUNCTION(BlinkerThread_A,arg) {
   (void)arg;
-  while (!chThdShouldTerminateX()) {
+  //while (!chThdShouldTerminateX()) {
+  while (true) {
     systime_t time;
 #if 0
     if (g_boardStatus & IMU_CALIBRATION_MASK) {
@@ -272,13 +273,10 @@ static THD_FUNCTION(BlinkerThread_A,arg) {
 #endif
     time = 1000;//ms
     palToggleLedGreen();
-//    palTogglePad(GPIOC,0);
-  //  palTogglePad(GPIOA,1);
-    //palTogglePad(GPIOB,12);
-    //palTogglePad(GPIOA,7);
 
-    //chprintf((BaseSequentialStream *)&SD4, "woda\n");
-    //chprintf((BaseSequentialStream *)&SDU1, "dioda\n");
+    // serial UART:
+    //chprintf((BaseSequentialStream *)&SD4, "wo\n");
+    //chprintf((BaseSequentialStream *)&SDU1, "di\n");
      //sdWriteTimeout(&SDU1, "000000000", 9, MS2ST(100) );
     //sdWrite(&SDU1, (uint8_t *)"000000000", 9);
     const uint8_t constHexToSend = 0x55;
@@ -305,11 +303,10 @@ static THD_FUNCTION(BlinkerThread_B,arg) {
   while (!chThdShouldTerminateX()) {
     if (led_b) {
     	palToggleLedRed();
-    	//palSetPad(GPIOB,1);
+
     }
     else {
     	palToggleLedRed();
-    	//palClearPad(GPIOB,1);
     }
     chThdSleepMilliseconds(time);
   }
@@ -439,26 +436,35 @@ int main(void) {
    *   RTOS is active.
    */
   halInit();
-  //osalInit();
+  osalInit();
   chSysInit();
 
+  //palToggleLedRed();
+  //palToggleLedGreen();
+  //while(true){
+    //}
+
   /* Initializes a serial-over-USB CDC driver. */
+#if 0
   sduObjectInit(&SDU1);
   sduStart(&SDU1, &serusbcfg);
+  usbStop(serusbcfg.usbp);
+    usbDisconnectBus(serusbcfg.usbp);
+    chThdSleepMilliseconds(500);
+    usbConnectBus(serusbcfg.usbp);
+    usbStart(serusbcfg.usbp, &usbcfg);
 
-  sdStart(&SD4, NULL);
+    shellInit();
+
+#endif
   
+    sdStart(&SD4, NULL);
+
   /* Activates the USB driver and then the USB bus pull-up on D+.
    * Note, a delay is inserted in order to not have to disconnect the cable
    * after a reset.
    */
-  usbStop(serusbcfg.usbp);
-  usbDisconnectBus(serusbcfg.usbp);
-  chThdSleepMilliseconds(500);
-  usbConnectBus(serusbcfg.usbp);
-  usbStart(serusbcfg.usbp, &usbcfg);
-
-  shellInit();
+    rccEnableAHB(RCC_AHBENR_CRCEN,FALSE);
 #if 0
   /* Activates the serial driver 4 using the driver's default configuration. */
   //sdStart(&SD4, NULL);
@@ -469,7 +475,7 @@ int main(void) {
   i2cStart(&I2CD2, &i2cfg_d2);
 
   /* Enables the CRC peripheral clock. */
-  rccEnableAHB(RCC_AHBENR_CRCEN,FALSE);
+  //rccEnableAHB(RCC_AHBENR_CRCEN,FALSE);
 
   /* Initialize IMU data structure. */
   imuStructureInit(&g_IMU1, FALSE); // IMU1 on low address.
@@ -513,7 +519,7 @@ int main(void) {
       HIGHPRIO, AttitudeThread, NULL);
 
     /* Starts motor drivers. */
-    pwmOutputStart();
+    //pwmOutputStart();
 
     /* Starts ADC and ICU input drivers. */
     //mixedInputStart();
@@ -522,11 +528,14 @@ int main(void) {
   
   // na chwile to zakomentowuje, dopoki problem z USB
   // g_chnp = (BaseChannel *)&SDU1; //Default to USB for GUI
+  chprintf((BaseSequentialStream *)&SD4, "wo1\n");
+  g_chnp = (BaseChannel *)&SD4; //Default to USB for GUI
+  chprintf((BaseSequentialStream *)&SD4, "wo2\n");
 
   /* Creates the blinker threads. */
   // green led
 
-  pwmOutputStart();
+  //pwmOutputStart();
 
   tpBlinker_A = chThdCreateStatic(waBlinkerThread_A, sizeof(waBlinkerThread_A),
     LOWPRIO, BlinkerThread_A, NULL);
@@ -537,20 +546,13 @@ int main(void) {
   tpBlinker_B = chThdCreateStatic(waBlinkerThread_B, sizeof(waBlinkerThread_B),
     LOWPRIO, BlinkerThread_B, NULL);
 
-  //palSetPad(GPIOA, 6);
-  //palSetPad(GPIOB, 12);
-  //palClearPad(GPIOB, 13);
-  //palClearPad(GPIOB, 9);
-  //palSetPad(GPIOB, 8);
-  //palSetPad(GPIOA, 7);
-  //palSetPad(GPIOA, 2);
-  //palTogglePad(GPIOA,12);
-  //palTogglePad(GPIOA,13);
-  //  palClearPad(GPIOB,1);
-//  pwmOutputStart();
 
-  //while(true){
-  //}
+//  pwmOutputStart();
+#if 0
+  while(true){
+	  chThdSleepMilliseconds(6000);
+  }
+#endif
 
 #if 0
   tpMavlink = chThdCreateStatic(waMavlinkHandler, sizeof(waMavlinkHandler),
@@ -562,8 +564,31 @@ int main(void) {
   
   
 #if 1
-  while(g_runMain){
-#if 1      
+  //while(g_runMain){
+  while(true){
+	  //chThdSleepMilliseconds(60); // works but not perfectly
+	  //chThdSleepMilliseconds(84); //
+	  //chThdSleepMilliseconds(TELEMETRY_SLEEP_MS); //
+	  //chThdSleepMilliseconds(70); //
+	  //chThdSleepMilliseconds(140); //
+	  // 0 - does not work
+	  //chThdSleepMilliseconds(120);
+	  chThdSleepMilliseconds(200); // the best so far
+	  //chThdSleepMilliseconds(230); //
+	  //chThdSleepMilliseconds(1790);
+	  //chThdSleepMilliseconds(20); //
+	  telemetryReadSerialData();
+	  //chThdSleepMilliseconds(20); //
+#if 0
+	  // this sends only the 'z' messages
+	    if ((g_chnp == (BaseChannel *)&SD4) && /* USB only; */
+	        (chBSemWaitTimeout(&bsemStreamReady, TIME_IMMEDIATE) == MSG_OK)
+	    //true
+	    ) {
+	      telemetryWriteStream(pStream, sizeof(float) * STREAM_BUFFER_SIZE / 2);
+	    }
+#endif
+#if 0
     if (!shelltp && (SDU1.config->usbp->state == USB_ACTIVE)){
         // wersja oryginalna z demo z testhal w ChibiOS
        shelltp = shellCreate(&shell_cfg1, SHELL_WA_SIZE, NORMALPRIO+1);
@@ -577,7 +602,7 @@ int main(void) {
       chThdRelease(shelltp);    /* Recovers memory of the previous shell.   */
       shelltp = NULL;           /* Triggers spawning of a new shell.        */
     }
-    chThdSleepMilliseconds(1000);
+    //chThdSleepMilliseconds(6000);
 #endif
   }
 #endif

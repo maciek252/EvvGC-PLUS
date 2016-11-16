@@ -85,6 +85,7 @@ endif
 # Define project name here
 PROJECT = evvgc_plus
 CHIBIOS = /home/maciek/ChibiOS_16.1.5
+#CHIBIOS = PROJECT/ChibiOS_16.1.5
 CHIBIOS_CONTRIB = $(CHIBIOS)/community
 #BOARD = drivers/EVVGC_V1_X
 BOARD = drivers/STORM32_V1_X

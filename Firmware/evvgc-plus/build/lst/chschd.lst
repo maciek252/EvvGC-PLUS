@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccAWN6mf.s 			page 1
+ARM GAS  /tmp/ccHmBCIp.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
   55 000a 072B     		cmp	r3, #7
   56 000c 0ED8     		bhi	.L2
   57 000e DFE803F0 		tbb	[pc, r3]
-ARM GAS  /tmp/ccAWN6mf.s 			page 2
+ARM GAS  /tmp/ccHmBCIp.s 			page 2
 
 
   58              	.L4:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  112              	.LBE142:
  113              	.LBE141:
  114              	.LBE140:
-ARM GAS  /tmp/ccAWN6mf.s 			page 3
+ARM GAS  /tmp/ccHmBCIp.s 			page 3
 
 
  115              		.loc 1 304 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  169              	.LBB153:
  170              	.LBB152:
  171              		.loc 2 548 0
-ARM GAS  /tmp/ccAWN6mf.s 			page 4
+ARM GAS  /tmp/ccHmBCIp.s 			page 4
 
 
  172              	@ 548 "/home/maciek/ChibiOS_16.1.5/os/ext/CMSIS/include/core_cmFunc.h" 1
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  226              	.LFE173:
  227              		.size	wakeup, .-wakeup
  228              		.section	.text._scheduler_init,"ax",%progbits
-ARM GAS  /tmp/ccAWN6mf.s 			page 5
+ARM GAS  /tmp/ccHmBCIp.s 			page 5
 
 
  229              		.align	2
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  283              	.LVL11:
  284 0000 10B4     		push	{r4}
  285              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccAWN6mf.s 			page 6
+ARM GAS  /tmp/ccHmBCIp.s 			page 6
 
 
  286              		.cfi_offset 4, -4
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  340              		.loc 1 250 0
  341              		.cfi_startproc
  342              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccAWN6mf.s 			page 7
+ARM GAS  /tmp/ccHmBCIp.s 			page 7
 
 
  343              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  397              		.loc 1 269 0
  398 001a FFF7FEBF 		b	_port_switch
  399              	.LVL20:
-ARM GAS  /tmp/ccAWN6mf.s 			page 8
+ARM GAS  /tmp/ccHmBCIp.s 			page 8
 
 
  400              	.L27:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  454 0024 01A8     		add	r0, sp, #4
  455              	.LVL25:
  456 0026 FFF7FEFF 		bl	chVTDoResetI
-ARM GAS  /tmp/ccAWN6mf.s 			page 9
+ARM GAS  /tmp/ccHmBCIp.s 			page 9
 
 
  457              	.LVL26:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  511              		.cfi_def_cfa_offset 12
  512              		.cfi_offset 4, -12
  513              		.cfi_offset 5, -8
-ARM GAS  /tmp/ccAWN6mf.s 			page 10
+ARM GAS  /tmp/ccHmBCIp.s 			page 10
 
 
  514              		.cfi_offset 6, -4
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  568              	.LBB183:
  569              		.loc 1 228 0
  570 002c 1A46     		mov	r2, r3
-ARM GAS  /tmp/ccAWN6mf.s 			page 11
+ARM GAS  /tmp/ccHmBCIp.s 			page 11
 
 
  571              		.loc 1 227 0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  625              	.LBE186:
  626              		.cfi_endproc
  627              	.LFE175:
-ARM GAS  /tmp/ccAWN6mf.s 			page 12
+ARM GAS  /tmp/ccHmBCIp.s 			page 12
 
 
  628              		.size	chSchWakeupS, .-chSchWakeupS
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  682 0002 F0B4     		push	{r4, r5, r6, r7}
  683              		.cfi_def_cfa_offset 16
  684              		.cfi_offset 4, -16
-ARM GAS  /tmp/ccAWN6mf.s 			page 13
+ARM GAS  /tmp/ccHmBCIp.s 			page 13
 
 
  685              		.cfi_offset 5, -12
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  739 0022 8A42     		cmp	r2, r1
  740 0024 FBD2     		bcs	.L56
  741              		.loc 1 234 0
-ARM GAS  /tmp/ccAWN6mf.s 			page 14
+ARM GAS  /tmp/ccHmBCIp.s 			page 14
 
 
  742 0026 5A68     		ldr	r2, [r3, #4]
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  796              		.cfi_offset 4, -16
  797              		.cfi_offset 5, -12
  798              		.cfi_offset 6, -8
-ARM GAS  /tmp/ccAWN6mf.s 			page 15
+ARM GAS  /tmp/ccHmBCIp.s 			page 15
 
 
  799              		.cfi_offset 7, -4
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  853 002c 6260     		str	r2, [r4, #4]
  854              		.loc 1 504 0
  855 002e 1460     		str	r4, [r2]
-ARM GAS  /tmp/ccAWN6mf.s 			page 16
+ARM GAS  /tmp/ccHmBCIp.s 			page 16
 
 
  856              		.loc 1 505 0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  910              	.L69:
  911 0014 00000000 		.word	.LANCHOR0
  912              		.cfi_endproc
-ARM GAS  /tmp/ccAWN6mf.s 			page 17
+ARM GAS  /tmp/ccHmBCIp.s 			page 17
 
 
  913              	.LFE176:
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  963 000b 01       		.uleb128 0x1
  964 000c 38010000 		.4byte	.LASF130
  965 0010 01       		.byte	0x1
-ARM GAS  /tmp/ccAWN6mf.s 			page 18
+ARM GAS  /tmp/ccHmBCIp.s 			page 18
 
 
  966 0011 36060000 		.4byte	.LASF131
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1020 0083 06       		.byte	0x6
  1021 0084 41       		.byte	0x41
  1022 0085 89000000 		.4byte	0x89
-ARM GAS  /tmp/ccAWN6mf.s 			page 19
+ARM GAS  /tmp/ccHmBCIp.s 			page 19
 
 
  1023 0089 04       		.uleb128 0x4
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1077 00fb 08       		.byte	0x8
  1078 00fc 3D       		.byte	0x3d
  1079 00fd A9000000 		.4byte	0xa9
-ARM GAS  /tmp/ccAWN6mf.s 			page 20
+ARM GAS  /tmp/ccHmBCIp.s 			page 20
 
 
  1080 0101 03       		.uleb128 0x3
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1134 0173 F7000000 		.4byte	.LASF32
  1135 0177 04       		.byte	0x4
  1136 0178 C7       		.byte	0xc7
-ARM GAS  /tmp/ccAWN6mf.s 			page 21
+ARM GAS  /tmp/ccHmBCIp.s 			page 21
 
 
  1137 0179 0C010000 		.4byte	0x10c
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1191 01ea 22010000 		.4byte	0x122
  1192 01ee 28       		.byte	0x28
  1193 01ef 08       		.uleb128 0x8
-ARM GAS  /tmp/ccAWN6mf.s 			page 22
+ARM GAS  /tmp/ccHmBCIp.s 			page 22
 
 
  1194 01f0 7D030000 		.4byte	.LASF41
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1248 025f 7C020000 		.4byte	0x27c
  1249 0263 06       		.uleb128 0x6
  1250 0264 D9040000 		.4byte	.LASF30
-ARM GAS  /tmp/ccAWN6mf.s 			page 23
+ARM GAS  /tmp/ccHmBCIp.s 			page 23
 
 
  1251 0268 04       		.byte	0x4
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1305 02d6 DA020000 		.4byte	0x2da
  1306 02da 0B       		.uleb128 0xb
  1307 02db E5020000 		.4byte	0x2e5
-ARM GAS  /tmp/ccAWN6mf.s 			page 24
+ARM GAS  /tmp/ccHmBCIp.s 			page 24
 
 
  1308 02df 0C       		.uleb128 0xc
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1362 0351 0C       		.byte	0xc
  1363 0352 04       		.byte	0x4
  1364 0353 7B01     		.2byte	0x17b
-ARM GAS  /tmp/ccAWN6mf.s 			page 25
+ARM GAS  /tmp/ccHmBCIp.s 			page 25
 
 
  1365 0355 8E030000 		.4byte	0x38e
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1419 03c9 1B040000 		.4byte	0x41b
  1420 03cd 08       		.uleb128 0x8
  1421 03ce 85060000 		.4byte	.LASF72
-ARM GAS  /tmp/ccAWN6mf.s 			page 26
+ARM GAS  /tmp/ccHmBCIp.s 			page 26
 
 
  1422 03d2 04       		.byte	0x4
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1476 0440 51040000 		.4byte	0x451
  1477 0444 0F       		.uleb128 0xf
  1478 0445 72313300 		.ascii	"r13\000"
-ARM GAS  /tmp/ccAWN6mf.s 			page 27
+ARM GAS  /tmp/ccHmBCIp.s 			page 27
 
 
  1479 0449 0A       		.byte	0xa
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1533 04b3 72313100 		.ascii	"r11\000"
  1534 04b7 0B       		.byte	0xb
  1535 04b8 1701     		.2byte	0x117
-ARM GAS  /tmp/ccAWN6mf.s 			page 28
+ARM GAS  /tmp/ccHmBCIp.s 			page 28
 
 
  1536 04ba 22040000 		.4byte	0x422
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1590 052a 12       		.uleb128 0x12
  1591 052b FE020000 		.4byte	.LASF87
  1592 052f 04       		.byte	0x4
-ARM GAS  /tmp/ccAWN6mf.s 			page 29
+ARM GAS  /tmp/ccHmBCIp.s 			page 29
 
 
  1593 0530 1E01     		.2byte	0x11e
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1647 059f 22020000 		.4byte	0x222
  1648 05a3 08       		.byte	0x8
  1649 05a4 06       		.uleb128 0x6
-ARM GAS  /tmp/ccAWN6mf.s 			page 30
+ARM GAS  /tmp/ccHmBCIp.s 			page 30
 
 
  1650 05a5 1F040000 		.4byte	.LASF96
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1704 0618 2202     		.2byte	0x222
  1705 061a CA000000 		.4byte	0xca
  1706 061e 00       		.byte	0
-ARM GAS  /tmp/ccAWN6mf.s 			page 31
+ARM GAS  /tmp/ccHmBCIp.s 			page 31
 
 
  1707 061f 19       		.uleb128 0x19
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1761 068a 04       		.byte	0x4
  1762 068b 5A02     		.2byte	0x25a
  1763 068d 03       		.byte	0x3
-ARM GAS  /tmp/ccAWN6mf.s 			page 32
+ARM GAS  /tmp/ccHmBCIp.s 			page 32
 
 
  1764 068e 9F060000 		.4byte	0x69f
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1818 0705 00       		.byte	0
  1819 0706 15       		.uleb128 0x15
  1820 0707 D2050000 		.4byte	0x5d2
-ARM GAS  /tmp/ccAWN6mf.s 			page 33
+ARM GAS  /tmp/ccHmBCIp.s 			page 33
 
 
  1821 070b 16070000 		.4byte	0x716
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1875 0783 35090000 		.4byte	0x935
  1876 0787 24       		.uleb128 0x24
  1877 0788 28070000 		.4byte	0x728
-ARM GAS  /tmp/ccAWN6mf.s 			page 34
+ARM GAS  /tmp/ccHmBCIp.s 			page 34
 
 
  1878 078c 01       		.uleb128 0x1
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1932 080f 2A01     		.2byte	0x12a
  1933 0811 1F080000 		.4byte	0x81f
  1934 0815 29       		.uleb128 0x29
-ARM GAS  /tmp/ccAWN6mf.s 			page 35
+ARM GAS  /tmp/ccHmBCIp.s 			page 35
 
 
  1935 0816 C8060000 		.4byte	0x6c8
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  1989 08a8 01       		.byte	0x1
  1990 08a9 3201     		.2byte	0x132
  1991 08ab 30       		.uleb128 0x30
-ARM GAS  /tmp/ccAWN6mf.s 			page 36
+ARM GAS  /tmp/ccHmBCIp.s 			page 36
 
 
  1992 08ac 3A060000 		.4byte	0x63a
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2046 0931 00       		.byte	0
  2047 0932 00       		.byte	0
  2048 0933 00       		.byte	0
-ARM GAS  /tmp/ccAWN6mf.s 			page 37
+ARM GAS  /tmp/ccHmBCIp.s 			page 37
 
 
  2049 0934 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2103 09ac F6000000 		.4byte	0xf6
  2104 09b0 B4000000 		.4byte	.LLST8
  2105 09b4 34       		.uleb128 0x34
-ARM GAS  /tmp/ccAWN6mf.s 			page 38
+ARM GAS  /tmp/ccHmBCIp.s 			page 38
 
 
  2106 09b5 6F747000 		.ascii	"otp\000"
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2160 0a40 940A0000 		.4byte	0xa94
  2161 0a44 39       		.uleb128 0x39
  2162 0a45 767400   		.ascii	"vt\000"
-ARM GAS  /tmp/ccAWN6mf.s 			page 39
+ARM GAS  /tmp/ccHmBCIp.s 			page 39
 
 
  2163 0a48 01       		.byte	0x1
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2217 0aaa 58000000 		.4byte	.LFE175-.LFB175
  2218 0aae 01       		.uleb128 0x1
  2219 0aaf 9C       		.byte	0x9c
-ARM GAS  /tmp/ccAWN6mf.s 			page 40
+ARM GAS  /tmp/ccHmBCIp.s 			page 40
 
 
  2220 0ab0 690B0000 		.4byte	0xb69
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2274 0b42 C0000000 		.4byte	.Ldebug_ranges0+0xc0
  2275 0b46 2C       		.uleb128 0x2c
  2276 0b47 EE060000 		.4byte	0x6ee
-ARM GAS  /tmp/ccAWN6mf.s 			page 41
+ARM GAS  /tmp/ccHmBCIp.s 			page 41
 
 
  2277 0b4b 46020000 		.4byte	.LLST18
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2331 0bb8 03       		.byte	0x3
  2332 0bb9 10000000 		.4byte	ch+16
  2333 0bbd 06       		.byte	0x6
-ARM GAS  /tmp/ccAWN6mf.s 			page 42
+ARM GAS  /tmp/ccHmBCIp.s 			page 42
 
 
  2334 0bbe 23       		.byte	0x23
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2388 0c43 F8060000 		.4byte	0x6f8
  2389 0c47 00       		.byte	0
  2390 0c48 00       		.byte	0
-ARM GAS  /tmp/ccAWN6mf.s 			page 43
+ARM GAS  /tmp/ccHmBCIp.s 			page 43
 
 
  2391 0c49 35       		.uleb128 0x35
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2445 0cce 18000000 		.4byte	.LFE176-.LFB176
  2446 0cd2 01       		.uleb128 0x1
  2447 0cd3 9C       		.byte	0x9c
-ARM GAS  /tmp/ccAWN6mf.s 			page 44
+ARM GAS  /tmp/ccHmBCIp.s 			page 44
 
 
  2448 0cd4 F20C0000 		.4byte	0xcf2
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2502 0d55 0C       		.uleb128 0xc
  2503 0d56 B7050000 		.4byte	0x5b7
  2504 0d5a 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccAWN6mf.s 			page 45
+ARM GAS  /tmp/ccHmBCIp.s 			page 45
 
 
  2505 0d5b 38010000 		.4byte	0x138
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2559 0026 13       		.uleb128 0x13
  2560 0027 00       		.byte	0
  2561 0028 00       		.byte	0
-ARM GAS  /tmp/ccAWN6mf.s 			page 46
+ARM GAS  /tmp/ccHmBCIp.s 			page 46
 
 
  2562 0029 04       		.uleb128 0x4
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2616 005f 00       		.byte	0
  2617 0060 00       		.byte	0
  2618 0061 08       		.uleb128 0x8
-ARM GAS  /tmp/ccAWN6mf.s 			page 47
+ARM GAS  /tmp/ccHmBCIp.s 			page 47
 
 
  2619 0062 0D       		.uleb128 0xd
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2673 0098 0D       		.uleb128 0xd
  2674 0099 0F       		.uleb128 0xf
  2675 009a 00       		.byte	0
-ARM GAS  /tmp/ccAWN6mf.s 			page 48
+ARM GAS  /tmp/ccHmBCIp.s 			page 48
 
 
  2676 009b 0B       		.uleb128 0xb
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2730 00d1 3B       		.uleb128 0x3b
  2731 00d2 0B       		.uleb128 0xb
  2732 00d3 01       		.uleb128 0x1
-ARM GAS  /tmp/ccAWN6mf.s 			page 49
+ARM GAS  /tmp/ccHmBCIp.s 			page 49
 
 
  2733 00d4 13       		.uleb128 0x13
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2787 010a 0B       		.uleb128 0xb
  2788 010b 3B       		.uleb128 0x3b
  2789 010c 05       		.uleb128 0x5
-ARM GAS  /tmp/ccAWN6mf.s 			page 50
+ARM GAS  /tmp/ccHmBCIp.s 			page 50
 
 
  2790 010d 27       		.uleb128 0x27
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2844 0143 00       		.byte	0
  2845 0144 1B       		.uleb128 0x1b
  2846 0145 05       		.uleb128 0x5
-ARM GAS  /tmp/ccAWN6mf.s 			page 51
+ARM GAS  /tmp/ccHmBCIp.s 			page 51
 
 
  2847 0146 00       		.byte	0
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2901 017c 49       		.uleb128 0x49
  2902 017d 13       		.uleb128 0x13
  2903 017e 20       		.uleb128 0x20
-ARM GAS  /tmp/ccAWN6mf.s 			page 52
+ARM GAS  /tmp/ccHmBCIp.s 			page 52
 
 
  2904 017f 0B       		.uleb128 0xb
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  2958 01b5 19       		.uleb128 0x19
  2959 01b6 49       		.uleb128 0x49
  2960 01b7 13       		.uleb128 0x13
-ARM GAS  /tmp/ccAWN6mf.s 			page 53
+ARM GAS  /tmp/ccHmBCIp.s 			page 53
 
 
  2961 01b8 20       		.uleb128 0x20
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3015 01ef 00       		.byte	0
  3016 01f0 00       		.byte	0
  3017 01f1 27       		.uleb128 0x27
-ARM GAS  /tmp/ccAWN6mf.s 			page 54
+ARM GAS  /tmp/ccHmBCIp.s 			page 54
 
 
  3018 01f2 1D       		.uleb128 0x1d
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3072 0228 00       		.byte	0
  3073 0229 00       		.byte	0
  3074 022a 2C       		.uleb128 0x2c
-ARM GAS  /tmp/ccAWN6mf.s 			page 55
+ARM GAS  /tmp/ccHmBCIp.s 			page 55
 
 
  3075 022b 34       		.uleb128 0x34
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3129 0261 0B       		.uleb128 0xb
  3130 0262 3B       		.uleb128 0x3b
  3131 0263 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccAWN6mf.s 			page 56
+ARM GAS  /tmp/ccHmBCIp.s 			page 56
 
 
  3132 0264 27       		.uleb128 0x27
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3186 029b 13       		.uleb128 0x13
  3187 029c 02       		.uleb128 0x2
  3188 029d 17       		.uleb128 0x17
-ARM GAS  /tmp/ccAWN6mf.s 			page 57
+ARM GAS  /tmp/ccHmBCIp.s 			page 57
 
 
  3189 029e 00       		.byte	0
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3243 02d8 00       		.byte	0
  3244 02d9 38       		.uleb128 0x38
  3245 02da 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccAWN6mf.s 			page 58
+ARM GAS  /tmp/ccHmBCIp.s 			page 58
 
 
  3246 02db 01       		.byte	0x1
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3300 0318 898201   		.uleb128 0x4109
  3301 031b 00       		.byte	0
  3302 031c 11       		.uleb128 0x11
-ARM GAS  /tmp/ccAWN6mf.s 			page 59
+ARM GAS  /tmp/ccHmBCIp.s 			page 59
 
 
  3303 031d 01       		.uleb128 0x1
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3357 0354 00       		.byte	0
  3358 0355 00       		.byte	0
  3359 0356 41       		.uleb128 0x41
-ARM GAS  /tmp/ccAWN6mf.s 			page 60
+ARM GAS  /tmp/ccHmBCIp.s 			page 60
 
 
  3360 0357 0B       		.uleb128 0xb
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3414 0390 3A       		.uleb128 0x3a
  3415 0391 0B       		.uleb128 0xb
  3416 0392 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccAWN6mf.s 			page 61
+ARM GAS  /tmp/ccHmBCIp.s 			page 61
 
 
  3417 0393 05       		.uleb128 0x5
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3471 03c9 3B       		.uleb128 0x3b
  3472 03ca 0B       		.uleb128 0xb
  3473 03cb 27       		.uleb128 0x27
-ARM GAS  /tmp/ccAWN6mf.s 			page 62
+ARM GAS  /tmp/ccHmBCIp.s 			page 62
 
 
  3474 03cc 19       		.uleb128 0x19
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3528 0048 9F       		.byte	0x9f
  3529 0049 00000000 		.4byte	0
  3530 004d 00000000 		.4byte	0
-ARM GAS  /tmp/ccAWN6mf.s 			page 63
+ARM GAS  /tmp/ccHmBCIp.s 			page 63
 
 
  3531              	.LLST4:
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3585 00dd 0100     		.2byte	0x1
  3586 00df 51       		.byte	0x51
  3587 00e0 00000000 		.4byte	0
-ARM GAS  /tmp/ccAWN6mf.s 			page 64
+ARM GAS  /tmp/ccHmBCIp.s 			page 64
 
 
  3588 00e4 00000000 		.4byte	0
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3642 0165 51       		.byte	0x51
  3643 0166 9F       		.byte	0x9f
  3644 0167 00000000 		.4byte	0
-ARM GAS  /tmp/ccAWN6mf.s 			page 65
+ARM GAS  /tmp/ccHmBCIp.s 			page 65
 
 
  3645 016b 00000000 		.4byte	0
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3699 01ee 00000000 		.4byte	0
  3700 01f2 00000000 		.4byte	0
  3701              	.LLST15:
-ARM GAS  /tmp/ccAWN6mf.s 			page 66
+ARM GAS  /tmp/ccHmBCIp.s 			page 66
 
 
  3702 01f6 12000000 		.4byte	.LVL31
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3756              	.LLST21:
  3757 028a 1A000000 		.4byte	.LVL43
  3758 028e 34000000 		.4byte	.LVL47
-ARM GAS  /tmp/ccAWN6mf.s 			page 67
+ARM GAS  /tmp/ccHmBCIp.s 			page 67
 
 
  3759 0292 0100     		.2byte	0x1
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3813 0004 0200     		.2byte	0x2
  3814 0006 00000000 		.4byte	.Ldebug_info0
  3815 000a 04       		.byte	0x4
-ARM GAS  /tmp/ccAWN6mf.s 			page 68
+ARM GAS  /tmp/ccHmBCIp.s 			page 68
 
 
  3816 000b 00       		.byte	0
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3870 0064 00000000 		.4byte	0
  3871 0068 00000000 		.4byte	.LBB166
  3872 006c 02000000 		.4byte	.LBE166
-ARM GAS  /tmp/ccAWN6mf.s 			page 69
+ARM GAS  /tmp/ccHmBCIp.s 			page 69
 
 
  3873 0070 04000000 		.4byte	.LBB169
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3927 0148 00000000 		.4byte	.LFB171
  3928 014c 2C000000 		.4byte	.LFE171
  3929 0150 00000000 		.4byte	.LFB172
-ARM GAS  /tmp/ccAWN6mf.s 			page 70
+ARM GAS  /tmp/ccHmBCIp.s 			page 70
 
 
  3930 0154 24000000 		.4byte	.LFE172
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3965 0051 706F7274 		.ascii	"port_intctx\000"
  3965      5F696E74 
  3965      63747800 
-ARM GAS  /tmp/ccAWN6mf.s 			page 71
+ARM GAS  /tmp/ccHmBCIp.s 			page 71
 
 
  3966              	.LASF67:
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  3989 00f7 705F7072 		.ascii	"p_prio\000"
  3989      696F00
  3990              	.LASF116:
-ARM GAS  /tmp/ccAWN6mf.s 			page 72
+ARM GAS  /tmp/ccHmBCIp.s 			page 72
 
 
  3991 00fe 5F736368 		.ascii	"_scheduler_init\000"
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  4011      6D00
  4012              	.LASF9:
  4013 022e 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  /tmp/ccAWN6mf.s 			page 73
+ARM GAS  /tmp/ccHmBCIp.s 			page 73
 
 
  4013      20696E74 
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  4039 02c7 76616C75 		.ascii	"value\000"
  4039      6500
  4040              	.LASF75:
-ARM GAS  /tmp/ccAWN6mf.s 			page 74
+ARM GAS  /tmp/ccHmBCIp.s 			page 74
 
 
  4041 02cd 69646C65 		.ascii	"idle_thread_wa\000"
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  4067      6857616B 
  4067      65757053 
  4067      00
-ARM GAS  /tmp/ccAWN6mf.s 			page 75
+ARM GAS  /tmp/ccHmBCIp.s 			page 75
 
 
  4068              	.LASF25:
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  4093      6564756C 
  4093      65426568 
  4094              	.LASF54:
-ARM GAS  /tmp/ccAWN6mf.s 			page 76
+ARM GAS  /tmp/ccHmBCIp.s 			page 76
 
 
  4095 0408 725F6374 		.ascii	"r_ctx\000"
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  4123 0498 756E7369 		.ascii	"unsigned char\000"
  4123      676E6564 
  4123      20636861 
-ARM GAS  /tmp/ccAWN6mf.s 			page 77
+ARM GAS  /tmp/ccHmBCIp.s 			page 77
 
 
  4123      7200
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  4150              	.LASF117:
  4151 0530 63685363 		.ascii	"chSchGoSleepS\000"
  4151      68476F53 
-ARM GAS  /tmp/ccAWN6mf.s 			page 78
+ARM GAS  /tmp/ccHmBCIp.s 			page 78
 
 
  4151      6C656570 
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  4176              	.LASF28:
  4177 05cf 73797374 		.ascii	"systime_t\000"
  4177      696D655F 
-ARM GAS  /tmp/ccAWN6mf.s 			page 79
+ARM GAS  /tmp/ccHmBCIp.s 			page 79
 
 
  4177      7400
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  4204              	.LASF72:
  4205 0685 726C6973 		.ascii	"rlist\000"
  4205      7400
-ARM GAS  /tmp/ccAWN6mf.s 			page 80
+ARM GAS  /tmp/ccHmBCIp.s 			page 80
 
 
  4206              	.LASF15:
@@ -4779,47 +4779,47 @@ ARM GAS  /tmp/ccAWN6mf.s 			page 1
  4223 06ed 76745F66 		.ascii	"vt_func\000"
  4223      756E6300 
  4224              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccAWN6mf.s 			page 81
+ARM GAS  /tmp/ccHmBCIp.s 			page 81
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chschd.c
-     /tmp/ccAWN6mf.s:19     .text.wakeup:00000000 $t
-     /tmp/ccAWN6mf.s:24     .text.wakeup:00000000 wakeup
-     /tmp/ccAWN6mf.s:59     .text.wakeup:00000012 $d
-     /tmp/ccAWN6mf.s:67     .text.wakeup:0000001a $t
-     /tmp/ccAWN6mf.s:224    .text.wakeup:0000006c $d
-     /tmp/ccAWN6mf.s:229    .text._scheduler_init:00000000 $t
-     /tmp/ccAWN6mf.s:235    .text._scheduler_init:00000000 _scheduler_init
-     /tmp/ccAWN6mf.s:265    .text._scheduler_init:0000000c $d
-     /tmp/ccAWN6mf.s:270    .text.chSchReadyI:00000000 $t
-     /tmp/ccAWN6mf.s:276    .text.chSchReadyI:00000000 chSchReadyI
-     /tmp/ccAWN6mf.s:327    .text.chSchReadyI:00000028 $d
-     /tmp/ccAWN6mf.s:332    .text.chSchGoSleepS:00000000 $t
-     /tmp/ccAWN6mf.s:338    .text.chSchGoSleepS:00000000 chSchGoSleepS
-     /tmp/ccAWN6mf.s:403    .text.chSchGoSleepS:00000020 $d
-     /tmp/ccAWN6mf.s:408    .text.chSchGoSleepTimeoutS:00000000 $t
-     /tmp/ccAWN6mf.s:414    .text.chSchGoSleepTimeoutS:00000000 chSchGoSleepTimeoutS
-     /tmp/ccAWN6mf.s:487    .text.chSchGoSleepTimeoutS:00000040 $d
-     /tmp/ccAWN6mf.s:493    .text.chSchWakeupS:00000000 $t
-     /tmp/ccAWN6mf.s:499    .text.chSchWakeupS:00000000 chSchWakeupS
-     /tmp/ccAWN6mf.s:624    .text.chSchWakeupS:00000054 $d
-     /tmp/ccAWN6mf.s:630    .text.chSchIsPreemptionRequired:00000000 $t
-     /tmp/ccAWN6mf.s:636    .text.chSchIsPreemptionRequired:00000000 chSchIsPreemptionRequired
-     /tmp/ccAWN6mf.s:661    .text.chSchIsPreemptionRequired:00000014 $d
-     /tmp/ccAWN6mf.s:666    .text.chSchDoRescheduleBehind:00000000 $t
-     /tmp/ccAWN6mf.s:672    .text.chSchDoRescheduleBehind:00000000 chSchDoRescheduleBehind
-     /tmp/ccAWN6mf.s:773    .text.chSchDoRescheduleBehind:00000038 $d
-     /tmp/ccAWN6mf.s:778    .text.chSchDoRescheduleAhead:00000000 $t
-     /tmp/ccAWN6mf.s:784    .text.chSchDoRescheduleAhead:00000000 chSchDoRescheduleAhead
-     /tmp/ccAWN6mf.s:872    .text.chSchDoRescheduleAhead:00000038 $d
-     /tmp/ccAWN6mf.s:877    .text.chSchRescheduleS:00000000 $t
-     /tmp/ccAWN6mf.s:883    .text.chSchRescheduleS:00000000 chSchRescheduleS
-     /tmp/ccAWN6mf.s:911    .text.chSchRescheduleS:00000014 $d
-     /tmp/ccAWN6mf.s:916    .text.chSchDoReschedule:00000000 $t
-     /tmp/ccAWN6mf.s:922    .text.chSchDoReschedule:00000000 chSchDoReschedule
-     /tmp/ccAWN6mf.s:941    .bss.ch:00000000 ch
-     /tmp/ccAWN6mf.s:937    .bss.ch:00000000 $d
+     /tmp/ccHmBCIp.s:19     .text.wakeup:00000000 $t
+     /tmp/ccHmBCIp.s:24     .text.wakeup:00000000 wakeup
+     /tmp/ccHmBCIp.s:59     .text.wakeup:00000012 $d
+     /tmp/ccHmBCIp.s:67     .text.wakeup:0000001a $t
+     /tmp/ccHmBCIp.s:224    .text.wakeup:0000006c $d
+     /tmp/ccHmBCIp.s:229    .text._scheduler_init:00000000 $t
+     /tmp/ccHmBCIp.s:235    .text._scheduler_init:00000000 _scheduler_init
+     /tmp/ccHmBCIp.s:265    .text._scheduler_init:0000000c $d
+     /tmp/ccHmBCIp.s:270    .text.chSchReadyI:00000000 $t
+     /tmp/ccHmBCIp.s:276    .text.chSchReadyI:00000000 chSchReadyI
+     /tmp/ccHmBCIp.s:327    .text.chSchReadyI:00000028 $d
+     /tmp/ccHmBCIp.s:332    .text.chSchGoSleepS:00000000 $t
+     /tmp/ccHmBCIp.s:338    .text.chSchGoSleepS:00000000 chSchGoSleepS
+     /tmp/ccHmBCIp.s:403    .text.chSchGoSleepS:00000020 $d
+     /tmp/ccHmBCIp.s:408    .text.chSchGoSleepTimeoutS:00000000 $t
+     /tmp/ccHmBCIp.s:414    .text.chSchGoSleepTimeoutS:00000000 chSchGoSleepTimeoutS
+     /tmp/ccHmBCIp.s:487    .text.chSchGoSleepTimeoutS:00000040 $d
+     /tmp/ccHmBCIp.s:493    .text.chSchWakeupS:00000000 $t
+     /tmp/ccHmBCIp.s:499    .text.chSchWakeupS:00000000 chSchWakeupS
+     /tmp/ccHmBCIp.s:624    .text.chSchWakeupS:00000054 $d
+     /tmp/ccHmBCIp.s:630    .text.chSchIsPreemptionRequired:00000000 $t
+     /tmp/ccHmBCIp.s:636    .text.chSchIsPreemptionRequired:00000000 chSchIsPreemptionRequired
+     /tmp/ccHmBCIp.s:661    .text.chSchIsPreemptionRequired:00000014 $d
+     /tmp/ccHmBCIp.s:666    .text.chSchDoRescheduleBehind:00000000 $t
+     /tmp/ccHmBCIp.s:672    .text.chSchDoRescheduleBehind:00000000 chSchDoRescheduleBehind
+     /tmp/ccHmBCIp.s:773    .text.chSchDoRescheduleBehind:00000038 $d
+     /tmp/ccHmBCIp.s:778    .text.chSchDoRescheduleAhead:00000000 $t
+     /tmp/ccHmBCIp.s:784    .text.chSchDoRescheduleAhead:00000000 chSchDoRescheduleAhead
+     /tmp/ccHmBCIp.s:872    .text.chSchDoRescheduleAhead:00000038 $d
+     /tmp/ccHmBCIp.s:877    .text.chSchRescheduleS:00000000 $t
+     /tmp/ccHmBCIp.s:883    .text.chSchRescheduleS:00000000 chSchRescheduleS
+     /tmp/ccHmBCIp.s:911    .text.chSchRescheduleS:00000014 $d
+     /tmp/ccHmBCIp.s:916    .text.chSchDoReschedule:00000000 $t
+     /tmp/ccHmBCIp.s:922    .text.chSchDoReschedule:00000000 chSchDoReschedule
+     /tmp/ccHmBCIp.s:941    .bss.ch:00000000 ch
+     /tmp/ccHmBCIp.s:937    .bss.ch:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

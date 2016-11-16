@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccNohjiC.s 			page 1
+ARM GAS  /tmp/cc9MJEZf.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
   55 0000 0023     		movs	r3, #0
   56              		.loc 1 70 0
   57 0002 0122     		movs	r2, #1
-ARM GAS  /tmp/ccNohjiC.s 			page 2
+ARM GAS  /tmp/cc9MJEZf.s 			page 2
 
 
   58 0004 0270     		strb	r2, [r0]
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  112              	.LBE146:
  113              	.LBE147:
  114              	.LBE148:
-ARM GAS  /tmp/ccNohjiC.s 			page 3
+ARM GAS  /tmp/cc9MJEZf.s 			page 3
 
 
  115              	.LBE149:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  169              	.LVL5:
  170 0000 10B5     		push	{r4, lr}
  171              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/ccNohjiC.s 			page 4
+ARM GAS  /tmp/cc9MJEZf.s 			page 4
 
 
  172              		.cfi_offset 4, -8
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  226 001a 10BD     		pop	{r4, pc}
  227              	.LBE172:
  228              	.LBE171:
-ARM GAS  /tmp/ccNohjiC.s 			page 5
+ARM GAS  /tmp/cc9MJEZf.s 			page 5
 
 
  229              	.LBE170:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  283              	.LBE182:
  284              	.LBE181:
  285              	.LBE180:
-ARM GAS  /tmp/ccNohjiC.s 			page 6
+ARM GAS  /tmp/cc9MJEZf.s 			page 6
 
 
  286              	.LBE179:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  340              	.LBB194:
  341              		.loc 2 548 0
  342 0002 2023     		movs	r3, #32
-ARM GAS  /tmp/ccNohjiC.s 			page 7
+ARM GAS  /tmp/cc9MJEZf.s 			page 7
 
 
  343              	@ 548 "/home/maciek/ChibiOS_16.1.5/os/ext/CMSIS/include/core_cmFunc.h" 1
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  397              		.cfi_def_cfa_offset 16
  398              		.cfi_offset 3, -16
  399              		.cfi_offset 4, -12
-ARM GAS  /tmp/ccNohjiC.s 			page 8
+ARM GAS  /tmp/cc9MJEZf.s 			page 8
 
 
  400              		.cfi_offset 5, -8
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  454              		.type	pwmEnablePeriodicNotification, %function
  455              	pwmEnablePeriodicNotification:
  456              	.LFB214:
-ARM GAS  /tmp/ccNohjiC.s 			page 9
+ARM GAS  /tmp/cc9MJEZf.s 			page 9
 
 
  457              		.loc 1 214 0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  511              		.thumb
  512              		.thumb_func
  513              		.type	pwmDisablePeriodicNotification, %function
-ARM GAS  /tmp/ccNohjiC.s 			page 10
+ARM GAS  /tmp/cc9MJEZf.s 			page 10
 
 
  514              	pwmDisablePeriodicNotification:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  568              		.p2align 4,,15
  569              		.global	pwmEnableChannelNotification
  570              		.thumb
-ARM GAS  /tmp/ccNohjiC.s 			page 11
+ARM GAS  /tmp/cc9MJEZf.s 			page 11
 
 
  571              		.thumb_func
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  625              		.section	.text.pwmDisableChannelNotification,"ax",%progbits
  626              		.align	2
  627              		.p2align 4,,15
-ARM GAS  /tmp/ccNohjiC.s 			page 12
+ARM GAS  /tmp/cc9MJEZf.s 			page 12
 
 
  628              		.global	pwmDisableChannelNotification
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  682              	.LFE217:
  683              		.size	pwmDisableChannelNotification, .-pwmDisableChannelNotification
  684              		.text
-ARM GAS  /tmp/ccNohjiC.s 			page 13
+ARM GAS  /tmp/cc9MJEZf.s 			page 13
 
 
  685              	.Letext0:
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  739 004b 92050000 		.4byte	.LASF3
  740 004f 04       		.uleb128 0x4
  741 0050 BD060000 		.4byte	.LASF5
-ARM GAS  /tmp/ccNohjiC.s 			page 14
+ARM GAS  /tmp/cc9MJEZf.s 			page 14
 
 
  742 0054 03       		.byte	0x3
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  796 00c0 30060000 		.4byte	.LASF17
  797 00c4 04       		.byte	0x4
  798 00c5 20       		.byte	0x20
-ARM GAS  /tmp/ccNohjiC.s 			page 15
+ARM GAS  /tmp/cc9MJEZf.s 			page 15
 
 
  799 00c6 73000000 		.4byte	0x73
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  853 013e 3F       		.byte	0x3f
  854 013f 43010000 		.4byte	0x143
  855 0143 05       		.uleb128 0x5
-ARM GAS  /tmp/ccNohjiC.s 			page 16
+ARM GAS  /tmp/cc9MJEZf.s 			page 16
 
 
  856 0144 78030000 		.4byte	.LASF45
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  910 01b1 3E040000 		.4byte	.LASF36
  911 01b5 07       		.byte	0x7
  912 01b6 3601     		.2byte	0x136
-ARM GAS  /tmp/ccNohjiC.s 			page 17
+ARM GAS  /tmp/cc9MJEZf.s 			page 17
 
 
  913 01b8 1D020000 		.4byte	0x21d
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  967 022d 04       		.byte	0x4
  968 022e 07       		.byte	0x7
  969 022f B0       		.byte	0xb0
-ARM GAS  /tmp/ccNohjiC.s 			page 18
+ARM GAS  /tmp/cc9MJEZf.s 			page 18
 
 
  970 0230 41020000 		.4byte	0x241
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1024 02a2 08       		.byte	0x8
  1025 02a3 08       		.uleb128 0x8
  1026 02a4 C8040000 		.4byte	.LASF53
-ARM GAS  /tmp/ccNohjiC.s 			page 19
+ARM GAS  /tmp/cc9MJEZf.s 			page 19
 
 
  1027 02a8 07       		.byte	0x7
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1081 031a 08       		.byte	0x8
  1082 031b 08       		.uleb128 0x8
  1083 031c 43080000 		.4byte	.LASF61
-ARM GAS  /tmp/ccNohjiC.s 			page 20
+ARM GAS  /tmp/cc9MJEZf.s 			page 20
 
 
  1084 0320 07       		.byte	0x7
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1138 0393 04       		.byte	0x4
  1139 0394 07       		.byte	0x7
  1140 0395 A201     		.2byte	0x1a2
-ARM GAS  /tmp/ccNohjiC.s 			page 21
+ARM GAS  /tmp/cc9MJEZf.s 			page 21
 
 
  1141 0397 A9030000 		.4byte	0x3a9
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1195 040e 60       		.byte	0x60
  1196 040f 00       		.byte	0
  1197 0410 03       		.uleb128 0x3
-ARM GAS  /tmp/ccNohjiC.s 			page 22
+ARM GAS  /tmp/cc9MJEZf.s 			page 22
 
 
  1198 0411 04       		.byte	0x4
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1252 0483 07       		.uleb128 0x7
  1253 0484 723500   		.ascii	"r5\000"
  1254 0487 09       		.byte	0x9
-ARM GAS  /tmp/ccNohjiC.s 			page 23
+ARM GAS  /tmp/cc9MJEZf.s 			page 23
 
 
  1255 0488 1101     		.2byte	0x111
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1309 04f4 06       		.uleb128 0x6
  1310 04f5 44070000 		.4byte	.LASF80
  1311 04f9 0A       		.byte	0xa
-ARM GAS  /tmp/ccNohjiC.s 			page 24
+ARM GAS  /tmp/cc9MJEZf.s 			page 24
 
 
  1312 04fa 3C       		.byte	0x3c
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1366 0570 11060000 		.4byte	.LASF89
  1367 0574 0C       		.byte	0xc
  1368 0575 0B       		.byte	0xb
-ARM GAS  /tmp/ccNohjiC.s 			page 25
+ARM GAS  /tmp/cc9MJEZf.s 			page 25
 
 
  1369 0576 34       		.byte	0x34
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1423 05e2 04       		.byte	0x4
  1424 05e3 E7050000 		.4byte	0x5e7
  1425 05e7 16       		.uleb128 0x16
-ARM GAS  /tmp/ccNohjiC.s 			page 26
+ARM GAS  /tmp/cc9MJEZf.s 			page 26
 
 
  1426 05e8 EC050000 		.4byte	0x5ec
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1480 0655 B5060000 		.4byte	0x6b5
  1481 0659 08       		.uleb128 0x8
  1482 065a 32020000 		.4byte	.LASF104
-ARM GAS  /tmp/ccNohjiC.s 			page 27
+ARM GAS  /tmp/cc9MJEZf.s 			page 27
 
 
  1483 065e 0E       		.byte	0xe
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1537 06d1 09       		.uleb128 0x9
  1538 06d2 04       		.byte	0x4
  1539 06d3 41060000 		.4byte	0x641
-ARM GAS  /tmp/ccNohjiC.s 			page 28
+ARM GAS  /tmp/cc9MJEZf.s 			page 28
 
 
  1540 06d7 19       		.uleb128 0x19
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1594 0748 8D020000 		.4byte	.LASF115
  1595 074c 0F       		.byte	0xf
  1596 074d AA01     		.2byte	0x1aa
-ARM GAS  /tmp/ccNohjiC.s 			page 29
+ARM GAS  /tmp/cc9MJEZf.s 			page 29
 
 
  1597 074f 17040000 		.4byte	0x417
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1651 07c3 17040000 		.4byte	0x417
  1652 07c7 50       		.byte	0x50
  1653 07c8 08       		.uleb128 0x8
-ARM GAS  /tmp/ccNohjiC.s 			page 30
+ARM GAS  /tmp/cc9MJEZf.s 			page 30
 
 
  1654 07c9 20010000 		.4byte	.LASF118
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1708 0844 0E       		.byte	0xe
  1709 0845 7D01     		.2byte	0x17d
  1710 0847 B5060000 		.4byte	0x6b5
-ARM GAS  /tmp/ccNohjiC.s 			page 31
+ARM GAS  /tmp/cc9MJEZf.s 			page 31
 
 
  1711 084b 04       		.byte	0x4
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1765 08bf 03       		.byte	0x3
  1766 08c0 00       		.byte	0
  1767 08c1 1A       		.uleb128 0x1a
-ARM GAS  /tmp/ccNohjiC.s 			page 32
+ARM GAS  /tmp/cc9MJEZf.s 			page 32
 
 
  1768 08c2 73070000 		.4byte	.LASF130
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1822 0938 10040000 		.4byte	0x410
  1823 093c 0B       		.byte	0xb
  1824 093d 00       		.byte	0
-ARM GAS  /tmp/ccNohjiC.s 			page 33
+ARM GAS  /tmp/cc9MJEZf.s 			page 33
 
 
  1825 093e 16       		.uleb128 0x16
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1879 09b2 59       		.byte	0x59
  1880 09b3 D1060000 		.4byte	0x6d1
  1881 09b7 00000000 		.4byte	.LLST0
-ARM GAS  /tmp/ccNohjiC.s 			page 34
+ARM GAS  /tmp/cc9MJEZf.s 			page 34
 
 
  1882 09bb 22       		.uleb128 0x22
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1936 0a43 29       		.uleb128 0x29
  1937 0a44 1C000000 		.4byte	.LBB153
  1938 0a48 06000000 		.4byte	.LBE153-.LBB153
-ARM GAS  /tmp/ccNohjiC.s 			page 35
+ARM GAS  /tmp/cc9MJEZf.s 			page 35
 
 
  1939 0a4c 2A       		.uleb128 0x2a
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  1993 0abd 6F       		.byte	0x6f
  1994 0abe D1060000 		.4byte	0x6d1
  1995 0ac2 3F000000 		.4byte	.LLST2
-ARM GAS  /tmp/ccNohjiC.s 			page 36
+ARM GAS  /tmp/cc9MJEZf.s 			page 36
 
 
  1996 0ac6 23       		.uleb128 0x23
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2050 0b4e 01090000 		.4byte	0x901
  2051 0b52 16000000 		.4byte	.LBB170
  2052 0b56 06000000 		.4byte	.LBE170-.LBB170
-ARM GAS  /tmp/ccNohjiC.s 			page 37
+ARM GAS  /tmp/cc9MJEZf.s 			page 37
 
 
  2053 0b5a 10       		.byte	0x10
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2107 0bc5 01       		.byte	0x1
  2108 0bc6 8B       		.byte	0x8b
  2109 0bc7 1D080000 		.4byte	0x81d
-ARM GAS  /tmp/ccNohjiC.s 			page 38
+ARM GAS  /tmp/cc9MJEZf.s 			page 38
 
 
  2110 0bcb 01       		.uleb128 0x1
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2164 0c4d 01090000 		.4byte	0x901
  2165 0c51 0E000000 		.4byte	.LBB181
  2166 0c55 30000000 		.4byte	.Ldebug_ranges0+0x30
-ARM GAS  /tmp/ccNohjiC.s 			page 39
+ARM GAS  /tmp/cc9MJEZf.s 			page 39
 
 
  2167 0c59 10       		.byte	0x10
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2221 0cd0 CD050000 		.4byte	.LASF143
  2222 0cd4 AA0D0000 		.4byte	0xdaa
  2223 0cd8 27       		.uleb128 0x27
-ARM GAS  /tmp/ccNohjiC.s 			page 40
+ARM GAS  /tmp/cc9MJEZf.s 			page 40
 
 
  2224 0cd9 43090000 		.4byte	0x943
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2278 0d64 7301     		.2byte	0x173
  2279 0d66 28       		.uleb128 0x28
  2280 0d67 DE080000 		.4byte	0x8de
-ARM GAS  /tmp/ccNohjiC.s 			page 41
+ARM GAS  /tmp/cc9MJEZf.s 			page 41
 
 
  2281 0d6b 16000000 		.4byte	.LBB199
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2335 0dcf C0000000 		.4byte	.LLST6
  2336 0dd3 22       		.uleb128 0x22
  2337 0dd4 F8050000 		.4byte	.LASF146
-ARM GAS  /tmp/ccNohjiC.s 			page 42
+ARM GAS  /tmp/cc9MJEZf.s 			page 42
 
 
  2338 0dd8 01       		.byte	0x1
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2392 0e60 08000000 		.4byte	.LBE208-.LBB208
  2393 0e64 2A       		.uleb128 0x2a
  2394 0e65 20090000 		.4byte	0x920
-ARM GAS  /tmp/ccNohjiC.s 			page 43
+ARM GAS  /tmp/cc9MJEZf.s 			page 43
 
 
  2395 0e69 28       		.uleb128 0x28
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2449 0ed7 D1060000 		.4byte	0x6d1
  2450 0edb 02010000 		.4byte	.LLST8
  2451 0edf 23       		.uleb128 0x23
-ARM GAS  /tmp/ccNohjiC.s 			page 44
+ARM GAS  /tmp/cc9MJEZf.s 			page 44
 
 
  2452 0ee0 CD050000 		.4byte	.LASF143
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2506 0f6b 0C000000 		.4byte	.LBB220
  2507 0f6f 08000000 		.4byte	.LBE220-.LBB220
  2508 0f73 10       		.byte	0x10
-ARM GAS  /tmp/ccNohjiC.s 			page 45
+ARM GAS  /tmp/cc9MJEZf.s 			page 45
 
 
  2509 0f74 7301     		.2byte	0x173
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2563 0fe5 27       		.uleb128 0x27
  2564 0fe6 43090000 		.4byte	0x943
  2565 0fea 02000000 		.4byte	.LBB223
-ARM GAS  /tmp/ccNohjiC.s 			page 46
+ARM GAS  /tmp/cc9MJEZf.s 			page 46
 
 
  2566 0fee 06000000 		.4byte	.LBE223-.LBB223
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2620 1074 DE080000 		.4byte	0x8de
  2621 1078 0C000000 		.4byte	.LBB232
  2622 107c 08000000 		.4byte	.LBE232-.LBB232
-ARM GAS  /tmp/ccNohjiC.s 			page 47
+ARM GAS  /tmp/cc9MJEZf.s 			page 47
 
 
  2623 1080 09       		.byte	0x9
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2677 10f0 C1110000 		.4byte	0x11c1
  2678 10f4 31       		.uleb128 0x31
  2679 10f5 43090000 		.4byte	0x943
-ARM GAS  /tmp/ccNohjiC.s 			page 48
+ARM GAS  /tmp/cc9MJEZf.s 			page 48
 
 
  2680 10f9 02000000 		.4byte	.LBB234
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2734 1184 28       		.uleb128 0x28
  2735 1185 DE080000 		.4byte	0x8de
  2736 1189 0C000000 		.4byte	.LBB243
-ARM GAS  /tmp/ccNohjiC.s 			page 49
+ARM GAS  /tmp/cc9MJEZf.s 			page 49
 
 
  2737 118d 08000000 		.4byte	.LBE243-.LBB243
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2791 11fd CD050000 		.4byte	.LASF143
  2792 1201 C2120000 		.4byte	0x12c2
  2793 1205 31       		.uleb128 0x31
-ARM GAS  /tmp/ccNohjiC.s 			page 50
+ARM GAS  /tmp/cc9MJEZf.s 			page 50
 
 
  2794 1206 43090000 		.4byte	0x943
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2848 1293 7301     		.2byte	0x173
  2849 1295 28       		.uleb128 0x28
  2850 1296 DE080000 		.4byte	0x8de
-ARM GAS  /tmp/ccNohjiC.s 			page 51
+ARM GAS  /tmp/cc9MJEZf.s 			page 51
 
 
  2851 129a 0C000000 		.4byte	.LBB254
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2905 1305 0F130000 		.4byte	0x130f
  2906 1309 0C       		.uleb128 0xc
  2907 130a D1060000 		.4byte	0x6d1
-ARM GAS  /tmp/ccNohjiC.s 			page 52
+ARM GAS  /tmp/cc9MJEZf.s 			page 52
 
 
  2908 130e 00       		.byte	0
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  2962 1386 D1060000 		.4byte	0x6d1
  2963 138a 0C       		.uleb128 0xc
  2964 138b 05080000 		.4byte	0x805
-ARM GAS  /tmp/ccNohjiC.s 			page 53
+ARM GAS  /tmp/cc9MJEZf.s 			page 53
 
 
  2965 138f 00       		.byte	0
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3019 0032 00       		.byte	0
  3020 0033 00       		.byte	0
  3021 0034 05       		.uleb128 0x5
-ARM GAS  /tmp/ccNohjiC.s 			page 54
+ARM GAS  /tmp/cc9MJEZf.s 			page 54
 
 
  3022 0035 13       		.uleb128 0x13
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3076 006b 13       		.uleb128 0x13
  3077 006c 38       		.uleb128 0x38
  3078 006d 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccNohjiC.s 			page 55
+ARM GAS  /tmp/cc9MJEZf.s 			page 55
 
 
  3079 006e 00       		.byte	0
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3133 00a4 0B       		.uleb128 0xb
  3134 00a5 05       		.uleb128 0x5
  3135 00a6 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccNohjiC.s 			page 56
+ARM GAS  /tmp/cc9MJEZf.s 			page 56
 
 
  3136 00a7 0B       		.uleb128 0xb
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3190 00dd 3B       		.uleb128 0x3b
  3191 00de 0B       		.uleb128 0xb
  3192 00df 01       		.uleb128 0x1
-ARM GAS  /tmp/ccNohjiC.s 			page 57
+ARM GAS  /tmp/cc9MJEZf.s 			page 57
 
 
  3193 00e0 13       		.uleb128 0x13
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3247 0116 1C       		.uleb128 0x1c
  3248 0117 0D       		.uleb128 0xd
  3249 0118 00       		.byte	0
-ARM GAS  /tmp/ccNohjiC.s 			page 58
+ARM GAS  /tmp/cc9MJEZf.s 			page 58
 
 
  3250 0119 00       		.byte	0
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3304 014f 13       		.uleb128 0x13
  3305 0150 00       		.byte	0
  3306 0151 00       		.byte	0
-ARM GAS  /tmp/ccNohjiC.s 			page 59
+ARM GAS  /tmp/cc9MJEZf.s 			page 59
 
 
  3307 0152 1D       		.uleb128 0x1d
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3361 0189 898201   		.uleb128 0x4109
  3362 018c 00       		.byte	0
  3363 018d 11       		.uleb128 0x11
-ARM GAS  /tmp/ccNohjiC.s 			page 60
+ARM GAS  /tmp/cc9MJEZf.s 			page 60
 
 
  3364 018e 01       		.uleb128 0x1
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3418 01c5 01       		.uleb128 0x1
  3419 01c6 55       		.uleb128 0x55
  3420 01c7 17       		.uleb128 0x17
-ARM GAS  /tmp/ccNohjiC.s 			page 61
+ARM GAS  /tmp/cc9MJEZf.s 			page 61
 
 
  3421 01c8 58       		.uleb128 0x58
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3475 01fe 11       		.uleb128 0x11
  3476 01ff 01       		.uleb128 0x1
  3477 0200 12       		.uleb128 0x12
-ARM GAS  /tmp/ccNohjiC.s 			page 62
+ARM GAS  /tmp/cc9MJEZf.s 			page 62
 
 
  3478 0201 06       		.uleb128 0x6
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3532 023c 00       		.byte	0
  3533 023d 00       		.byte	0
  3534 023e 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccNohjiC.s 			page 63
+ARM GAS  /tmp/cc9MJEZf.s 			page 63
 
 
  3535 023f 0B       		.uleb128 0xb
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3589 0276 06       		.uleb128 0x6
  3590 0277 58       		.uleb128 0x58
  3591 0278 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccNohjiC.s 			page 64
+ARM GAS  /tmp/cc9MJEZf.s 			page 64
 
 
  3592 0279 59       		.uleb128 0x59
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3646 02af 19       		.uleb128 0x19
  3647 02b0 00       		.byte	0
  3648 02b1 00       		.byte	0
-ARM GAS  /tmp/ccNohjiC.s 			page 65
+ARM GAS  /tmp/cc9MJEZf.s 			page 65
 
 
  3649 02b2 35       		.uleb128 0x35
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3703 0028 51       		.byte	0x51
  3704 0029 13000000 		.4byte	.LVL3-1
  3705 002d 22000000 		.4byte	.LFE209
-ARM GAS  /tmp/ccNohjiC.s 			page 66
+ARM GAS  /tmp/cc9MJEZf.s 			page 66
 
 
  3706 0031 0400     		.2byte	0x4
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3760 00b4 F3       		.byte	0xf3
  3761 00b5 01       		.uleb128 0x1
  3762 00b6 52       		.byte	0x52
-ARM GAS  /tmp/ccNohjiC.s 			page 67
+ARM GAS  /tmp/cc9MJEZf.s 			page 67
 
 
  3763 00b7 9F       		.byte	0x9f
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3817 0139 01       		.uleb128 0x1
  3818 013a 50       		.byte	0x50
  3819 013b 9F       		.byte	0x9f
-ARM GAS  /tmp/ccNohjiC.s 			page 68
+ARM GAS  /tmp/cc9MJEZf.s 			page 68
 
 
  3820 013c 00000000 		.4byte	0
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3874 01be 51       		.byte	0x51
  3875 01bf 9F       		.byte	0x9f
  3876 01c0 00000000 		.4byte	0
-ARM GAS  /tmp/ccNohjiC.s 			page 69
+ARM GAS  /tmp/cc9MJEZf.s 			page 69
 
 
  3877 01c4 00000000 		.4byte	0
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3931 004c 04000000 		.4byte	.LFE207
  3932 0050 00000000 		.4byte	.LFB208
  3933 0054 0E000000 		.4byte	.LFE208
-ARM GAS  /tmp/ccNohjiC.s 			page 70
+ARM GAS  /tmp/cc9MJEZf.s 			page 70
 
 
  3934 0058 00000000 		.4byte	.LFB209
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3971              	.LASF79:
  3972 003f 706F7274 		.ascii	"port_intctx\000"
  3972      5F696E74 
-ARM GAS  /tmp/ccNohjiC.s 			page 71
+ARM GAS  /tmp/cc9MJEZf.s 			page 71
 
 
  3972      63747800 
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  3994      7900
  3995              	.LASF31:
  3996 00fa 705F7072 		.ascii	"p_prio\000"
-ARM GAS  /tmp/ccNohjiC.s 			page 72
+ARM GAS  /tmp/cc9MJEZf.s 			page 72
 
 
  3996      696F00
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4018      6F6D6D6F 
  4018      6E00
  4019              	.LASF132:
-ARM GAS  /tmp/ccNohjiC.s 			page 73
+ARM GAS  /tmp/cc9MJEZf.s 			page 73
 
 
  4020 0226 706F7274 		.ascii	"port_unlock\000"
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4046      7420756E 
  4046      7369676E 
  4046      65642069 
-ARM GAS  /tmp/ccNohjiC.s 			page 74
+ARM GAS  /tmp/cc9MJEZf.s 			page 74
 
 
  4046      6E7400
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4076      656E6162 
  4076      6C655F70 
  4076      6572696F 
-ARM GAS  /tmp/ccNohjiC.s 			page 75
+ARM GAS  /tmp/cc9MJEZf.s 			page 75
 
 
  4077              	.LASF45:
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4102      7400
  4103              	.LASF141:
  4104 041f 70776D70 		.ascii	"pwmp\000"
-ARM GAS  /tmp/ccNohjiC.s 			page 76
+ARM GAS  /tmp/cc9MJEZf.s 			page 76
 
 
  4104      00
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4128 04c8 725F6374 		.ascii	"r_ctx\000"
  4128      7800
  4129              	.LASF81:
-ARM GAS  /tmp/ccNohjiC.s 			page 77
+ARM GAS  /tmp/cc9MJEZf.s 			page 77
 
 
  4130 04ce 746D5F63 		.ascii	"tm_calibration_t\000"
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4156      52784275 
  4156      66666572 
  4156      00
-ARM GAS  /tmp/ccNohjiC.s 			page 78
+ARM GAS  /tmp/cc9MJEZf.s 			page 78
 
 
  4157              	.LASF91:
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4186      696D6572 
  4186      00
  4187              	.LASF89:
-ARM GAS  /tmp/ccNohjiC.s 			page 79
+ARM GAS  /tmp/cc9MJEZf.s 			page 79
 
 
  4188 0611 63685F73 		.ascii	"ch_semaphore\000"
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4213              	.LASF5:
  4214 06bd 5F5F7569 		.ascii	"__uint16_t\000"
  4214      6E743136 
-ARM GAS  /tmp/ccNohjiC.s 			page 80
+ARM GAS  /tmp/cc9MJEZf.s 			page 80
 
 
  4214      5F7400
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4244 0753 50574D43 		.ascii	"PWMChannelConfig\000"
  4244      68616E6E 
  4244      656C436F 
-ARM GAS  /tmp/ccNohjiC.s 			page 81
+ARM GAS  /tmp/cc9MJEZf.s 			page 81
 
 
  4244      6E666967 
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4272      6D6500
  4273              	.LASF20:
  4274 07f9 746D6F64 		.ascii	"tmode_t\000"
-ARM GAS  /tmp/ccNohjiC.s 			page 82
+ARM GAS  /tmp/cc9MJEZf.s 			page 82
 
 
  4274      655F7400 
@@ -4895,33 +4895,33 @@ ARM GAS  /tmp/ccNohjiC.s 			page 1
  4292 084b 64696572 		.ascii	"dier\000"
  4292      00
  4293              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccNohjiC.s 			page 83
+ARM GAS  /tmp/cc9MJEZf.s 			page 83
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pwm.c
-     /tmp/ccNohjiC.s:19     .text.pwmInit:00000000 $t
-     /tmp/ccNohjiC.s:25     .text.pwmInit:00000000 pwmInit
-     /tmp/ccNohjiC.s:40     .text.pwmObjectInit:00000000 $t
-     /tmp/ccNohjiC.s:46     .text.pwmObjectInit:00000000 pwmObjectInit
-     /tmp/ccNohjiC.s:70     .text.pwmStart:00000000 $t
-     /tmp/ccNohjiC.s:76     .text.pwmStart:00000000 pwmStart
-     /tmp/ccNohjiC.s:157    .text.pwmStop:00000000 $t
-     /tmp/ccNohjiC.s:163    .text.pwmStop:00000000 pwmStop
-     /tmp/ccNohjiC.s:237    .text.pwmChangePeriod:00000000 $t
-     /tmp/ccNohjiC.s:243    .text.pwmChangePeriod:00000000 pwmChangePeriod
-     /tmp/ccNohjiC.s:317    .text.pwmEnableChannel:00000000 $t
-     /tmp/ccNohjiC.s:323    .text.pwmEnableChannel:00000000 pwmEnableChannel
-     /tmp/ccNohjiC.s:383    .text.pwmDisableChannel:00000000 $t
-     /tmp/ccNohjiC.s:389    .text.pwmDisableChannel:00000000 pwmDisableChannel
-     /tmp/ccNohjiC.s:449    .text.pwmEnablePeriodicNotification:00000000 $t
-     /tmp/ccNohjiC.s:455    .text.pwmEnablePeriodicNotification:00000000 pwmEnablePeriodicNotification
-     /tmp/ccNohjiC.s:508    .text.pwmDisablePeriodicNotification:00000000 $t
-     /tmp/ccNohjiC.s:514    .text.pwmDisablePeriodicNotification:00000000 pwmDisablePeriodicNotification
-     /tmp/ccNohjiC.s:567    .text.pwmEnableChannelNotification:00000000 $t
-     /tmp/ccNohjiC.s:573    .text.pwmEnableChannelNotification:00000000 pwmEnableChannelNotification
-     /tmp/ccNohjiC.s:626    .text.pwmDisableChannelNotification:00000000 $t
-     /tmp/ccNohjiC.s:632    .text.pwmDisableChannelNotification:00000000 pwmDisableChannelNotification
+     /tmp/cc9MJEZf.s:19     .text.pwmInit:00000000 $t
+     /tmp/cc9MJEZf.s:25     .text.pwmInit:00000000 pwmInit
+     /tmp/cc9MJEZf.s:40     .text.pwmObjectInit:00000000 $t
+     /tmp/cc9MJEZf.s:46     .text.pwmObjectInit:00000000 pwmObjectInit
+     /tmp/cc9MJEZf.s:70     .text.pwmStart:00000000 $t
+     /tmp/cc9MJEZf.s:76     .text.pwmStart:00000000 pwmStart
+     /tmp/cc9MJEZf.s:157    .text.pwmStop:00000000 $t
+     /tmp/cc9MJEZf.s:163    .text.pwmStop:00000000 pwmStop
+     /tmp/cc9MJEZf.s:237    .text.pwmChangePeriod:00000000 $t
+     /tmp/cc9MJEZf.s:243    .text.pwmChangePeriod:00000000 pwmChangePeriod
+     /tmp/cc9MJEZf.s:317    .text.pwmEnableChannel:00000000 $t
+     /tmp/cc9MJEZf.s:323    .text.pwmEnableChannel:00000000 pwmEnableChannel
+     /tmp/cc9MJEZf.s:383    .text.pwmDisableChannel:00000000 $t
+     /tmp/cc9MJEZf.s:389    .text.pwmDisableChannel:00000000 pwmDisableChannel
+     /tmp/cc9MJEZf.s:449    .text.pwmEnablePeriodicNotification:00000000 $t
+     /tmp/cc9MJEZf.s:455    .text.pwmEnablePeriodicNotification:00000000 pwmEnablePeriodicNotification
+     /tmp/cc9MJEZf.s:508    .text.pwmDisablePeriodicNotification:00000000 $t
+     /tmp/cc9MJEZf.s:514    .text.pwmDisablePeriodicNotification:00000000 pwmDisablePeriodicNotification
+     /tmp/cc9MJEZf.s:567    .text.pwmEnableChannelNotification:00000000 $t
+     /tmp/cc9MJEZf.s:573    .text.pwmEnableChannelNotification:00000000 pwmEnableChannelNotification
+     /tmp/cc9MJEZf.s:626    .text.pwmDisableChannelNotification:00000000 $t
+     /tmp/cc9MJEZf.s:632    .text.pwmDisableChannelNotification:00000000 pwmDisableChannelNotification
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

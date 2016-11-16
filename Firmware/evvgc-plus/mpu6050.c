@@ -336,8 +336,12 @@ uint8_t mpu6050GetNewData(PIMUStruct pIMU) {
   }
 
 //  chprintf((BaseSequentialStream *)&SD4, "g%D\n", (uint8_t)pIMU->accelData[0]);
+
+#if 0
 chprintf((BaseSequentialStream *)&SD4, "g%D ", (uint8_t)pIMU->accelData[0]);
 chprintf((BaseSequentialStream *)&SD4, "g%D\r", (uint8_t)pIMU->accelData[1]);
+#endif
+
   //chprintf((BaseSequentialStream *)&SD4, "g%f\r", pIMU->accelData[0]);
   //chprintf((BaseSequentialStream *)&SD4, "g%f\r", pIMU->accelData[0]);
   

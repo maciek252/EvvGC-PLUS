@@ -79,27 +79,27 @@ float g_mavAngle[3] = {0.0f, 0.0f, 0.0f};
  */
 PIDSettings g_pidSettings[3] = {
 /* P, I, D */
-  {0, 0, 0}, /* Pitch PID */
-  {0, 0, 0}, /* Roll  PID */
-  {0, 0, 0}, /* Yaw   PID */
+  {1, 0, 0}, /* Pitch PID */
+  {4, 0, 0}, /* Roll  PID */
+  {7, 0, 0}, /* Yaw   PID */
 };
 
 /**
  * Default input mode settings.
  */
 InputModeStruct g_modeSettings[3] = {
-  {-60,               /* Min angle */
+  {-59,               /* Min angle */
    60,                /* Max angle */
    0,                 /* Offset    */
    20,                /* Speed     */
    INPUT_MODE_ANGLE}, /* Mode ID   */
-  {-60,               /* Min angle */
+  {-58,               /* Min angle */
    60,                /* Max angle */
    0,                 /* Offset    */
    20,                /* Speed     */
    INPUT_MODE_ANGLE}, /* Mode ID   */
   {-90,               /* Min angle */
-   90,                /* Max angle */
+   89,                /* Max angle */
    0,                 /* Offset    */
    20,                /* Speed     */
    INPUT_MODE_SPEED}, /* Mode ID   */
